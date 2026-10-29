@@ -1,0 +1,203 @@
+{
+  "path": "apktool/lib/arm64-v8a/libapp.so",
+  "size": 14615472,
+  "sha256": "74f3c3cc6588889cc0f32e35b1d6803da81412f4399dc4887557ac1ef4d1e0dd",
+  "entropy": 6.939393,
+  "machine": "EM_AARCH64",
+  "entry": "0x0",
+  "segments": [
+    {
+      "p_type": "PT_PHDR",
+      "p_offset": "0x40",
+      "p_vaddr": "0x40",
+      "p_filesz": 392,
+      "p_memsz": 392,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x0",
+      "p_vaddr": "0x0",
+      "p_filesz": 3783634,
+      "p_memsz": 3783634,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x3a0000",
+      "p_vaddr": "0x3a0000",
+      "p_filesz": 10805216,
+      "p_memsz": 10805216,
+      "p_flags": 5
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0xdf0000",
+      "p_vaddr": "0xdf0000",
+      "p_filesz": 144,
+      "p_memsz": 144,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_NOTE",
+      "p_offset": "0x1c8",
+      "p_vaddr": "0x1c8",
+      "p_filesz": 32,
+      "p_memsz": 32,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_DYNAMIC",
+      "p_offset": "0xdf0000",
+      "p_vaddr": "0xdf0000",
+      "p_filesz": 96,
+      "p_memsz": 96,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_GNU_STACK",
+      "p_offset": "0x0",
+      "p_vaddr": "0x0",
+      "p_filesz": 0,
+      "p_memsz": 0,
+      "p_flags": 6
+    }
+  ],
+  "sections": [
+    {
+      "name": "",
+      "address": "0x0",
+      "offset": 0,
+      "size": 0
+    },
+    {
+      "name": ".note.gnu.build-id",
+      "address": "0x1c8",
+      "offset": 456,
+      "size": 32
+    },
+    {
+      "name": ".dynstr",
+      "address": "0x1e8",
+      "offset": 488,
+      "size": 133
+    },
+    {
+      "name": ".dynsym",
+      "address": "0x270",
+      "offset": 624,
+      "size": 144
+    },
+    {
+      "name": ".hash",
+      "address": "0x300",
+      "offset": 768,
+      "size": 56
+    },
+    {
+      "name": ".rodata",
+      "address": "0x340",
+      "offset": 832,
+      "size": 3782736
+    },
+    {
+      "name": ".eh_frame",
+      "address": "0x39bb90",
+      "offset": 3783568,
+      "size": 66
+    },
+    {
+      "name": ".text",
+      "address": "0x3a0000",
+      "offset": 3801088,
+      "size": 10805216
+    },
+    {
+      "name": ".dynamic",
+      "address": "0xdf0000",
+      "offset": 14614528,
+      "size": 96
+    },
+    {
+      "name": ".bss",
+      "address": "0xdf0060",
+      "offset": 14614624,
+      "size": 48
+    },
+    {
+      "name": ".shstrtab",
+      "address": "0x0",
+      "offset": 14614672,
+      "size": 90
+    }
+  ],
+  "dynamic": [
+    {
+      "tag": "DT_HASH",
+      "value": "0x300"
+    },
+    {
+      "tag": "DT_STRTAB",
+      "value": "0x1e8"
+    },
+    {
+      "tag": "DT_STRSZ",
+      "value": "0x85"
+    },
+    {
+      "tag": "DT_SYMTAB",
+      "value": "0x270"
+    },
+    {
+      "tag": "DT_SYMENT",
+      "value": "0x18"
+    },
+    {
+      "tag": "DT_NULL",
+      "value": "0x0"
+    }
+  ],
+  "symbols": [
+    {
+      "name": "_kDartVmSnapshotInstructions",
+      "address": "0x3a0000",
+      "size": 92464,
+      "section": 7,
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_kDartIsolateSnapshotInstructions",
+      "address": "0x3b6940",
+      "size": 10712736,
+      "section": 7,
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_kDartVmSnapshotData",
+      "address": "0x340",
+      "size": 18240,
+      "section": 5,
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_kDartIsolateSnapshotData",
+      "address": "0x4a80",
+      "size": 3764496,
+      "section": 5,
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_kDartSnapshotBuildId",
+      "address": "0x1c8",
+      "size": 32,
+      "section": 1,
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    }
+  ],
+  "jni_exports": []
+}

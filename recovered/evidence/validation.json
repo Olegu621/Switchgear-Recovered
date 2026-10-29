@@ -1,0 +1,84 @@
+{
+  "scope": "Packaging and DEX declarations; no Android runtime or gameplay test",
+  "original_sha256": "632db1bc78c3c8670d107d03f12326f57b48bac09534c836b57ddfeb20869efb",
+  "rebuilt_sha256": "ba827fab291f3f82927be02ac71113fe2845d38aedccebf82fdd9f37bd71a338",
+  "preserved_files_checked": 35956,
+  "preserved_bytes_checked": 1838062867,
+  "preserved_file_failures": [],
+  "dex": [
+    {
+      "name": "classes.dex",
+      "original": {
+        "class_count": 11099,
+        "field_ids": 59642,
+        "method_ids": 65527,
+        "definitions": 116223,
+        "schema_sha256": "92daa68fecb0726440aa91754d8ee2cfa7a0a00ee732a1647d83f9f96ed3bdb3"
+      },
+      "rebuilt": {
+        "class_count": 11099,
+        "field_ids": 59642,
+        "method_ids": 65527,
+        "definitions": 116223,
+        "schema_sha256": "92daa68fecb0726440aa91754d8ee2cfa7a0a00ee732a1647d83f9f96ed3bdb3"
+      },
+      "declarations_match": true
+    },
+    {
+      "name": "classes2.dex",
+      "original": {
+        "class_count": 1298,
+        "field_ids": 3473,
+        "method_ids": 9579,
+        "definitions": 11372,
+        "schema_sha256": "ca5380eaf649797b982a24f89d9852df05bce5db117d020854e512f7afa78796"
+      },
+      "rebuilt": {
+        "class_count": 1298,
+        "field_ids": 3473,
+        "method_ids": 9579,
+        "definitions": 11372,
+        "schema_sha256": "ca5380eaf649797b982a24f89d9852df05bce5db117d020854e512f7afa78796"
+      },
+      "declarations_match": true
+    },
+    {
+      "name": "classes3.dex",
+      "original": {
+        "class_count": 23,
+        "field_ids": 13,
+        "method_ids": 103,
+        "definitions": 74,
+        "schema_sha256": "f5a20a41f909e92264df9209642ed22e9882e2e552ebaad576c7dda3e2f78521"
+      },
+      "rebuilt": {
+        "class_count": 23,
+        "field_ids": 13,
+        "method_ids": 103,
+        "definitions": 74,
+        "schema_sha256": "f5a20a41f909e92264df9209642ed22e9882e2e552ebaad576c7dda3e2f78521"
+      },
+      "declarations_match": true
+    },
+    {
+      "name": "classes4.dex",
+      "original": {
+        "class_count": 3,
+        "field_ids": 7,
+        "method_ids": 38,
+        "definitions": 22,
+        "schema_sha256": "b3c0b5b90ee5d0b20ba8475698f14285858905e4512d41ed0d12b5a46f945e9e"
+      },
+      "rebuilt": {
+        "class_count": 3,
+        "field_ids": 7,
+        "method_ids": 38,
+        "definitions": 22,
+        "schema_sha256": "b3c0b5b90ee5d0b20ba8475698f14285858905e4512d41ed0d12b5a46f945e9e"
+      },
+      "declarations_match": true
+    }
+  ],
+  "rebuilt_zip_crc_error": null,
+  "passed": true
+}

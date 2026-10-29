@@ -1,0 +1,30 @@
+{
+  "package": "bsd.suitcase.release",
+  "pid": 5325,
+  "activation_confirmed": true,
+  "selected_regions": 1452,
+  "bytes_read_including_chunk_overlap": 1790526912,
+  "scope": "Bounded signature scan of selected readable anonymous, allocator and Dalvik memory regions. Not an exhaustive proof about hidden code.",
+  "counts": {
+    "DEX": 0,
+    "ELF": 1,
+    "JS_INTERCEPTOR": 0,
+    "JS_MODULE": 0,
+    "JS_NATIVEFUNCTION": 0,
+    "JS_JAVA": 0,
+    "JS_FUNCTION": 11,
+    "LUA": 0,
+    "JS_RPC": 0
+  },
+  "generic_function_text_matches": "11 matches inspected; library/game error or bridge strings, no additional script source identified.",
+  "additional_elf_header": {
+    "address": "0x79c94dff8000",
+    "matches_original_libg_elf_header": true,
+    "machine": 183,
+    "entry": "0x1342410",
+    "classification": "Duplicate libg ELF buffer, not an identified new module."
+  },
+  "private_app_file_inventory": "269 file metadata entries inspected; no extra .dex/.js/.lua/.so found. Private file contents and inventory not exported.",
+  "encrypted_asset": "assets/kogcpfofggee.dat remains opaque and is preserved unchanged.",
+  "retained_data": "No process heap dump, authentication data, activation QR, or private preference contents included."
+}

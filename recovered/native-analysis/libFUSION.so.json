@@ -1,0 +1,286 @@
+{
+  "path": "apktool/lib/arm64-v8a/libFUSION.so",
+  "size": 8799424,
+  "sha256": "0257df38eabc5c6968ca87982a662ccd2984e255e162b95cc29b64963a069b34",
+  "entropy": 7.626599,
+  "machine": "EM_AARCH64",
+  "entry": "0x0",
+  "segments": [
+    {
+      "p_type": "PT_PHDR",
+      "p_offset": "0x40",
+      "p_vaddr": "0x40",
+      "p_filesz": 560,
+      "p_memsz": 560,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x0",
+      "p_vaddr": "0x0",
+      "p_filesz": 2640,
+      "p_memsz": 2640,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x4000",
+      "p_vaddr": "0x4000",
+      "p_filesz": 8650752,
+      "p_memsz": 8650752,
+      "p_flags": 5
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x844000",
+      "p_vaddr": "0x844000",
+      "p_filesz": 2592,
+      "p_memsz": 2592,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x845000",
+      "p_vaddr": "0x849000",
+      "p_filesz": 107520,
+      "p_memsz": 107520,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x85f400",
+      "p_vaddr": "0x867400",
+      "p_filesz": 20384,
+      "p_memsz": 200424,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_DYNAMIC",
+      "p_offset": "0x85e800",
+      "p_vaddr": "0x862800",
+      "p_filesz": 480,
+      "p_memsz": 480,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_GNU_RELRO",
+      "p_offset": "0x845000",
+      "p_vaddr": "0x849000",
+      "p_filesz": 107520,
+      "p_memsz": 110592,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_GNU_STACK",
+      "p_offset": "0x0",
+      "p_vaddr": "0x0",
+      "p_filesz": 0,
+      "p_memsz": 0,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_NOTE",
+      "p_offset": "0x270",
+      "p_vaddr": "0x270",
+      "p_filesz": 152,
+      "p_memsz": 152,
+      "p_flags": 4
+    }
+  ],
+  "sections": [
+    {
+      "name": "",
+      "address": "0x0",
+      "offset": 0,
+      "size": 0
+    },
+    {
+      "name": ".shstrtab",
+      "address": "0x0",
+      "offset": 8799136,
+      "size": 28
+    },
+    {
+      "name": ".dynstr",
+      "address": "0x3d0",
+      "offset": 976,
+      "size": 141
+    },
+    {
+      "name": ".dynamic",
+      "address": "0x862800",
+      "offset": 8775680,
+      "size": 480
+    }
+  ],
+  "dynamic": [
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x4b",
+      "name": "libm.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x53",
+      "name": "libdl.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x3e",
+      "name": "libc.so"
+    },
+    {
+      "tag": "DT_SONAME",
+      "value": "0x5c",
+      "name": "libFUSION-17102026213516-1a51c5d42254-release.so"
+    },
+    {
+      "tag": "DT_FLAGS",
+      "value": "0xa"
+    },
+    {
+      "tag": "DT_FLAGS_1",
+      "value": "0x9"
+    },
+    {
+      "tag": "DT_ANDROID_RELA",
+      "value": "0x460"
+    },
+    {
+      "tag": "DT_ANDROID_RELASZ",
+      "value": "0x12"
+    },
+    {
+      "tag": "DT_RELAENT",
+      "value": "0x18"
+    },
+    {
+      "tag": "DT_ANDROID_RELR",
+      "value": "0x478"
+    },
+    {
+      "tag": "DT_ANDROID_RELRSZ",
+      "value": "0x570"
+    },
+    {
+      "tag": "DT_ANDROID_RELRENT",
+      "value": "0x8"
+    },
+    {
+      "tag": "DT_JMPREL",
+      "value": "0x9e8"
+    },
+    {
+      "tag": "DT_PLTRELSZ",
+      "value": "0x48"
+    },
+    {
+      "tag": "DT_PLTGOT",
+      "value": "0x8633d0"
+    },
+    {
+      "tag": "DT_PLTREL",
+      "value": "0x7"
+    },
+    {
+      "tag": "DT_SYMTAB",
+      "value": "0x308"
+    },
+    {
+      "tag": "DT_SYMENT",
+      "value": "0x18"
+    },
+    {
+      "tag": "DT_STRTAB",
+      "value": "0x3d0"
+    },
+    {
+      "tag": "DT_STRSZ",
+      "value": "0x8d"
+    },
+    {
+      "tag": "DT_GNU_HASH",
+      "value": "0x3b0"
+    },
+    {
+      "tag": "DT_INIT_ARRAY",
+      "value": "0x8627d8"
+    },
+    {
+      "tag": "DT_INIT_ARRAYSZ",
+      "value": "0x28"
+    },
+    {
+      "tag": "DT_FINI_ARRAY",
+      "value": "0x8627b8"
+    },
+    {
+      "tag": "DT_FINI_ARRAYSZ",
+      "value": "0x20"
+    },
+    {
+      "tag": "DT_INIT",
+      "value": "0x8000"
+    },
+    {
+      "tag": "DT_VERSYM",
+      "value": "0x380"
+    },
+    {
+      "tag": "DT_VERNEED",
+      "value": "0x38c"
+    },
+    {
+      "tag": "DT_VERNEEDNUM",
+      "value": "0x1"
+    },
+    {
+      "tag": "DT_NULL",
+      "value": "0x0"
+    }
+  ],
+  "symbols": [
+    {
+      "name": "__cxa_finalize",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__register_atfork",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__stack_chk_fail",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "JNI_OnLoad",
+      "address": "0x30000",
+      "size": 4,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    }
+  ],
+  "jni_exports": [
+    {
+      "name": "JNI_OnLoad",
+      "address": "0x30000",
+      "size": 4,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    }
+  ]
+}

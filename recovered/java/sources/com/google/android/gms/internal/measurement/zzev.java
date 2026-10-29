@@ -1,0 +1,28 @@
+            package com.google.android.gms.internal.measurement;
+
+            import android.app.Activity;
+            import android.os.RemoteException;
+            import java.util.Objects;
+            import p000.kb1;
+            
+            /* JADX INFO: compiled from: r8-map-id-213346ccf8c7f825bb9017059f9f3b3a7bfb73d3355dfb8dfea71096f8f0bf83 */
+            /* JADX INFO: loaded from: C:\Users\admin\Documents\Codex\2026-10-26\x20\outputs\switchgear-recovered\bytecode\classes.dex */
+            final class zzev extends zzeq {
+                final /* synthetic */ Activity zza;
+                final /* synthetic */ zzfa zzb;
+
+                /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+                public zzev(zzfa zzfaVar, Activity activity) {
+/* 11 */            super(zzfaVar.zza, true);
+/* 1 */             this.zza = activity;
+/* 3 */             Objects.requireNonNull(zzfaVar);
+/* 6 */             this.zzb = zzfaVar;
+                }
+
+                @Override // com.google.android.gms.internal.measurement.zzeq
+                public final void zza() throws RemoteException {
+/* 5 */             zzcr zzcrVarZzQ = this.zzb.zza.zzQ();
+/* 9 */             kb1.m6061n(zzcrVarZzQ);
+/* 20 */            zzcrVarZzQ.onActivityResumedByScionActivityInfo(zzdf.zza(this.zza), this.zzi);
+                }
+            }

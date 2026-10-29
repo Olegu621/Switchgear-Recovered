@@ -1,0 +1,19 @@
+{
+  "scope": "branding only; activation unchanged; not runtime tested",
+  "sha256": "9280ce778ffc75f6a04376124b4915549f36cf3f803710ec8c65c7f259869dfb",
+  "bytes": 1627859,
+  "functions": 1953,
+  "parsed_all_bytes": true,
+  "changes": [
+    {
+      "atom": 1711,
+      "old": "Switchgear",
+      "new": "xlamMOD"
+    },
+    {
+      "atom": 4712,
+      "Switchgear_occurrences": 6,
+      "Switch2_occurrences": 1
+    }
+  ]
+}

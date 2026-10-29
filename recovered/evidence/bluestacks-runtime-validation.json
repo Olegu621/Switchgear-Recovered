@@ -1,0 +1,23 @@
+{
+  "target": "BlueStacks Rvc64 / BlueStacks App Player 1",
+  "host_data_directory": "D:\\BlueStacks_nxt",
+  "android_release": "11",
+  "abis": "x86_64,x86,arm64-v8a,armeabi-v7a,armeabi",
+  "package": "bsd.suitcase.release",
+  "versionName": "69.252",
+  "versionCode": 69252,
+  "installed_apk_sha256": "632db1bc78c3c8670d107d03f12326f57b48bac09534c836b57ddfeb20869efb",
+  "matches_supplied_apk": true,
+  "pid_at_check": "5325",
+  "activation_screen_observed": true,
+  "activation_completed_verified": true,
+  "gameplay_tested": false,
+  "virtualization_runtime_confirmed": true,
+  "note": "VT-x confirmed in BstkCore.log despite incorrect WMI/installer detection. Activation QR/token not included in recovered-source deliverables.",
+  "lobby_observed": true,
+  "rebuilt_apk_runtime_tested": false,
+  "snapshot": "evidence/bluestacks-lobby-after-activation.png",
+  "final_observed_screen": "Game lobby after user activation and onboarding",
+  "executable_capture_repeated_at_lobby": true,
+  "repeated_executable_capture_identical": true
+}

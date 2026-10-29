@@ -1,0 +1,26 @@
+{
+  "requested_target": "BlueStacks with data on D:",
+  "installed_version": "5.14.22.1003",
+  "installed_image": "Rvc64 / Android 11 64-bit",
+  "user_data_directory": "D:\\BlueStacks_nxt",
+  "program_directory": "C:\\Program Files\\BlueStacks_nxt",
+  "android13_installer_version": "5.22.286.1003",
+  "android13_setup_status": "Not used; supported Rvc64 created through installed instance manager",
+  "cpu": "Intel Xeon E5-2699 v3",
+  "vm_monitor_mode_extensions": true,
+  "hypervisor_present": false,
+  "switchgear_installed": true,
+  "switchgear_activated": true,
+  "required_user_action": null,
+  "virtualization_assessment_corrected": true,
+  "virtualization_runtime_confirmed": true,
+  "runtime_evidence": {
+    "path": "D:\\BlueStacks_nxt\\Engine\\Rvc64\\Logs\\BstkCore.log",
+    "observations": [
+      "HM: HMR3Init: VT-x w/ nested paging and unrestricted guest execution hw support",
+      "HM: Using VT-x implementation 2.0",
+      "MSR_IA32_FEATURE_CONTROL = 0x5"
+    ]
+  },
+  "virtualization_firmware_enabled_wmi_report": false
+}

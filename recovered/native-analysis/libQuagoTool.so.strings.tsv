@@ -1,0 +1,45 @@
+file_offset	text
+0x244	Android
+0x250	r29-beta1
+0x290	13113456
+0x4a1	__cxa_finalize
+0x4b0	__cxa_atexit
+0x4bd	Java_com_quago_mobile_sdk_root_QuagoRootDetectionNative_setLogLevel
+0x501	__stack_chk_fail
+0x512	_Z6existsPKc
+0x51f	fopen
+0x525	__android_log_print
+0x539	fclose
+0x540	Java_com_quago_mobile_sdk_root_QuagoRootDetectionNative_checkForRoot
+0x585	libc.so
+0x592	libandroid.so
+0x5a0	liblog.so
+0x5aa	libm.so
+0x5b2	libdl.so
+0x5bb	libQuagoTool.so
+0x6a8	Not Found %s
+0x6b5	Found %s
+0x6be	QuagoRoot
+0xdb4	Android (13065274, +pgo, -bolt, +lto, -mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54)
+0xe6c	Linker: LLD 20.0.0 (/Volumes/Android/buildbot/src/android/llvm-r547379-release/out/llvm-project/llvm b718bcaf8c198c82f3021447d943401e3ab5bd54)
+0xefc	.fini_array
+0xf08	.text
+0xf0e	.comment
+0xf17	.note.android.ident
+0xf2b	.got.plt
+0xf34	.rela.plt
+0xf3e	.dynstr
+0xf46	.eh_frame_hdr
+0xf54	.gnu.version_r
+0xf63	.data.rel.ro
+0xf70	.rela.dyn
+0xf7a	.gnu.version
+0xf87	.dynsym
+0xf8f	.gnu.hash
+0xf99	.relro_padding
+0xfa8	.eh_frame
+0xfb2	.note.gnu.build-id
+0xfc5	.dynamic
+0xfce	.shstrtab
+0xfd8	.rodata
+0xfe0	.data

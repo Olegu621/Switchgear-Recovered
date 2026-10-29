@@ -1,0 +1,1312 @@
+[
+  {
+    "class": "Landroidx/camera/core/ImageProcessingUtil;",
+    "declaration": ".method private static native nativeConvertAndroid420ToABGR(Ljava/nio/ByteBuffer;ILjava/nio/ByteBuffer;ILjava/nio/ByteBuffer;IIILandroid/view/Surface;Ljava/nio/ByteBuffer;IIIIII)I",
+    "smali": "apktool/smali/androidx/camera/core/ImageProcessingUtil.smali"
+  },
+  {
+    "class": "Landroidx/camera/core/ImageProcessingUtil;",
+    "declaration": ".method private static native nativeCopyBetweenByteBufferAndBitmap(Landroid/graphics/Bitmap;Ljava/nio/ByteBuffer;IIIIZ)I",
+    "smali": "apktool/smali/androidx/camera/core/ImageProcessingUtil.smali"
+  },
+  {
+    "class": "Landroidx/camera/core/ImageProcessingUtil;",
+    "declaration": ".method private static native nativeRotateYUV(Ljava/nio/ByteBuffer;ILjava/nio/ByteBuffer;ILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;IILjava/nio/ByteBuffer;Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;III)I",
+    "smali": "apktool/smali/androidx/camera/core/ImageProcessingUtil.smali"
+  },
+  {
+    "class": "Landroidx/camera/core/ImageProcessingUtil;",
+    "declaration": ".method private static native nativeShiftPixel(Ljava/nio/ByteBuffer;ILjava/nio/ByteBuffer;ILjava/nio/ByteBuffer;IIIIIIII)I",
+    "smali": "apktool/smali/androidx/camera/core/ImageProcessingUtil.smali"
+  },
+  {
+    "class": "Landroidx/camera/core/ImageProcessingUtil;",
+    "declaration": ".method private static native nativeWriteJpegToSurface([BLandroid/view/Surface;)I",
+    "smali": "apktool/smali/androidx/camera/core/ImageProcessingUtil.smali"
+  },
+  {
+    "class": "Lcom/appsflyer/AppsFlyer2dXConversionCallback;",
+    "declaration": ".method public native onAppOpenAttributionNative(Ljava/lang/Object;)V",
+    "smali": "apktool/smali/com/appsflyer/AppsFlyer2dXConversionCallback.smali"
+  },
+  {
+    "class": "Lcom/appsflyer/AppsFlyer2dXConversionCallback;",
+    "declaration": ".method public native onAttributionFailureNative(Ljava/lang/Object;)V",
+    "smali": "apktool/smali/com/appsflyer/AppsFlyer2dXConversionCallback.smali"
+  },
+  {
+    "class": "Lcom/appsflyer/AppsFlyer2dXConversionCallback;",
+    "declaration": ".method public native onDeepLinkingNative(Lcom/appsflyer/deeplink/DeepLinkResult;)V",
+    "smali": "apktool/smali/com/appsflyer/AppsFlyer2dXConversionCallback.smali"
+  },
+  {
+    "class": "Lcom/appsflyer/AppsFlyer2dXConversionCallback;",
+    "declaration": ".method public native onInstallConversionDataLoadedNative(Ljava/lang/Object;)V",
+    "smali": "apktool/smali/com/appsflyer/AppsFlyer2dXConversionCallback.smali"
+  },
+  {
+    "class": "Lcom/appsflyer/AppsFlyer2dXConversionCallback;",
+    "declaration": ".method public native onInstallConversionFailureNative(Ljava/lang/Object;)V",
+    "smali": "apktool/smali/com/appsflyer/AppsFlyer2dXConversionCallback.smali"
+  },
+  {
+    "class": "Lcom/appsflyer/AppsFlyer2dXConversionCallback;",
+    "declaration": ".method public native onResponseErrorNative(Ljava/lang/String;)V",
+    "smali": "apktool/smali/com/appsflyer/AppsFlyer2dXConversionCallback.smali"
+  },
+  {
+    "class": "Lcom/appsflyer/AppsFlyer2dXConversionCallback;",
+    "declaration": ".method public native onResponseNative(Ljava/lang/String;)V",
+    "smali": "apktool/smali/com/appsflyer/AppsFlyer2dXConversionCallback.smali"
+  },
+  {
+    "class": "Lcom/google/android/gms/tasks/NativeOnCompleteListener;",
+    "declaration": ".method public native nativeOnComplete(JLjava/lang/Object;ZZLjava/lang/String;)V",
+    "smali": "apktool/smali/com/google/android/gms/tasks/NativeOnCompleteListener.smali"
+  },
+  {
+    "class": "Lcom/quago/mobile/sdk/root/QuagoRootDetectionNative;",
+    "declaration": ".method public native checkForRoot([Ljava/lang/Object;)I",
+    "smali": "apktool/smali/com/quago/mobile/sdk/root/QuagoRootDetectionNative.smali"
+  },
+  {
+    "class": "Lcom/quago/mobile/sdk/root/QuagoRootDetectionNative;",
+    "declaration": ".method public native setLogLevel(I)V",
+    "smali": "apktool/smali/com/quago/mobile/sdk/root/QuagoRootDetectionNative.smali"
+  },
+  {
+    "class": "Lcom/sistr/safejni/NativeProxy;",
+    "declaration": ".method public native invoke(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;",
+    "smali": "apktool/smali/com/sistr/safejni/NativeProxy.smali"
+  },
+  {
+    "class": "Lcom/supercell/id/FlutterSupport;",
+    "declaration": ".method public static native binaryChannelReply(Ljava/nio/ByteBuffer;J)V",
+    "smali": "apktool/smali/com/supercell/id/FlutterSupport.smali"
+  },
+  {
+    "class": "Lcom/supercell/id/FlutterSupport;",
+    "declaration": ".method public static native binaryMessageHandler(JLjava/nio/ByteBuffer;Lio/flutter/plugin/common/BinaryMessenger$BinaryReply;)V",
+    "smali": "apktool/smali/com/supercell/id/FlutterSupport.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/AudioAnalyticsMonitor;",
+    "declaration": ".method private static final native updateAudioState(JFZZ[III[Ljava/lang/String;[IIIZ)V",
+    "smali": "apktool/smali/com/supercell/titan/AudioAnalyticsMonitor.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/BatteryMonitor;",
+    "declaration": ".method private static native updateBatteryInfo(JIZ)V",
+    "smali": "apktool/smali/com/supercell/titan/BatteryMonitor.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native backButtonPressed()Z",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native createGameMain(Landroid/content/res/AssetManager;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JIIIFFILjava/lang/String;Landroid/app/Activity;)Ljava/lang/String;",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native deinit()V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native dialogDismissed(II)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native getAllowedScreenRotations()I",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native handleDeeplinkURL(Ljava/lang/String;)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native handleObservation(I)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native isScreenResizeSupported()Z",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native logDebuggerException(Ljava/lang/String;)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnActivityResult(IILandroid/content/Intent;)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnAppStart()V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnAppStop()V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnApplicationCreate()V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnConfigurationChanged(Landroid/content/res/Configuration;)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnCreate()V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnDestroy()V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnDisplayAdded(I)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnDisplayChanged(I)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnDisplayRemoved(I)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnKeyDownEvent(II)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnKeyRemap(J[I[ILjava/lang/String;)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnKeyUpEvent(II)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnMouseEvent(FF)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnMouseHoverEvent(FF)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnPause()V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnRestart()V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnResume()V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnStart()V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnStop()V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnSurfaceChanged(Landroid/view/Surface;II)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnSurfaceCreated(Landroid/view/Surface;)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnSurfaceDestroyed(Landroid/view/Surface;)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnTouchEvent(IIII)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnTrimMemory(I)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nOnWindowFocusChanged(Z)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native nRunFromUiThread(J)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method private static native notificationCanceled(Lcom/supercell/titan/GameApp$NotificationData;)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method private static native notificationDelivered(Lcom/supercell/titan/GameApp$NotificationData;)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method private static native notificationReceived(Lcom/supercell/titan/GameApp$NotificationData;)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method private static native notificationReceivedOnly(Lcom/supercell/titan/GameApp$NotificationData;)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method private static native notificationScheduled(Lcom/supercell/titan/GameApp$NotificationData;)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native setDeviceVerificationResult(ZZLjava/lang/String;)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native setPushNotificationValues(ILjava/lang/String;Ljava/lang/String;)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GameApp;",
+    "declaration": ".method public static native setSafeMargins(IIII)V",
+    "smali": "apktool/smali/com/supercell/titan/GameApp.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GoogleServiceClient;",
+    "declaration": ".method public static native onSignIn()V",
+    "smali": "apktool/smali/com/supercell/titan/GoogleServiceClient.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GoogleServiceClient;",
+    "declaration": ".method public static native onSignInCanceled()V",
+    "smali": "apktool/smali/com/supercell/titan/GoogleServiceClient.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GoogleServiceClient;",
+    "declaration": ".method public static native onSignInFailed()V",
+    "smali": "apktool/smali/com/supercell/titan/GoogleServiceClient.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GoogleServiceClient;",
+    "declaration": ".method public static native onSignOut()V",
+    "smali": "apktool/smali/com/supercell/titan/GoogleServiceClient.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/GoogleServiceClient;",
+    "declaration": ".method public static native updateNativeInstance(Lcom/supercell/titan/GoogleServiceClient;)V",
+    "smali": "apktool/smali/com/supercell/titan/GoogleServiceClient.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/LocationService;",
+    "declaration": ".method public static native locationChanged(JDD)V",
+    "smali": "apktool/smali/com/supercell/titan/LocationService.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/NativeHTTPClientManager;",
+    "declaration": ".method public static native getFinished(ZI[BI)V",
+    "smali": "apktool/smali/com/supercell/titan/NativeHTTPClientManager.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/NativeHTTPClientManager;",
+    "declaration": ".method public static native postFinished(ZI[BI)V",
+    "smali": "apktool/smali/com/supercell/titan/NativeHTTPClientManager.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/PurchaseManager;",
+    "declaration": ".method public static native billingProductBought(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+    "smali": "apktool/smali/com/supercell/titan/PurchaseManager.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/PurchaseManager;",
+    "declaration": ".method public static native billingProductCanceled(Ljava/lang/String;)V",
+    "smali": "apktool/smali/com/supercell/titan/PurchaseManager.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/PurchaseManager;",
+    "declaration": ".method public static native billingProductFailed(Ljava/lang/String;Ljava/lang/String;I)V",
+    "smali": "apktool/smali/com/supercell/titan/PurchaseManager.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/PurchaseManager;",
+    "declaration": ".method public static native billingSetMarketplace(Ljava/lang/String;)V",
+    "smali": "apktool/smali/com/supercell/titan/PurchaseManager.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/PurchaseManager;",
+    "declaration": ".method public static native updateBillingProductDetails([Lcom/supercell/titan/PurchaseManager$ProductInfo;Ljava/lang/String;I)V",
+    "smali": "apktool/smali/com/supercell/titan/PurchaseManager.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/QuagoManager;",
+    "declaration": ".method public static native onLog(ILjava/lang/String;Ljava/lang/String;)V",
+    "smali": "apktool/smali/com/supercell/titan/QuagoManager.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/QuagoManager;",
+    "declaration": ".method public static native sendJsonSegments(Ljava/lang/String;[B)V",
+    "smali": "apktool/smali/com/supercell/titan/QuagoManager.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/ScExternalWebView;",
+    "declaration": ".method public native onClosed()V",
+    "smali": "apktool/smali/com/supercell/titan/ScExternalWebView.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/ScExternalWebView;",
+    "declaration": ".method public native onPageFailed(Ljava/lang/String;)V",
+    "smali": "apktool/smali/com/supercell/titan/ScExternalWebView.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/ScExternalWebView;",
+    "declaration": ".method public native onPageFinished(Ljava/lang/String;)V",
+    "smali": "apktool/smali/com/supercell/titan/ScExternalWebView.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/ThermalMonitor;",
+    "declaration": ".method public native updatePrediction(F)V",
+    "smali": "apktool/smali/com/supercell/titan/ThermalMonitor.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/TitanApplication;",
+    "declaration": ".method public static native nOnNativeLibrariesLoaded()V",
+    "smali": "apktool/smali/com/supercell/titan/TitanApplication.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/TitanWebView;",
+    "declaration": ".method public native hideNative()V",
+    "smali": "apktool/smali/com/supercell/titan/TitanWebView.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/TitanWebView;",
+    "declaration": ".method public native onCookiesDeleted()V",
+    "smali": "apktool/smali/com/supercell/titan/TitanWebView.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/TitanWebView;",
+    "declaration": ".method public native onNavigationBarTrailingAction()V",
+    "smali": "apktool/smali/com/supercell/titan/TitanWebView.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/TitanWebView;",
+    "declaration": ".method public native onPageFinished(Ljava/lang/String;)V",
+    "smali": "apktool/smali/com/supercell/titan/TitanWebView.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/TitanWebView;",
+    "declaration": ".method public native onPageStarted(Ljava/lang/String;)V",
+    "smali": "apktool/smali/com/supercell/titan/TitanWebView.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/TitanWebView;",
+    "declaration": ".method public native onReceivedError(Ljava/lang/String;Ljava/lang/String;)V",
+    "smali": "apktool/smali/com/supercell/titan/TitanWebView.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/TitanWebView;",
+    "declaration": ".method public native onSwipeRight()V",
+    "smali": "apktool/smali/com/supercell/titan/TitanWebView.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/TitanWebView;",
+    "declaration": ".method public native onWebViewClosed()V",
+    "smali": "apktool/smali/com/supercell/titan/TitanWebView.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/TitanWebView;",
+    "declaration": ".method public native postMessage(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+    "smali": "apktool/smali/com/supercell/titan/TitanWebView.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/TitanWebView;",
+    "declaration": ".method public native shouldOverrideUrlLoading(Ljava/lang/String;)Z",
+    "smali": "apktool/smali/com/supercell/titan/TitanWebView.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/usercentrics/UsercentricsSDK;",
+    "declaration": ".method public final native gotConsent(Ljava/lang/String;ZZ)V",
+    "smali": "apktool/smali/com/supercell/titan/usercentrics/UsercentricsSDK.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/usercentrics/UsercentricsSDK;",
+    "declaration": ".method public final native gotFailure()V",
+    "smali": "apktool/smali/com/supercell/titan/usercentrics/UsercentricsSDK.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/usercentrics/UsercentricsSDK;",
+    "declaration": ".method public final native popupClosed()V",
+    "smali": "apktool/smali/com/supercell/titan/usercentrics/UsercentricsSDK.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/usercentrics/UsercentricsSDK;",
+    "declaration": ".method public final native popupShowing()V",
+    "smali": "apktool/smali/com/supercell/titan/usercentrics/UsercentricsSDK.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/VirtualKeyboardHandler;",
+    "declaration": ".method public static native getFontPath(Ljava/lang/String;)Ljava/lang/String;",
+    "smali": "apktool/smali/com/supercell/titan/VirtualKeyboardHandler.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/VirtualKeyboardHandler;",
+    "declaration": ".method public static native inputEscPressed()V",
+    "smali": "apktool/smali/com/supercell/titan/VirtualKeyboardHandler.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/VirtualKeyboardHandler;",
+    "declaration": ".method public static native inputKeyboardDismissed()V",
+    "smali": "apktool/smali/com/supercell/titan/VirtualKeyboardHandler.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/VirtualKeyboardHandler;",
+    "declaration": ".method public static native inputOkPressed()V",
+    "smali": "apktool/smali/com/supercell/titan/VirtualKeyboardHandler.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/VirtualKeyboardHandler;",
+    "declaration": ".method public static native inputSelectionChanged(II)V",
+    "smali": "apktool/smali/com/supercell/titan/VirtualKeyboardHandler.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/VirtualKeyboardHandler;",
+    "declaration": ".method public static native inputTextChanged(Ljava/lang/String;)V",
+    "smali": "apktool/smali/com/supercell/titan/VirtualKeyboardHandler.smali"
+  },
+  {
+    "class": "Lcom/supercell/titan/VirtualKeyboardHandler;",
+    "declaration": ".method public static native keyboardSizeChanged(FF)V",
+    "smali": "apktool/smali/com/supercell/titan/VirtualKeyboardHandler.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeAttach(Lio/flutter/embedding/engine/FlutterJNI;)J",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeCleanupMessageData(J)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeDeferredComponentInstallFailure(ILjava/lang/String;Z)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeDestroy(J)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeDispatchEmptyPlatformMessage(JLjava/lang/String;I)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeDispatchPlatformMessage(JLjava/lang/String;Ljava/nio/ByteBuffer;II)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeDispatchPointerDataPacket(JLjava/nio/ByteBuffer;I)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeDispatchSemanticsAction(JIILjava/nio/ByteBuffer;I)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeFlutterTextUtilsIsEmoji(I)Z",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeFlutterTextUtilsIsEmojiModifier(I)Z",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeFlutterTextUtilsIsEmojiModifierBase(I)Z",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeFlutterTextUtilsIsRegionalIndicator(I)Z",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeFlutterTextUtilsIsVariationSelector(I)Z",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeGetBitmap(J)Landroid/graphics/Bitmap;",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeGetIsSoftwareRenderingEnabled()Z",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method public static native nativeImageHeaderCallback(JII)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private static native nativeInit(Landroid/content/Context;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JI)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeInvokePlatformMessageEmptyResponseCallback(JI)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeInvokePlatformMessageResponseCallback(JILjava/nio/ByteBuffer;I)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeIsSurfaceControlEnabled(J)Z",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeLoadDartDeferredLibrary(JI[Ljava/lang/String;)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method public static native nativeLookupCallbackInformation(J)Lio/flutter/view/FlutterCallbackInformation;",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeMarkTextureFrameAvailable(JJ)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeNotifyLowMemoryWarning(J)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeOnVsync(JJJ)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private static native nativePrefetchDefaultFontManager()V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeRegisterImageTexture(JJLjava/lang/ref/WeakReference;Z)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeRegisterTexture(JJLjava/lang/ref/WeakReference;)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeRunBundleAndSnapshotFromLibrary(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/content/res/AssetManager;Ljava/util/List;J)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeScheduleFrame(J)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeSetAccessibilityFeatures(JI)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeSetSemanticsEnabled(JZ)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeSetViewportMetrics(JFIIIIIIIIIIIIIII[I[I[I)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeSpawn(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;J)Lio/flutter/embedding/engine/FlutterJNI;",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeSurfaceChanged(JII)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeSurfaceCreated(JLandroid/view/Surface;)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeSurfaceDestroyed(J)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeSurfaceWindowChanged(JLandroid/view/Surface;)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeUnregisterTexture(JJ)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeUpdateDisplayMetrics(J)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeUpdateJavaAssetManager(JLandroid/content/res/AssetManager;Ljava/lang/String;)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/flutter/embedding/engine/FlutterJNI;",
+    "declaration": ".method private native nativeUpdateRefreshRate(F)V",
+    "smali": "apktool/smali/io/flutter/embedding/engine/FlutterJNI.smali"
+  },
+  {
+    "class": "Lio/sentry/ndk/NativeScope;",
+    "declaration": ".method public static native nativeAddAttachment(Ljava/lang/String;)V",
+    "smali": "apktool/smali/io/sentry/ndk/NativeScope.smali"
+  },
+  {
+    "class": "Lio/sentry/ndk/NativeScope;",
+    "declaration": ".method public static native nativeAddAttachmentBytes([BLjava/lang/String;)V",
+    "smali": "apktool/smali/io/sentry/ndk/NativeScope.smali"
+  },
+  {
+    "class": "Lio/sentry/ndk/NativeScope;",
+    "declaration": ".method public static native nativeAddBreadcrumb(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+    "smali": "apktool/smali/io/sentry/ndk/NativeScope.smali"
+  },
+  {
+    "class": "Lio/sentry/ndk/NativeScope;",
+    "declaration": ".method public static native nativeClearAttachments()V",
+    "smali": "apktool/smali/io/sentry/ndk/NativeScope.smali"
+  },
+  {
+    "class": "Lio/sentry/ndk/NativeScope;",
+    "declaration": ".method public static native nativeSetTrace(Ljava/lang/String;Ljava/lang/String;)V",
+    "smali": "apktool/smali/io/sentry/ndk/NativeScope.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/q;",
+    "declaration": ".method public native a([B)[B",
+    "smali": "apktool/smali/xhpgvfjuz/q.smali"
+  },
+  {
+    "class": "Lio/sentry/ndk/SentryNdk;",
+    "declaration": ".method private static native initSentryNative(Lio/sentry/ndk/NdkOptions;)I",
+    "smali": "apktool/smali_classes2/io/sentry/ndk/SentryNdk.smali"
+  },
+  {
+    "class": "Lio/sentry/ndk/SentryNdk;",
+    "declaration": ".method private static native preloadSentryNative()V",
+    "smali": "apktool/smali_classes2/io/sentry/ndk/SentryNdk.smali"
+  },
+  {
+    "class": "Lio/sentry/ndk/SentryNdk;",
+    "declaration": ".method private static native shutdown()V",
+    "smali": "apktool/smali_classes2/io/sentry/ndk/SentryNdk.smali"
+  },
+  {
+    "class": "Lorg/fmod/FMOD;",
+    "declaration": ".method private static native OutputAAudioHeadphonesChanged()V",
+    "smali": "apktool/smali_classes2/org/fmod/FMOD.smali"
+  },
+  {
+    "class": "Lorg/fmod/FMOD;",
+    "declaration": ".method private static native SetInputEnumerationChanged()V",
+    "smali": "apktool/smali_classes2/org/fmod/FMOD.smali"
+  },
+  {
+    "class": "Lorg/fmod/FMOD;",
+    "declaration": ".method private static native SetOutputEnumerationChanged()V",
+    "smali": "apktool/smali_classes2/org/fmod/FMOD.smali"
+  },
+  {
+    "class": "Lorg/fmod/MediaCodec;",
+    "declaration": ".method private static native fmodGetSize(J)J",
+    "smali": "apktool/smali_classes2/org/fmod/MediaCodec.smali"
+  },
+  {
+    "class": "Lorg/fmod/MediaCodec;",
+    "declaration": ".method private static native fmodReadAt(JJ[BII)I",
+    "smali": "apktool/smali_classes2/org/fmod/MediaCodec.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/ad;",
+    "declaration": ".method public native a(I)Landroid/view/accessibility/AccessibilityNodeInfo;",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/ad.1.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/ad;",
+    "declaration": ".method public native a(Ljava/lang/String;I)Ljava/util/List;",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/ad.1.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/ad;",
+    "declaration": ".method public native a(IILandroid/os/Bundle;)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/ad.1.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/ad;",
+    "declaration": ".method public native b(I)Landroid/view/accessibility/AccessibilityNodeInfo;",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/ad.1.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/af;",
+    "declaration": ".method private static native a(Ljava/lang/String;Ljava/lang/String;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/af.1.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/aG;",
+    "declaration": ".method public native a()I",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/aG.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/aG;",
+    "declaration": ".method public native b()Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/aG.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/aG;",
+    "declaration": ".method public native c()I",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/aG.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/aG;",
+    "declaration": ".method public native d()I",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/aG.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/aI;",
+    "declaration": ".method private native a()V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/aI.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/aK;",
+    "declaration": ".method public static native a(Z)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/aK.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/aP;",
+    "declaration": ".method public native a()I",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/aP.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/aP;",
+    "declaration": ".method public native b()Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/aP.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/aP;",
+    "declaration": ".method public native c()I",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/aP.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/aP;",
+    "declaration": ".method public native d()I",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/aP.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/aq;",
+    "declaration": ".method public static native a(I)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/aq.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/aq;",
+    "declaration": ".method public static native b(I)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/aq.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/aq;",
+    "declaration": ".method public static native c(I)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/aq.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/as;",
+    "declaration": ".method public static native a(Landroid/os/IBinder;)Lxhpgvfjuz/al;",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/as.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/as;",
+    "declaration": ".method public native onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/as.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/av;",
+    "declaration": ".method private native a(Landroid/content/Context;Landroid/content/Intent;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/av.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/aw;",
+    "declaration": ".method private native a(Landroid/content/Context;Landroid/content/Intent;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/aw.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/ay;",
+    "declaration": ".method native a()I",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/ay.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/ay;",
+    "declaration": ".method native b()Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/ay.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/ay;",
+    "declaration": ".method native c()I",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/ay.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/ay;",
+    "declaration": ".method native d()I",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/ay.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/B;",
+    "declaration": ".method public native a(Landroid/view/View;Landroid/view/View$AccessibilityDelegate;)Landroid/view/accessibility/AccessibilityNodeProvider;",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/B.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/B;",
+    "declaration": ".method public native a(Landroid/view/View;ILandroid/view/View$AccessibilityDelegate;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/B.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/B;",
+    "declaration": ".method public native a(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;Landroid/view/View$AccessibilityDelegate;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/B.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/B;",
+    "declaration": ".method public native a(Landroid/view/View;Landroid/view/accessibility/AccessibilityNodeInfo;Landroid/view/View$AccessibilityDelegate;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/B.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/B;",
+    "declaration": ".method public native a(Landroid/view/View;Landroid/view/accessibility/AccessibilityNodeInfo;Ljava/lang/String;Landroid/os/Bundle;Landroid/view/View$AccessibilityDelegate;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/B.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/B;",
+    "declaration": ".method public native a(Landroid/view/View;ILandroid/os/Bundle;Landroid/view/View$AccessibilityDelegate;)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/B.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/B;",
+    "declaration": ".method public native a(Landroid/view/ViewGroup;Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;Landroid/view/View$AccessibilityDelegate;)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/B.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/B;",
+    "declaration": ".method public native b(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;Landroid/view/View$AccessibilityDelegate;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/B.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/B;",
+    "declaration": ".method public native c(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;Landroid/view/View$AccessibilityDelegate;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/B.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/B;",
+    "declaration": ".method public native d(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;Landroid/view/View$AccessibilityDelegate;)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/B.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/c;",
+    "declaration": ".method public static native a(Ljava/lang/Class;I)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/c.1.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/d;",
+    "declaration": ".method public static native a(Z)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/d.1.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/g;",
+    "declaration": ".method private native a(Lxhpgvfjuz/al;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/g.1.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/I;",
+    "declaration": ".method private native a()V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/I.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/I;",
+    "declaration": ".method private native b()V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/I.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/I;",
+    "declaration": ".method public native onActivityCreated(Landroid/app/Activity;Landroid/os/Bundle;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/I.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/I;",
+    "declaration": ".method public native onActivityDestroyed(Landroid/app/Activity;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/I.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/I;",
+    "declaration": ".method public native onActivityPaused(Landroid/app/Activity;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/I.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/I;",
+    "declaration": ".method public native onActivityResumed(Landroid/app/Activity;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/I.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/I;",
+    "declaration": ".method public native onActivitySaveInstanceState(Landroid/app/Activity;Landroid/os/Bundle;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/I.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/I;",
+    "declaration": ".method public native onActivityStarted(Landroid/app/Activity;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/I.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/I;",
+    "declaration": ".method public native onActivityStopped(Landroid/app/Activity;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/I.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/J;",
+    "declaration": ".method private native a(Landroid/content/Context;Landroid/content/Intent;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/J.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/m;",
+    "declaration": ".method public static native a()V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/m.1.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/N;",
+    "declaration": ".method public static native a(I)I",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/N.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/N;",
+    "declaration": ".method public static native a(Ljava/lang/Class;I)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/N.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/N;",
+    "declaration": ".method public static native b(I)Ljava/lang/String;",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/N.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/O;",
+    "declaration": ".method public static native a(Landroid/view/Window;I)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/O.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/O;",
+    "declaration": ".method public static native a(Landroid/view/Window;II)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/O.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/t;",
+    "declaration": ".method public static native a(Landroid/content/Context;Lxhpgvfjuz/aD;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/t.1.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/t;",
+    "declaration": ".method public static native a(Lxhpgvfjuz/aD;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/t.1.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/u;",
+    "declaration": ".method public static native a()Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/u.1.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native a(Landroid/view/ActionMode$Callback;ILandroid/view/Window$Callback;)Landroid/view/ActionMode;",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native a(Landroid/view/ActionMode$Callback;Landroid/view/Window$Callback;)Landroid/view/ActionMode;",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native a(ILandroid/view/Window$Callback;)Landroid/view/View;",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native a(Landroid/view/ActionMode;Landroid/view/Window$Callback;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native a(Landroid/view/Window$Callback;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native a(Landroid/view/WindowManager$LayoutParams;Landroid/view/Window$Callback;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native a(ZLandroid/view/Window$Callback;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native a(ILandroid/view/Menu;Landroid/view/Window$Callback;)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native a(ILandroid/view/MenuItem;Landroid/view/Window$Callback;)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native a(ILandroid/view/View;Landroid/view/Menu;Landroid/view/Window$Callback;)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native a(Landroid/view/KeyEvent;Landroid/view/Window$Callback;)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native a(Landroid/view/MotionEvent;Landroid/view/Window$Callback;)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native a(Landroid/view/SearchEvent;Landroid/view/Window$Callback;)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native a(Landroid/view/accessibility/AccessibilityEvent;Landroid/view/Window$Callback;)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native b(ILandroid/view/Menu;Landroid/view/Window$Callback;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native b(Landroid/view/ActionMode;Landroid/view/Window$Callback;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native b(Landroid/view/KeyEvent;Landroid/view/Window$Callback;)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native b(Landroid/view/MotionEvent;Landroid/view/Window$Callback;)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native b(Landroid/view/Window$Callback;)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native c(Landroid/view/Window$Callback;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native c(ILandroid/view/Menu;Landroid/view/Window$Callback;)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native c(Landroid/view/MotionEvent;Landroid/view/Window$Callback;)Z",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/U;",
+    "declaration": ".method public native d(Landroid/view/Window$Callback;)V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/U.smali"
+  },
+  {
+    "class": "Lxhpgvfjuz/W;",
+    "declaration": ".method public native run()V",
+    "smali": "apktool/smali_classes2/xhpgvfjuz/W.smali"
+  },
+  {
+    "class": "Lzap/aI;",
+    "declaration": ".method static native a(Z)V",
+    "smali": "apktool/smali_classes3/zap/aI.1.smali"
+  },
+  {
+    "class": "Lzap/ai;",
+    "declaration": ".method static native a(Z)V",
+    "smali": "apktool/smali_classes3/zap/ai.smali"
+  },
+  {
+    "class": "Lzap/aK;",
+    "declaration": ".method static native a(I)V",
+    "smali": "apktool/smali_classes3/zap/aK.smali"
+  },
+  {
+    "class": "Lzap/aK;",
+    "declaration": ".method static native b(I)V",
+    "smali": "apktool/smali_classes3/zap/aK.smali"
+  },
+  {
+    "class": "Lzap/aK;",
+    "declaration": ".method static native c(I)V",
+    "smali": "apktool/smali_classes3/zap/aK.smali"
+  },
+  {
+    "class": "Lzap/al;",
+    "declaration": ".method static native a()Z",
+    "smali": "apktool/smali_classes3/zap/al.smali"
+  },
+  {
+    "class": "Lzap/H;",
+    "declaration": ".method static native a(Ljava/lang/Class;I)V",
+    "smali": "apktool/smali_classes3/zap/H.smali"
+  },
+  {
+    "class": "Lzap/i;",
+    "declaration": ".method static native a(Landroid/os/IBinder;)Lzap/an;",
+    "smali": "apktool/smali_classes3/zap/i.smali"
+  },
+  {
+    "class": "Lzap/J;",
+    "declaration": ".method public static native a([B)[B",
+    "smali": "apktool/smali_classes3/zap/J.smali"
+  },
+  {
+    "class": "Lzap/m;",
+    "declaration": ".method public static native b()Z",
+    "smali": "apktool/smali_classes3/zap/m.1.smali"
+  },
+  {
+    "class": "Lzap/m;",
+    "declaration": ".method public static native c(Lzap/ab;)V",
+    "smali": "apktool/smali_classes3/zap/m.1.smali"
+  },
+  {
+    "class": "Lzap/M;",
+    "declaration": ".method static native a(I)I",
+    "smali": "apktool/smali_classes3/zap/M.smali"
+  },
+  {
+    "class": "Lzap/M;",
+    "declaration": ".method static native a(Ljava/lang/Class;I)V",
+    "smali": "apktool/smali_classes3/zap/M.smali"
+  },
+  {
+    "class": "Lzap/M;",
+    "declaration": ".method static native b(I)Ljava/lang/String;",
+    "smali": "apktool/smali_classes3/zap/M.smali"
+  },
+  {
+    "class": "Lzap/n;",
+    "declaration": ".method static native a()V",
+    "smali": "apktool/smali_classes3/zap/n.smali"
+  },
+  {
+    "class": "Lzap/q;",
+    "declaration": ".method static native a(Landroid/view/Window;I)V",
+    "smali": "apktool/smali_classes3/zap/q.smali"
+  },
+  {
+    "class": "Lzap/q;",
+    "declaration": ".method static native a(Landroid/view/Window;II)V",
+    "smali": "apktool/smali_classes3/zap/q.smali"
+  },
+  {
+    "class": "Lzap/s;",
+    "declaration": ".method static native a(Lzap/ar;)V",
+    "smali": "apktool/smali_classes3/zap/s.smali"
+  },
+  {
+    "class": "Lzap/s;",
+    "declaration": ".method static native b(Landroid/content/Context;Lzap/ar;)V",
+    "smali": "apktool/smali_classes3/zap/s.smali"
+  }
+]

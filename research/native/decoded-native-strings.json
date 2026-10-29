@@ -1,0 +1,462 @@
+[
+  {
+    "function": "001e8d9c",
+    "constant": "008257e7",
+    "text": "a"
+  },
+  {
+    "function": "001e8e90",
+    "constant": "0082270c",
+    "text": "(Z)V"
+  },
+  {
+    "function": "001ec9c4",
+    "constant": "008227c4",
+    "text": "c"
+  },
+  {
+    "function": "001ed37c",
+    "constant": "0082271c",
+    "text": "(I)V"
+  },
+  {
+    "function": "001ed39c",
+    "constant": "0082269c",
+    "text": "a"
+  },
+  {
+    "function": "001efc48",
+    "constant": "0082267c",
+    "text": "a"
+  },
+  {
+    "function": "001efd98",
+    "constant": "0082273c",
+    "text": "zap/al"
+  },
+  {
+    "function": "001efeb4",
+    "constant": "0082278c",
+    "text": "(Landroid/os/IBinder;)Lzap/an;"
+  },
+  {
+    "function": "001eff24",
+    "constant": "008226f4",
+    "text": "(Z)V"
+  },
+  {
+    "function": "001eff44",
+    "constant": "0082579f",
+    "text": "(Landroid/view/Window;I)V"
+  },
+  {
+    "function": "001effac",
+    "constant": "0082272c",
+    "text": "b"
+  },
+  {
+    "function": "001f05ec",
+    "constant": "008227cc",
+    "text": "(Lzap/ab;)V"
+  },
+  {
+    "function": "001f0624",
+    "constant": "008226a4",
+    "text": "(Lzap/ar;)V"
+  },
+  {
+    "function": "001f1b64",
+    "constant": "0082274c",
+    "text": "()Z"
+  },
+  {
+    "function": "001f1be8",
+    "constant": "008229e4",
+    "text": "(Ljava/lang/Class;I)V"
+  },
+  {
+    "function": "001f1cfc",
+    "constant": "00825787",
+    "text": "zap/q"
+  },
+  {
+    "function": "001f1d4c",
+    "constant": "00822784",
+    "text": "a"
+  },
+  {
+    "function": "001f1e84",
+    "constant": "008226b4",
+    "text": "b"
+  },
+  {
+    "function": "001f1f20",
+    "constant": "00822684",
+    "text": "I"
+  },
+  {
+    "function": "001f2110",
+    "constant": "00822734",
+    "text": "c"
+  },
+  {
+    "function": "001f217c",
+    "constant": "008257ef",
+    "text": "([B)[B"
+  },
+  {
+    "function": "001f219c",
+    "constant": "00822744",
+    "text": "a"
+  },
+  {
+    "function": "001f5534",
+    "constant": "008227bc",
+    "text": "()Z"
+  },
+  {
+    "function": "001f575c",
+    "constant": "00825797",
+    "text": "a"
+  },
+  {
+    "function": "001f59e4",
+    "constant": "0082275c",
+    "text": "a"
+  },
+  {
+    "function": "001f5ac4",
+    "constant": "008257df",
+    "text": "zap/J"
+  },
+  {
+    "function": "001f8224",
+    "constant": "008229cc",
+    "text": "a"
+  },
+  {
+    "function": "001f8408",
+    "constant": "008226fc",
+    "text": "zap/aI"
+  },
+  {
+    "function": "001f852c",
+    "constant": "00822704",
+    "text": "a"
+  },
+  {
+    "function": "001fc304",
+    "constant": "008229d4",
+    "text": "(I)I"
+  },
+  {
+    "function": "001fc3f0",
+    "constant": "00822674",
+    "text": "zap/o"
+  },
+  {
+    "function": "001fc65c",
+    "constant": "00825777",
+    "text": "a"
+  },
+  {
+    "function": "001fc758",
+    "constant": "00822a04",
+    "text": "(I)Ljava/lang/String;"
+  },
+  {
+    "function": "001fc8a0",
+    "constant": "008229fc",
+    "text": "b"
+  },
+  {
+    "function": "001fca6c",
+    "constant": "00822694",
+    "text": "zap/s"
+  },
+  {
+    "function": "001fcb30",
+    "constant": "008257bf",
+    "text": "(Landroid/view/Window;II)V"
+  },
+  {
+    "function": "001fcc50",
+    "constant": "0082576f",
+    "text": "zap/n"
+  },
+  {
+    "function": "001fcf28",
+    "constant": "008226e4",
+    "text": "zap/ai"
+  },
+  {
+    "function": "001fd544",
+    "constant": "008227ac",
+    "text": "zap/m"
+  },
+  {
+    "function": "001fd5f8",
+    "constant": "008226ec",
+    "text": "a"
+  },
+  {
+    "function": "00200228",
+    "constant": "008229dc",
+    "text": "a"
+  },
+  {
+    "function": "002002b0",
+    "constant": "00822754",
+    "text": "zap/H"
+  },
+  {
+    "function": "002004a0",
+    "constant": "008227b4",
+    "text": "b"
+  },
+  {
+    "function": "002004d8",
+    "constant": "008226bc",
+    "text": "(Landroid/content/Context;Lzap/ar;)V"
+  },
+  {
+    "function": "002004f8",
+    "constant": "0082268c",
+    "text": "x"
+  },
+  {
+    "function": "002006a8",
+    "constant": "0082577f",
+    "text": "()V"
+  },
+  {
+    "function": "002008f0",
+    "constant": "00822764",
+    "text": "(Ljava/lang/Class;I)V"
+  },
+  {
+    "function": "0020096c",
+    "constant": "0082277c",
+    "text": "zap/i"
+  },
+  {
+    "function": "00200a2c",
+    "constant": "0082578f",
+    "text": "a"
+  },
+  {
+    "function": "00200a78",
+    "constant": "00822724",
+    "text": "a"
+  },
+  {
+    "function": "00200a98",
+    "constant": "008229c4",
+    "text": "zap/M"
+  },
+  {
+    "function": "002035bc",
+    "constant": "00822714",
+    "text": "zap/aK"
+  },
+  {
+    "function": "00231068",
+    "constant": "0082589b",
+    "text": "java/security/KeyStore"
+  },
+  {
+    "function": "002310bc",
+    "constant": "008259e3",
+    "text": "java/security/KeyPairGenerator"
+  },
+  {
+    "function": "00231114",
+    "constant": "00825b13",
+    "text": "<init>"
+  },
+  {
+    "function": "00231164",
+    "constant": "00825c9b",
+    "text": "setIsStrongBoxBacked"
+  },
+  {
+    "function": "00231204",
+    "constant": "0082595b",
+    "text": "(Ljava/lang/String;[C)Ljava/security/Key;"
+  },
+  {
+    "function": "0023140c",
+    "constant": "00825d8b",
+    "text": "()Ljava/security/KeyPair;"
+  },
+  {
+    "function": "0023154c",
+    "constant": "0082593b",
+    "text": "(Ljava/lang/String;)Z"
+  },
+  {
+    "function": "00231970",
+    "constant": "00825bdb",
+    "text": "setDigests"
+  },
+  {
+    "function": "002319e0",
+    "constant": "00825a7b",
+    "text": "EC"
+  },
+  {
+    "function": "00231a84",
+    "constant": "00825a63",
+    "text": "java/lang/String"
+  },
+  {
+    "function": "00231ae4",
+    "constant": "00825aab",
+    "text": "SHA-256"
+  },
+  {
+    "function": "00231bc4",
+    "constant": "00825d73",
+    "text": "generateKeyPair"
+  },
+  {
+    "function": "00231c90",
+    "constant": "0082598b",
+    "text": "getCertificate"
+  },
+  {
+    "function": "00231d94",
+    "constant": "008258f3",
+    "text": "load"
+  },
+  {
+    "function": "00231e18",
+    "constant": "00825a3b",
+    "text": "java/security/spec/ECGenParameterSpec"
+  },
+  {
+    "function": "00231ef4",
+    "constant": "00825b1b",
+    "text": "(Ljava/lang/String;I)V"
+  },
+  {
+    "function": "00231f60",
+    "constant": "00825dbb",
+    "text": "()Ljava/security/PublicKey;"
+  },
+  {
+    "function": "00231fd4",
+    "constant": "00825b3b",
+    "text": "(Ljava/lang/String;)V"
+  },
+  {
+    "function": "00232008",
+    "constant": "00825d33",
+    "text": "initialize"
+  },
+  {
+    "function": "0023222c",
+    "constant": "00825a9b",
+    "text": "secp256r1"
+  },
+  {
+    "function": "002323a4",
+    "constant": "00825b53",
+    "text": "setAlgorithmParameterSpec"
+  },
+  {
+    "function": "00232658",
+    "constant": "00825873",
+    "text": "8057f5ecb8a59b46e8c44a8724edcdbc"
+  },
+  {
+    "function": "00232b60",
+    "constant": "00825d43",
+    "text": "(Ljava/security/spec/AlgorithmParameterSpec;)V"
+  },
+  {
+    "function": "00232c14",
+    "constant": "008258b3",
+    "text": "getInstance"
+  },
+  {
+    "function": "00232dcc",
+    "constant": "00825833",
+    "text": "AndroidKeyStore"
+  },
+  {
+    "function": "00232f6c",
+    "constant": "00825ddb",
+    "text": "getEncoded"
+  },
+  {
+    "function": "00233028",
+    "constant": "008258c3",
+    "text": "(Ljava/lang/String;)Ljava/security/KeyStore;"
+  },
+  {
+    "function": "002331bc",
+    "constant": "00825953",
+    "text": "getKey"
+  },
+  {
+    "function": "00233484",
+    "constant": "00825c3b",
+    "text": "setUserAuthenticationRequired"
+  },
+  {
+    "function": "002334d8",
+    "constant": "00825dab",
+    "text": "getPublicKey"
+  },
+  {
+    "function": "00233548",
+    "constant": "00825cf3",
+    "text": "build"
+  },
+  {
+    "function": "00233630",
+    "constant": "00825deb",
+    "text": "()[B"
+  },
+  {
+    "function": "002336a0",
+    "constant": "0082592b",
+    "text": "containsAlias"
+  },
+  {
+    "function": "00233784",
+    "constant": "00825abb",
+    "text": "getInstance"
+  },
+  {
+    "function": "00233828",
+    "constant": "008258fb",
+    "text": "(Ljava/security/KeyStore$LoadStoreParameter;)V"
+  },
+  {
+    "function": "00234194",
+    "constant": "0082584b",
+    "text": "fe7f4db6a5bccd50dd52f271ff58f890"
+  },
+  {
+    "function": "00234628",
+    "constant": "00825a83",
+    "text": "AndroidKeyStore"
+  },
+  {
+    "function": "00234760",
+    "constant": "00825b33",
+    "text": "<init>"
+  },
+  {
+    "function": "006f49dc",
+    "constant": "00891ed0",
+    "text": "6"
+  },
+  {
+    "function": "006f49dc",
+    "constant": "00891ef0",
+    "text": "9"
+  }
+]

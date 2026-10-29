@@ -1,0 +1,281 @@
+[
+  {
+    "path": "java/sources/android/support/v4/media/session/MediaSessionCompat.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/androidx/coordinatorlayout/widget/CoordinatorLayout.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/com/appsflyer/internal/AFa1hSDK.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/com/appsflyer/internal/AFi1fSDK.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR"
+    ]
+  },
+  {
+    "path": "java/sources/com/google/android/gms/internal/auth/zzfz.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/com/google/android/gms/internal/drive/zzlu.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN",
+      "??"
+    ]
+  },
+  {
+    "path": "java/sources/com/google/android/gms/internal/measurement/zzno.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/com/google/android/gms/internal/play_billing/zzip.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/com/google/android/recaptcha/internal/zzah.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/com/google/android/recaptcha/internal/zzgh.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR"
+    ]
+  },
+  {
+    "path": "java/sources/com/google/android/recaptcha/internal/zztv.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/com/google/firebase/messaging/FirebaseMessagingService.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/com/supercell/p007id/scid_plugin/PromiseUtilKt.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/com/usercentrics/sdk/p009v2/settings/data/TCF2Settings$$serializer.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/okio/internal/FileSystem.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/p000/ac1.java",
+    "markers": [
+      "JADX ERROR",
+      "JADX WARN",
+      "??"
+    ]
+  },
+  {
+    "path": "java/sources/p000/as0.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN",
+      "??"
+    ]
+  },
+  {
+    "path": "java/sources/p000/C2107qh.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/p000/C2150rn.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN",
+      "??"
+    ]
+  },
+  {
+    "path": "java/sources/p000/C2220tj.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/p000/de3.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/p000/h90.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN",
+      "??"
+    ]
+  },
+  {
+    "path": "java/sources/p000/mp1.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN",
+      "??"
+    ]
+  },
+  {
+    "path": "java/sources/p000/of2.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN",
+      "??"
+    ]
+  },
+  {
+    "path": "java/sources/p000/qh1.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/p000/qk2.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/p000/rg2.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/p000/rh1.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/p000/sl3.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/p000/tp3.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/p000/ur0.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN",
+      "??"
+    ]
+  },
+  {
+    "path": "java/sources/p000/v01.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN"
+    ]
+  },
+  {
+    "path": "java/sources/p000/zj1.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN",
+      "??"
+    ]
+  },
+  {
+    "path": "java/sources/p000/zv1.java",
+    "markers": [
+      "Method not decompiled",
+      "JADX ERROR",
+      "JADX WARN",
+      "??"
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+file_offset	text
+0x244	Android
+0x290	9519653
+0x6a5	__cxa_finalize
+0x6b4	__cxa_atexit
+0x6c1	Java_androidx_camera_core_ImageProcessingUtil_nativeCopyBetweenByteBufferAndBitmap
+0x714	AndroidBitmap_lockPixels
+0x72d	AndroidBitmap_unlockPixels
+0x748	Java_androidx_camera_core_ImageProcessingUtil_nativeShiftPixel
+0x787	Java_androidx_camera_core_ImageProcessingUtil_nativeWriteJpegToSurface
+0x7ce	ANativeWindow_fromSurface
+0x7e8	__android_log_print
+0x7fc	ANativeWindow_setBuffersGeometry
+0x81d	ANativeWindow_lock
+0x830	ANativeWindow_release
+0x846	ANativeWindow_unlockAndPost
+0x862	Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToABGR
+0x8ae	Java_androidx_camera_core_ImageProcessingUtil_nativeConvertAndroid420ToBitmap
+0x8fc	Java_androidx_camera_core_ImageProcessingUtil_nativeRotateYUV
+0x93a	malloc
+0x946	__stack_chk_fail
+0x957	memcpy
+0x95e	__memcpy_chk
+0x96b	memmove
+0x973	libimage_processing_util_jni.so
+0x993	VERS_1.0
+0x99c	libc.so
+0x9a9	liblog.so
+0x9b3	libandroid.so
+0x9c1	libjnigraphics.so
+0x9d3	libm.so
+0x9db	libdl.so
+0xefe	'7Zq.
+0xf13	, "`8 
+0xf70	Failed to get ANativeWindow
+0xf8c	Failed to lock window.
+0xfa3	YuvToRgbJni
+0xfaf	Failed to get JPEG bytes array pointer.
+0x1d63	91kn8
+0x2c12	HjJYD
+0x3543	8bih8"
+0x3573	9"jh8
+0x3c8d	jVN$*SN%jSN
+0x4c5e	@9)h(8
+0x4cc6	@9*h(8)
+0x4cce	@9Ih(8
+0x4f2a	@9)h(8i
+0x4f32	@9Ih(8
+0x4faa	eN1.fn
+0x4fb1	.ynR.{n1
+0x5032	eN1.fn
+0x5039	.ynR.{n1
+0x50ba	eN1.fn
+0x50c1	.ynR.{n1
+0x553c	hj98s
+0x6968	Linker: LLD 14.0.7
+0x697b	Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+0x6a1b	.fini_array
+0x6a27	.text
+0x6a32	.comment
+0x6a3b	.note.android.ident
+0x6a4f	.got.plt
+0x6a58	.rela.plt
+0x6a67	.dynstr
+0x6a6f	.eh_frame_hdr
+0x6a7d	.gnu.version_r
+0x6a8c	.data.rel.ro
+0x6a99	.rela.dyn
+0x6aa3	.gnu.version
+0x6ab0	.dynsym
+0x6ab8	.gnu.hash
+0x6ac2	.eh_frame
+0x6acc	.note.gnu.build-id
+0x6adf	.gnu.version_d
+0x6aee	.dynamic
+0x6af7	.shstrtab
+0x6b01	.rodata

@@ -1,0 +1,53 @@
+{
+  "package": "bsd.suitcase.release",
+  "activation_confirmed": true,
+  "scope": "Original ELF headers/data with live executable segments. No heap, preferences or activation data captured. Not a validated loadable replacement library.",
+  "libraries": [
+    {
+      "library": "libFUSION.so",
+      "runtime_base": "0x73ac000",
+      "pid_at_capture": 5325,
+      "output": "runtime-code/libFUSION.runtime.so",
+      "size": 8799424,
+      "sha256": "8b961f8ae639c75807ce8f874966d674c3a03946bd1d16948a9e58905c295b8c",
+      "reference": "native-analysis/libFUSION.unpacked.so",
+      "segments": [
+        {
+          "rva": "0x4000",
+          "file_offset": 16384,
+          "size": 8650752,
+          "sha256": "525487ef6350d4970344d32f1ee1f43b59c74a209ab234bd28c1539a1d8e1937",
+          "changed_bytes_vs_reference": 0,
+          "changed_pages_vs_reference": 0
+        }
+      ]
+    },
+    {
+      "library": "libg.so",
+      "runtime_base": "0x33ac000",
+      "pid_at_capture": 5325,
+      "output": "runtime-code/libg.runtime.so",
+      "size": 20188304,
+      "sha256": "b6a85ae6abed505e3bf7128dc80bdd1f16dd33251b66395628a355215fde4fbc",
+      "reference": "apktool/lib/arm64-v8a/libg.so",
+      "segments": [
+        {
+          "rva": "0x0",
+          "file_offset": 0,
+          "size": 18498576,
+          "sha256": "f79be2e1cd2f99e8afbffb0d69b6ee04381728b1f3def089fb606262dc3eb16d",
+          "changed_bytes_vs_reference": 775,
+          "changed_pages_vs_reference": 48
+        },
+        {
+          "rva": "0x1314000",
+          "file_offset": 19972096,
+          "size": 189604,
+          "sha256": "adcda2ec19858c4f85165f46094d765551917303bb880d613c4f78d21f7e21a2",
+          "changed_bytes_vs_reference": 0,
+          "changed_pages_vs_reference": 0
+        }
+      ]
+    }
+  ]
+}

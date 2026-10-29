@@ -1,0 +1,1186 @@
+{
+  "source_sha256": "a5777d17ff85bf02d2a4d48ac8240605c2c13c44d411a634bbce374d6f9288a2",
+  "runtime_sha256": "b6a85ae6abed505e3bf7128dc80bdd1f16dd33251b66395628a355215fde4fbc",
+  "runtime_base": "0x33ac000",
+  "changed_bytes": 775,
+  "changed_pages": 48,
+  "patch_groups": 52,
+  "absolute_branch_trampolines": 47,
+  "scope": "Observed changes in this activated process. Does not assign feature names or infer that all changes are hooks.",
+  "patches": [
+    {
+      "rva": "0x1e88fc",
+      "file_offset": 2001148,
+      "size": 20,
+      "changed_bytes": 17,
+      "original_hex": "006c617365725f73637265656e5f6d61736b0073",
+      "runtime_hex": "0020202020202020202020202020202020200073",
+      "containing_jni_export": [],
+      "kind": "instruction_or_data_patch",
+      "runtime_target": null,
+      "runtime_instructions": []
+    },
+    {
+      "rva": "0x588f3c",
+      "file_offset": 5803836,
+      "size": 4,
+      "changed_bytes": 4,
+      "original_hex": "f803042a",
+      "runtime_hex": "38008052",
+      "containing_jni_export": [],
+      "kind": "instruction_or_data_patch",
+      "runtime_target": null,
+      "runtime_instructions": [
+        {
+          "address": "0x3934f3c",
+          "mnemonic": "mov",
+          "operands": "w24, #1"
+        }
+      ]
+    },
+    {
+      "rva": "0x71dc6c",
+      "file_offset": 7461996,
+      "size": 16,
+      "changed_bytes": 15,
+      "original_hex": "fd7bbea9f44f01a9fd030091d45e0090",
+      "runtime_hex": "5000005800021fd6005a3b1100000000",
+      "containing_jni_export": [
+        "Java_com_supercell_titan_GameApp_nOnAppStart"
+      ],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b5a00",
+      "runtime_instructions": [
+        {
+          "address": "0x3ac9c6c",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3ac9c74"
+        },
+        {
+          "address": "0x3ac9c70",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x71dcb8",
+      "file_offset": 7462072,
+      "size": 16,
+      "changed_bytes": 15,
+      "original_hex": "fd7bbea9f44f01a9fd030091d45e0090",
+      "runtime_hex": "5000005800021fd600593b1100000000",
+      "containing_jni_export": [
+        "Java_com_supercell_titan_GameApp_nOnAppStop"
+      ],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b5900",
+      "runtime_instructions": [
+        {
+          "address": "0x3ac9cb8",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3ac9cc0"
+        },
+        {
+          "address": "0x3ac9cbc",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x756bc0",
+      "file_offset": 7695296,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ffc307d1fd7b19a9fc6f1aa9fa671ba9",
+      "runtime_hex": "5000005800021fd600583b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b5800",
+      "runtime_instructions": [
+        {
+          "address": "0x3b02bc0",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3b02bc8"
+        },
+        {
+          "address": "0x3b02bc4",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x75b2a4",
+      "file_offset": 7713444,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ffc301d1e923036dfd7b04a9f65705a9",
+      "runtime_hex": "5000005800021fd600533b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b5300",
+      "runtime_instructions": [
+        {
+          "address": "0x3b072a4",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3b072ac"
+        },
+        {
+          "address": "0x3b072a8",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x7c88bc",
+      "file_offset": 8161468,
+      "size": 16,
+      "changed_bytes": 14,
+      "original_hex": "080740f9000b40fd004101fdb0ffff17",
+      "runtime_hex": "5000005800021fd6007d3b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b7d00",
+      "runtime_instructions": [
+        {
+          "address": "0x3b748bc",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3b748c4"
+        },
+        {
+          "address": "0x3b748c0",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x800a50",
+      "file_offset": 8391248,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "0a0540f9010d40fd088100911f0109eb",
+      "runtime_hex": "5000005800021fd6007c3b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b7c00",
+      "runtime_instructions": [
+        {
+          "address": "0x3baca50",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3baca58"
+        },
+        {
+          "address": "0x3baca54",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x81c68c",
+      "file_offset": 8504972,
+      "size": 4,
+      "changed_bytes": 4,
+      "original_hex": "e9031f2a",
+      "runtime_hex": "29008052",
+      "containing_jni_export": [],
+      "kind": "instruction_or_data_patch",
+      "runtime_target": null,
+      "runtime_instructions": [
+        {
+          "address": "0x3bc868c",
+          "mnemonic": "mov",
+          "operands": "w9, #1"
+        }
+      ]
+    },
+    {
+      "rva": "0x81c6ec",
+      "file_offset": 8505068,
+      "size": 4,
+      "changed_bytes": 4,
+      "original_hex": "69b25c39",
+      "runtime_hex": "29008052",
+      "containing_jni_export": [],
+      "kind": "instruction_or_data_patch",
+      "runtime_target": null,
+      "runtime_instructions": [
+        {
+          "address": "0x3bc86ec",
+          "mnemonic": "mov",
+          "operands": "w9, #1"
+        }
+      ]
+    },
+    {
+      "rva": "0x8239a8",
+      "file_offset": 8534440,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ffc302d1fd7b05a9fc6f06a9fa6707a9",
+      "runtime_hex": "5000005800021fd6006d3b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b6d00",
+      "runtime_instructions": [
+        {
+          "address": "0x3bcf9a8",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3bcf9b0"
+        },
+        {
+          "address": "0x3bcf9ac",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x8263d8",
+      "file_offset": 8545240,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ff8307d1eab300fde923176dfd7b18a9",
+      "runtime_hex": "5000005800021fd6006f3b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b6f00",
+      "runtime_instructions": [
+        {
+          "address": "0x3bd23d8",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3bd23e0"
+        },
+        {
+          "address": "0x3bd23dc",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x82cbd0",
+      "file_offset": 8571856,
+      "size": 16,
+      "changed_bytes": 15,
+      "original_hex": "ff8302d1e923046dfd7b05a9f93300f9",
+      "runtime_hex": "5000005800021fd6006e3b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b6e00",
+      "runtime_instructions": [
+        {
+          "address": "0x3bd8bd0",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3bd8bd8"
+        },
+        {
+          "address": "0x3bd8bd4",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x845c38",
+      "file_offset": 8674360,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ffc305d1eb2b0f6de923106dfd7b11a9",
+      "runtime_hex": "5000005800021fd6007a3b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b7a00",
+      "runtime_instructions": [
+        {
+          "address": "0x3bf1c38",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3bf1c40"
+        },
+        {
+          "address": "0x3bf1c3c",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x882740",
+      "file_offset": 8922944,
+      "size": 16,
+      "changed_bytes": 15,
+      "original_hex": "fd7bbda9f65701a9f44f02a9fd030091",
+      "runtime_hex": "5000005800021fd600573b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b5700",
+      "runtime_instructions": [
+        {
+          "address": "0x3c2e740",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3c2e748"
+        },
+        {
+          "address": "0x3c2e744",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x883260",
+      "file_offset": 8925792,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ffc301d1fd7b02a9fa6703a9f85f04a9",
+      "runtime_hex": "5000005800021fd600813b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b8100",
+      "runtime_instructions": [
+        {
+          "address": "0x3c2f260",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3c2f268"
+        },
+        {
+          "address": "0x3c2f264",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x88360c",
+      "file_offset": 8926732,
+      "size": 16,
+      "changed_bytes": 15,
+      "original_hex": "ffc301d1e81300fdfdfb02a9f91f00f9",
+      "runtime_hex": "5000005800021fd600823b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b8200",
+      "runtime_instructions": [
+        {
+          "address": "0x3c2f60c",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3c2f614"
+        },
+        {
+          "address": "0x3c2f610",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x888218",
+      "file_offset": 8946200,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "fd7bbea9f30b00f9fd030091010c41f9",
+      "runtime_hex": "5000005800021fd6005b3b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b5b00",
+      "runtime_instructions": [
+        {
+          "address": "0x3c34218",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3c34220"
+        },
+        {
+          "address": "0x3c3421c",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x905ac8",
+      "file_offset": 9460424,
+      "size": 16,
+      "changed_bytes": 14,
+      "original_hex": "5f080071a00400545f040071c1080054",
+      "runtime_hex": "5000005800021fd600683b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b6800",
+      "runtime_instructions": [
+        {
+          "address": "0x3cb1ac8",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3cb1ad0"
+        },
+        {
+          "address": "0x3cb1acc",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x90a3fc",
+      "file_offset": 9479164,
+      "size": 16,
+      "changed_bytes": 15,
+      "original_hex": "ffc301d1e82300fdfd7b05a9f44f06a9",
+      "runtime_hex": "5000005800021fd6007b3b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b7b00",
+      "runtime_instructions": [
+        {
+          "address": "0x3cb63fc",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3cb6404"
+        },
+        {
+          "address": "0x3cb6400",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x9f052c",
+      "file_offset": 10421548,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "fd7bbaa9fc6f01a9fa6702a9f85f03a9",
+      "runtime_hex": "5000005800021fd600643b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b6400",
+      "runtime_instructions": [
+        {
+          "address": "0x3d9c52c",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3d9c534"
+        },
+        {
+          "address": "0x3d9c530",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x9f072c",
+      "file_offset": 10422060,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ff8301d1fd7b03a9f52300f9f44f05a9",
+      "runtime_hex": "5000005800021fd600633b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b6300",
+      "runtime_instructions": [
+        {
+          "address": "0x3d9c72c",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3d9c734"
+        },
+        {
+          "address": "0x3d9c730",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0x9f10c0",
+      "file_offset": 10424512,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "fd7bbea9f30b00f9fd03009101ac40f9",
+      "runtime_hex": "5000005800021fd600653b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b6500",
+      "runtime_instructions": [
+        {
+          "address": "0x3d9d0c0",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3d9d0c8"
+        },
+        {
+          "address": "0x3d9d0c4",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xa64818",
+      "file_offset": 10897432,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ffc304d1fd7b0da9fc6f0ea9fa670fa9",
+      "runtime_hex": "5000005800021fd600763b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b7600",
+      "runtime_instructions": [
+        {
+          "address": "0x3e10818",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3e10820"
+        },
+        {
+          "address": "0x3e1081c",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xb018a0",
+      "file_offset": 11540640,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ffc306d1e8a300fdfd7b15a9fc6f16a9",
+      "runtime_hex": "5000005800021fd600713b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b7100",
+      "runtime_instructions": [
+        {
+          "address": "0x3ead8a0",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3ead8a8"
+        },
+        {
+          "address": "0x3ead8a4",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xb11970",
+      "file_offset": 11606384,
+      "size": 16,
+      "changed_bytes": 13,
+      "original_hex": "08004139a800003408b04a39a8000034",
+      "runtime_hex": "5000005800021fd6005e3b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b5e00",
+      "runtime_instructions": [
+        {
+          "address": "0x3ebd970",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3ebd978"
+        },
+        {
+          "address": "0x3ebd974",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xb35608",
+      "file_offset": 11752968,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ffc306d1e8a300fdfd7b15a9fc6f16a9",
+      "runtime_hex": "5000005800021fd600563b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b5600",
+      "runtime_instructions": [
+        {
+          "address": "0x3ee1608",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3ee1610"
+        },
+        {
+          "address": "0x3ee160c",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xb4071c",
+      "file_offset": 11798300,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ef3bb66ded33016deb2b026de923036d",
+      "runtime_hex": "5000005800021fd600833b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b8300",
+      "runtime_instructions": [
+        {
+          "address": "0x3eec71c",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3eec724"
+        },
+        {
+          "address": "0x3eec720",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xb444a0",
+      "file_offset": 11814048,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ef3bb66ded33016deb2b026de923036d",
+      "runtime_hex": "5000005800021fd600553b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b5500",
+      "runtime_instructions": [
+        {
+          "address": "0x3ef04a0",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3ef04a8"
+        },
+        {
+          "address": "0x3ef04a4",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xb4caec",
+      "file_offset": 11848428,
+      "size": 16,
+      "changed_bytes": 15,
+      "original_hex": "ffc304d1e86b00fdfdfb0da9fc7700f9",
+      "runtime_hex": "5000005800021fd600803b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b8000",
+      "runtime_instructions": [
+        {
+          "address": "0x3ef8aec",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3ef8af4"
+        },
+        {
+          "address": "0x3ef8af0",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xb50fdc",
+      "file_offset": 11866076,
+      "size": 16,
+      "changed_bytes": 14,
+      "original_hex": "a83d00d008d1109100fddf88c0035fd6",
+      "runtime_hex": "5000005800021fd600623b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b6200",
+      "runtime_instructions": [
+        {
+          "address": "0x3efcfdc",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3efcfe4"
+        },
+        {
+          "address": "0x3efcfe0",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xb588d8",
+      "file_offset": 11897048,
+      "size": 16,
+      "changed_bytes": 15,
+      "original_hex": "ff4302d1e82300fdfdfb04a9f92f00f9",
+      "runtime_hex": "5000005800021fd600523b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b5200",
+      "runtime_instructions": [
+        {
+          "address": "0x3f048d8",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3f048e0"
+        },
+        {
+          "address": "0x3f048dc",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xb9b538",
+      "file_offset": 12170552,
+      "size": 16,
+      "changed_bytes": 15,
+      "original_hex": "fd7bbfa9fd03009140b2ffb0001c1f91",
+      "runtime_hex": "5000005800021fd600773b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b7700",
+      "runtime_instructions": [
+        {
+          "address": "0x3f47538",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3f47540"
+        },
+        {
+          "address": "0x3f4753c",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xbfbf84",
+      "file_offset": 12566404,
+      "size": 16,
+      "changed_bytes": 15,
+      "original_hex": "e80f1dfcfd7b01a9f44f02a9fd430091",
+      "runtime_hex": "5000005800021fd600663b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b6600",
+      "runtime_instructions": [
+        {
+          "address": "0x3fa7f84",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x3fa7f8c"
+        },
+        {
+          "address": "0x3fa7f88",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xcce878",
+      "file_offset": 13428856,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ff4302d1fd7b05a9f85f06a9f65707a9",
+      "runtime_hex": "5000005800021fd600793b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b7900",
+      "runtime_instructions": [
+        {
+          "address": "0x407a878",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x407a880"
+        },
+        {
+          "address": "0x407a87c",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xccf3dc",
+      "file_offset": 13431772,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ffc303d1fd7b0ca9f6570da9f44f0ea9",
+      "runtime_hex": "5000005800021fd600783b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b7800",
+      "runtime_instructions": [
+        {
+          "address": "0x407b3dc",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x407b3e4"
+        },
+        {
+          "address": "0x407b3e0",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xce1e60",
+      "file_offset": 13508192,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ffc304d1fd7b0da9fc7300f9fa670fa9",
+      "runtime_hex": "5000005800021fd600613b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b6100",
+      "runtime_instructions": [
+        {
+          "address": "0x408de60",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x408de68"
+        },
+        {
+          "address": "0x408de64",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xcfef08",
+      "file_offset": 13627144,
+      "size": 16,
+      "changed_bytes": 15,
+      "original_hex": "fd7bbea9f44f01a9fd030091f303002a",
+      "runtime_hex": "5000005800021fd6005f3b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b5f00",
+      "runtime_instructions": [
+        {
+          "address": "0x40aaf08",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x40aaf10"
+        },
+        {
+          "address": "0x40aaf0c",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xd01dc0",
+      "file_offset": 13639104,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ff0301d1fd7b01a9f65702a9f44f03a9",
+      "runtime_hex": "5000005800021fd6005c3b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b5c00",
+      "runtime_instructions": [
+        {
+          "address": "0x40addc0",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x40addc8"
+        },
+        {
+          "address": "0x40addc4",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xd44958",
+      "file_offset": 13912408,
+      "size": 16,
+      "changed_bytes": 15,
+      "original_hex": "fd7bbea9f30b00f9fd030091f30300aa",
+      "runtime_hex": "5000005800021fd600693b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b6900",
+      "runtime_instructions": [
+        {
+          "address": "0x40f0958",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x40f0960"
+        },
+        {
+          "address": "0x40f095c",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xe45f28",
+      "file_offset": 14966568,
+      "size": 32,
+      "changed_bytes": 28,
+      "original_hex": "e81f00f0000440f9019146b9dfb7db17e81f00f0000440f9019546b9dfb7db17",
+      "runtime_hex": "5000005800021fd6007e3b11000000005000005800021fd6007f3b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b7e00",
+      "runtime_instructions": [
+        {
+          "address": "0x41f1f28",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x41f1f30"
+        },
+        {
+          "address": "0x41f1f2c",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xe75224",
+      "file_offset": 15159844,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "fd7bbca9f85f01a9f65702a9f44f03a9",
+      "runtime_hex": "5000005800021fd6006b3b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b6b00",
+      "runtime_instructions": [
+        {
+          "address": "0x4221224",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x422122c"
+        },
+        {
+          "address": "0x4221228",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xeb2ccc",
+      "file_offset": 15412428,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "ff8304d1fd7b0ca9fc6f0da9fa670ea9",
+      "runtime_hex": "5000005800021fd600733b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b7300",
+      "runtime_instructions": [
+        {
+          "address": "0x425eccc",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x425ecd4"
+        },
+        {
+          "address": "0x425ecd0",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xebf9bc",
+      "file_offset": 15464892,
+      "size": 16,
+      "changed_bytes": 15,
+      "original_hex": "fd7bbda9f50b00f9f44f02a9fd030091",
+      "runtime_hex": "5000005800021fd6006c3b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b6c00",
+      "runtime_instructions": [
+        {
+          "address": "0x426b9bc",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x426b9c4"
+        },
+        {
+          "address": "0x426b9c0",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xec3b88",
+      "file_offset": 15481736,
+      "size": 16,
+      "changed_bytes": 15,
+      "original_hex": "fd7bbda9f65701a9f44f02a9fd030091",
+      "runtime_hex": "5000005800021fd6006a3b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b6a00",
+      "runtime_instructions": [
+        {
+          "address": "0x426fb88",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x426fb90"
+        },
+        {
+          "address": "0x426fb8c",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xf2c914",
+      "file_offset": 15911188,
+      "size": 8,
+      "changed_bytes": 7,
+      "original_hex": "00c04539c0035fd6",
+      "runtime_hex": "f08606f000021fd6",
+      "containing_jni_export": [],
+      "kind": "instruction_or_data_patch",
+      "runtime_target": null,
+      "runtime_instructions": [
+        {
+          "address": "0x42d8914",
+          "mnemonic": "adrp",
+          "operands": "x16, #0x113b7000"
+        },
+        {
+          "address": "0x42d8918",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xf36fa4",
+      "file_offset": 15953828,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "fd7bbca9f70b00f9f65702a9f44f03a9",
+      "runtime_hex": "5000005800021fd600753b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b7500",
+      "runtime_instructions": [
+        {
+          "address": "0x42e2fa4",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x42e2fac"
+        },
+        {
+          "address": "0x42e2fa8",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xf49934",
+      "file_offset": 16030004,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "fd7bbca9f70b00f9f65702a9f44f03a9",
+      "runtime_hex": "5000005800021fd600743b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b7400",
+      "runtime_instructions": [
+        {
+          "address": "0x42f5934",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x42f593c"
+        },
+        {
+          "address": "0x42f5938",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xf56cb0",
+      "file_offset": 16084144,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "089c40b91f0500712b010054094840f9",
+      "runtime_hex": "5000005800021fd6005d3b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b5d00",
+      "runtime_instructions": [
+        {
+          "address": "0x4302cb0",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x4302cb8"
+        },
+        {
+          "address": "0x4302cb4",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xf6b060",
+      "file_offset": 16167008,
+      "size": 16,
+      "changed_bytes": 15,
+      "original_hex": "fd7bbea9f30b00f9fd030091f30300aa",
+      "runtime_hex": "5000005800021fd600673b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b6700",
+      "runtime_instructions": [
+        {
+          "address": "0x4317060",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x4317068"
+        },
+        {
+          "address": "0x4317064",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xf83db0",
+      "file_offset": 16268720,
+      "size": 16,
+      "changed_bytes": 15,
+      "original_hex": "fd7bbea9f30b00f9fd030091f30300aa",
+      "runtime_hex": "5000005800021fd600543b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b5400",
+      "runtime_instructions": [
+        {
+          "address": "0x432fdb0",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x432fdb8"
+        },
+        {
+          "address": "0x432fdb4",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    },
+    {
+      "rva": "0xfa7db8",
+      "file_offset": 16416184,
+      "size": 16,
+      "changed_bytes": 16,
+      "original_hex": "fd7bbba9f90b00f9f85f02a9f65703a9",
+      "runtime_hex": "5000005800021fd600723b1100000000",
+      "containing_jni_export": [],
+      "kind": "absolute_branch_trampoline",
+      "runtime_target": "0x113b7200",
+      "runtime_instructions": [
+        {
+          "address": "0x4353db8",
+          "mnemonic": "ldr",
+          "operands": "x16, #0x4353dc0"
+        },
+        {
+          "address": "0x4353dbc",
+          "mnemonic": "br",
+          "operands": "x16"
+        }
+      ]
+    }
+  ]
+}

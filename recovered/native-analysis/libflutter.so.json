@@ -1,0 +1,4583 @@
+{
+  "path": "apktool/lib/arm64-v8a/libflutter.so",
+  "size": 11037032,
+  "sha256": "ee37eb8be8e01a0d840558f75e0a09c4ca135d721c2ca6145c050e4f89785129",
+  "entropy": 6.478429,
+  "machine": "EM_AARCH64",
+  "entry": "0x0",
+  "segments": [
+    {
+      "p_type": "PT_PHDR",
+      "p_offset": "0x40",
+      "p_vaddr": "0x40",
+      "p_filesz": 560,
+      "p_memsz": 560,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x0",
+      "p_vaddr": "0x0",
+      "p_filesz": 4538440,
+      "p_memsz": 4538440,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x454080",
+      "p_vaddr": "0x464080",
+      "p_filesz": 6133424,
+      "p_memsz": 6133424,
+      "p_flags": 5
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0xa2d730",
+      "p_vaddr": "0xa4d730",
+      "p_filesz": 355792,
+      "p_memsz": 358608,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0xa84500",
+      "p_vaddr": "0xab4500",
+      "p_filesz": 7040,
+      "p_memsz": 87104,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_DYNAMIC",
+      "p_offset": "0xa83340",
+      "p_vaddr": "0xaa3340",
+      "p_filesz": 528,
+      "p_memsz": 528,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_GNU_RELRO",
+      "p_offset": "0xa2d730",
+      "p_vaddr": "0xa4d730",
+      "p_filesz": 355792,
+      "p_memsz": 358608,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_GNU_EH_FRAME",
+      "p_offset": "0x2f2fe4",
+      "p_vaddr": "0x2f2fe4",
+      "p_filesz": 344484,
+      "p_memsz": 344484,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_GNU_STACK",
+      "p_offset": "0x0",
+      "p_vaddr": "0x0",
+      "p_filesz": 0,
+      "p_memsz": 0,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_NOTE",
+      "p_offset": "0x270",
+      "p_vaddr": "0x270",
+      "p_filesz": 188,
+      "p_memsz": 188,
+      "p_flags": 4
+    }
+  ],
+  "sections": [
+    {
+      "name": "",
+      "address": "0x0",
+      "offset": 0,
+      "size": 0
+    },
+    {
+      "name": ".note.android.ident",
+      "address": "0x270",
+      "offset": 624,
+      "size": 152
+    },
+    {
+      "name": ".note.gnu.build-id",
+      "address": "0x308",
+      "offset": 776,
+      "size": 36
+    },
+    {
+      "name": ".dynsym",
+      "address": "0x330",
+      "offset": 816,
+      "size": 12528
+    },
+    {
+      "name": ".gnu.version",
+      "address": "0x3420",
+      "offset": 13344,
+      "size": 1044
+    },
+    {
+      "name": ".gnu.version_r",
+      "address": "0x3834",
+      "offset": 14388,
+      "size": 96
+    },
+    {
+      "name": ".gnu.hash",
+      "address": "0x3898",
+      "offset": 14488,
+      "size": 392
+    },
+    {
+      "name": ".hash",
+      "address": "0x3a20",
+      "offset": 14880,
+      "size": 4184
+    },
+    {
+      "name": ".dynstr",
+      "address": "0x4a78",
+      "offset": 19064,
+      "size": 8105
+    },
+    {
+      "name": ".rela.dyn",
+      "address": "0x6a28",
+      "offset": 27176,
+      "size": 769008
+    },
+    {
+      "name": ".rela.plt",
+      "address": "0xc2618",
+      "offset": 796184,
+      "size": 8664
+    },
+    {
+      "name": ".rodata",
+      "address": "0xc4800",
+      "offset": 804864,
+      "size": 2287588
+    },
+    {
+      "name": ".eh_frame_hdr",
+      "address": "0x2f2fe4",
+      "offset": 3092452,
+      "size": 344484
+    },
+    {
+      "name": ".eh_frame",
+      "address": "0x347188",
+      "offset": 3436936,
+      "size": 1101504
+    },
+    {
+      "name": ".text",
+      "address": "0x464080",
+      "offset": 4538496,
+      "size": 6127552
+    },
+    {
+      "name": "__lcxx_override",
+      "address": "0xa3c040",
+      "offset": 10666048,
+      "size": 56
+    },
+    {
+      "name": ".plt",
+      "address": "0xa3c080",
+      "offset": 10666112,
+      "size": 5808
+    },
+    {
+      "name": ".data.rel.ro",
+      "address": "0xa4d730",
+      "offset": 10671920,
+      "size": 348288
+    },
+    {
+      "name": ".fini_array",
+      "address": "0xaa27b0",
+      "offset": 11020208,
+      "size": 16
+    },
+    {
+      "name": ".init_array",
+      "address": "0xaa27c0",
+      "offset": 11020224,
+      "size": 2944
+    },
+    {
+      "name": ".dynamic",
+      "address": "0xaa3340",
+      "offset": 11023168,
+      "size": 528
+    },
+    {
+      "name": ".got",
+      "address": "0xaa3550",
+      "offset": 11023696,
+      "size": 1104
+    },
+    {
+      "name": ".got.plt",
+      "address": "0xaa39a0",
+      "offset": 11024800,
+      "size": 2912
+    },
+    {
+      "name": ".relro_padding",
+      "address": "0xaa4500",
+      "offset": 11027712,
+      "size": 2816
+    },
+    {
+      "name": ".data",
+      "address": "0xab4500",
+      "offset": 11027712,
+      "size": 7040
+    },
+    {
+      "name": ".bss",
+      "address": "0xab6080",
+      "offset": 11034752,
+      "size": 80064
+    },
+    {
+      "name": ".comment",
+      "address": "0x0",
+      "offset": 11034752,
+      "size": 210
+    },
+    {
+      "name": ".shstrtab",
+      "address": "0x0",
+      "offset": 11034962,
+      "size": 273
+    }
+  ],
+  "dynamic": [
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x1f3c",
+      "name": "libc.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x1f49",
+      "name": "libdl.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x1f52",
+      "name": "libm.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x1f5a",
+      "name": "libandroid.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x1f68",
+      "name": "libEGL.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x1f72",
+      "name": "libGLESv2.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x1f7f",
+      "name": "liblog.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x1f89",
+      "name": "libjnigraphics.so"
+    },
+    {
+      "tag": "DT_SONAME",
+      "value": "0x1f9b",
+      "name": "libflutter.so"
+    },
+    {
+      "tag": "DT_FLAGS",
+      "value": "0x8"
+    },
+    {
+      "tag": "DT_FLAGS_1",
+      "value": "0x1"
+    },
+    {
+      "tag": "DT_RELA",
+      "value": "0x6a28"
+    },
+    {
+      "tag": "DT_RELASZ",
+      "value": "0xbbbf0"
+    },
+    {
+      "tag": "DT_RELAENT",
+      "value": "0x18"
+    },
+    {
+      "tag": "DT_RELACOUNT",
+      "value": "0x7ca3"
+    },
+    {
+      "tag": "DT_JMPREL",
+      "value": "0xc2618"
+    },
+    {
+      "tag": "DT_PLTRELSZ",
+      "value": "0x21d8"
+    },
+    {
+      "tag": "DT_PLTGOT",
+      "value": "0xaa39a0"
+    },
+    {
+      "tag": "DT_PLTREL",
+      "value": "0x7"
+    },
+    {
+      "tag": "DT_SYMTAB",
+      "value": "0x330"
+    },
+    {
+      "tag": "DT_SYMENT",
+      "value": "0x18"
+    },
+    {
+      "tag": "DT_STRTAB",
+      "value": "0x4a78"
+    },
+    {
+      "tag": "DT_STRSZ",
+      "value": "0x1fa9"
+    },
+    {
+      "tag": "DT_GNU_HASH",
+      "value": "0x3898"
+    },
+    {
+      "tag": "DT_HASH",
+      "value": "0x3a20"
+    },
+    {
+      "tag": "DT_INIT_ARRAY",
+      "value": "0xaa27c0"
+    },
+    {
+      "tag": "DT_INIT_ARRAYSZ",
+      "value": "0xb80"
+    },
+    {
+      "tag": "DT_FINI_ARRAY",
+      "value": "0xaa27b0"
+    },
+    {
+      "tag": "DT_FINI_ARRAYSZ",
+      "value": "0x10"
+    },
+    {
+      "tag": "DT_VERSYM",
+      "value": "0x3420"
+    },
+    {
+      "tag": "DT_VERNEED",
+      "value": "0x3834"
+    },
+    {
+      "tag": "DT_VERNEEDNUM",
+      "value": "0x3"
+    },
+    {
+      "tag": "DT_NULL",
+      "value": "0x0"
+    }
+  ],
+  "symbols": [
+    {
+      "name": "__system_property_get",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strcmp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__system_property_find",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "memchr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "memcmp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strlen",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "atoi",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_self",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglGetError",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglDestroySurface",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglGetCurrentContext",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglGetCurrentDisplay",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglGetCurrentSurface",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglMakeCurrent",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglQuerySurface",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglSwapBuffers",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglGetDisplay",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglInitialize",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglTerminate",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "setpriority",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "gettid",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AAssetManager_fromJava",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AAssetManager_open",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AAsset_close",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AAsset_getLength",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AAsset_getBuffer",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AAsset_isAllocated",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__cxa_atexit",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__android_log_print",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglCreateImageKHR",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glDeleteTextures",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglDestroyImageKHR",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glEGLImageTargetTexture2DOES",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ANativeWindow_fromSurface",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "free",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "dlopen",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGenTextures",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglCreateWindowSurface",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglCreatePbufferSurface",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglChooseConfig",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglCreateContext",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglDestroyContext",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGetString",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strncmp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ANativeWindow_lock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ANativeWindow_unlockAndPost",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ANativeWindow_getFormat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glBindTexture",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "syscall",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_mutex_lock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_cond_wait",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_mutex_unlock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_cond_broadcast",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "clock_gettime",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__errno",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_cond_signal",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_cond_timedwait",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_getspecific",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_setspecific",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_cond_destroy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "stat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "vsnprintf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "readdir",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "closedir",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "opendir",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "realpath",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "chdir",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getenv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ftruncate",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "setbuf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fseek",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fclose",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "close",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getcwd",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "utimensat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "readlink",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fdopendir",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "unlinkat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__openat_2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__open_2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fstat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "open",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "realloc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "malloc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fopen",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fflush",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fread",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fwrite",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fseeko",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ftello",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ungetc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getwc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ungetwc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fputwc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__sF",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sscanf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "vsscanf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "uselocale",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "wmemchr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__vsnprintf_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "vasprintf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "newlocale",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "setlocale",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "freelocale",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "iswlower_l",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "wcsnrtombs",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "wcrtomb",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "mbsnrtowcs",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "mbrtowc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "mbtowc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__ctype_get_mb_cur_max",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "mbrlen",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "wcslen",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strftime_l",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "mbsrtowcs",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtoll_l",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtoull_l",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtof",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtod",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtold_l",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_mutex_trylock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_mutexattr_init",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_mutexattr_settype",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_mutexattr_destroy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_mutex_init",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_mutex_destroy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "isatty",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fileno",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ioctl",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__read_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "snprintf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtol",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtoul",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtoll",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtoull",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strerror_r",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "abort",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sysconf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_join",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_detach",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "nanosleep",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_key_create",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "vfprintf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "android_set_abort_message",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "openlog",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "syslog",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "closelog",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_create",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__android_log_write",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sem_init",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sem_wait",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sem_trywait",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sem_post",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sem_destroy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_attr_init",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_attr_setstacksize",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_attr_destroy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_setname_np",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sched_setaffinity",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "prctl",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "timerfd_create",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ALooper_addFd",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ALooper_removeFd",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ALooper_pollOnce",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ALooper_wake",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ALooper_forThread",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ALooper_prepare",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ALooper_acquire",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ALooper_release",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "timerfd_settime",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "read",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "mkdirat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "dup",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "faccessat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fsync",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "renameat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "rewinddir",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "openat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "write",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "mmap",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "munmap",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "dlerror",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "dlclose",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "dlsym",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strdup",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getpid",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "tan",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "atan2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "asin",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "acos",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "atan",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strncpy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strcpy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strchr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strcat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strstr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "tanhf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "gettimeofday",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "tzset",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "localtime_r",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strncat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ftell",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strrchr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "qsort",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "scalbnf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "asinf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "atan2f",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "tanf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "cbrt",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "acosf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sqrtf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "nextafterf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__memcpy_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strspn",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strcspn",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "cbrtf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sinh",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "cosh",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "tanh",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "asinh",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "acosh",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "atanh",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "remainder",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__strcpy_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fprintf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "perror",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "calloc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "malloc_usable_size",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pread",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__android_log_vprint",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "setjmp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "longjmp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fputc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strerror",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ferror",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_once",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getauxval",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fabsf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ilogbf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglQueryString",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glActiveTexture",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glAttachShader",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glBindAttribLocation",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glBindBuffer",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glBindFramebuffer",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glBindRenderbuffer",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glBlendColor",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glBlendEquation",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glBlendFunc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glBufferData",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glBufferSubData",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glCheckFramebufferStatus",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glClear",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glClearColor",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glClearStencil",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glColorMask",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glCompileShader",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glCompressedTexImage2D",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glCompressedTexSubImage2D",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glCopyTexSubImage2D",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glCreateProgram",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glCreateShader",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glCullFace",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glDeleteBuffers",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glDeleteFramebuffers",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glDeleteProgram",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glDeleteRenderbuffers",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glDeleteShader",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glDepthMask",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glDisable",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glDisableVertexAttribArray",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glDrawArrays",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glDrawElements",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glEnable",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glEnableVertexAttribArray",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glFinish",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glFlush",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glFramebufferRenderbuffer",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glFramebufferTexture2D",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glFrontFace",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGenBuffers",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGenFramebuffers",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGenRenderbuffers",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGenerateMipmap",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGetBufferParameteriv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGetError",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGetFramebufferAttachmentParameteriv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGetIntegerv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGetProgramInfoLog",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGetProgramiv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGetRenderbufferParameteriv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGetShaderInfoLog",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGetShaderPrecisionFormat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGetShaderiv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glGetUniformLocation",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glIsTexture",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glLineWidth",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glLinkProgram",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glPixelStorei",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glReadPixels",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glRenderbufferStorage",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glScissor",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glShaderSource",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glStencilFunc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glStencilFuncSeparate",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glStencilMask",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glStencilMaskSeparate",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glStencilOp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glStencilOpSeparate",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glTexImage2D",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glTexParameterf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glTexParameterfv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glTexParameteri",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glTexParameteriv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glTexSubImage2D",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniform1f",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniform1fv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniform1i",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniform1iv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniform2f",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniform2fv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniform2i",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniform2iv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniform3f",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniform3fv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniform3i",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniform3iv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniform4f",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniform4fv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniform4i",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniform4iv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniformMatrix2fv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniformMatrix3fv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUniformMatrix4fv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glUseProgram",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glVertexAttrib1f",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glVertexAttrib2fv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glVertexAttrib3fv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glVertexAttrib4fv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glVertexAttribPointer",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "glViewport",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglGetProcAddress",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "erff",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "bsearch",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "puts",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_sigmask",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_cond_init",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "time",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "setsockopt",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "connect",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "shutdown",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fgets",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "feof",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getaddrinfo",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "gai_strerror",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "socket",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "freeaddrinfo",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fcntl",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getsockopt",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fputs",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "OPENSSL_memory_alloc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_NOTYPE",
+      "binding": "STB_WEAK"
+    },
+    {
+      "name": "OPENSSL_memory_free",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_NOTYPE",
+      "binding": "STB_WEAK"
+    },
+    {
+      "name": "OPENSSL_memory_get_size",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_NOTYPE",
+      "binding": "STB_WEAK"
+    },
+    {
+      "name": "madvise",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_rwlock_init",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_rwlock_rdlock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_rwlock_wrlock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_rwlock_unlock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_rwlock_destroy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "rand",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__strlen_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__memmove_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "hypotf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "hypot",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "modff",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strnlen",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "posix_memalign",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ANativeWindow_getWidth",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ANativeWindow_getHeight",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pipe2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "epoll_create1",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "epoll_ctl",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "epoll_wait",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sigemptyset",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sigaddset",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "inotify_init1",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "inotify_add_watch",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "inotify_rm_watch",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sendto",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "recvfrom",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "if_indextoname",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sigaction",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "gethostname",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_exit",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "environ",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "close_range",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_NOTYPE",
+      "binding": "STB_WEAK"
+    },
+    {
+      "name": "execvp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "kill",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fscanf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getpagesize",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getrusage",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fork",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "dup2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "setsid",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "wait",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "poll",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fstat64",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getnameinfo",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "recvmsg",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__cmsg_nxthdr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sendmsg",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getsockname",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getpeername",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "inet_pton",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "if_nametoindex",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "inet_ntop",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "bind",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "listen",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "accept4",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fstatat64",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "lseek64",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ftruncate64",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "symlinkat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pipe",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sendfile64",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "lstat64",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "readlinkat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_attr_setdetachstate",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ANativeWindow_release",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AndroidBitmap_getInfo",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AndroidBitmap_lockPixels",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AndroidBitmap_unlockPixels",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_condattr_init",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_condattr_setclock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_condattr_destroy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strndup",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "unlink",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "mprotect",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "dladdr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_key_delete",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_getattr_np",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_attr_getstack",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pow",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "floor",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ceil",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "trunc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "round",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "cos",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sin",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "exp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "log",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "memmove",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtok_r",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__cxa_thread_atexit_impl",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_NOTYPE",
+      "binding": "STB_WEAK"
+    },
+    {
+      "name": "__cxa_finalize",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "vsprintf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "memset",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "memcpy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__stack_chk_fail",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "exp2f",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "powf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sinf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "cosf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "log2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fmodf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "log2f",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sincosf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "expf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fmod",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "exp2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_SetDepthWriteEnable",
+      "address": "0x8765fc",
+      "size": 12,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_SetStencilConfig",
+      "address": "0x8766a0",
+      "size": 68,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_Shader_GetUniformStructSize",
+      "address": "0x8775f4",
+      "size": 60,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_ShaderLibrary_GetShader",
+      "address": "0x879364",
+      "size": 284,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "JNI_OnLoad",
+      "address": "0x485670",
+      "size": 568,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_SetCullMode",
+      "address": "0x8766e4",
+      "size": 8,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_Initialize",
+      "address": "0x875590",
+      "size": 360,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_Draw",
+      "address": "0x876704",
+      "size": 2740,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_Texture_BytesPerTexel",
+      "address": "0x879764",
+      "size": 32,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_Shader_GetUniformMemberOffset",
+      "address": "0x877630",
+      "size": 144,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_ShaderLibrary_InitializeWithAsset",
+      "address": "0x87799c",
+      "size": 6600,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_SetWindingOrder",
+      "address": "0x8766f4",
+      "size": 8,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_Context_InitializeDefault",
+      "address": "0x874b70",
+      "size": 180,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_Context_GetMinimumUniformByteAlignment",
+      "address": "0x874ce8",
+      "size": 60,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_DeviceBuffer_Flush",
+      "address": "0x87503c",
+      "size": 88,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_BindUniformDevice",
+      "address": "0x875b94",
+      "size": 1112,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_ClearBindings",
+      "address": "0x876538",
+      "size": 92,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_SetDepthCompareOperation",
+      "address": "0x876608",
+      "size": 8,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_Texture_Overwrite",
+      "address": "0x879658",
+      "size": 268,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_Texture_AsImage",
+      "address": "0x879784",
+      "size": 184,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_binary_icudtl_dat_size",
+      "address": "0x182a70",
+      "size": 0,
+      "section": 11,
+      "type": "STT_NOTYPE",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_CommandBuffer_Submit",
+      "address": "0x8744ac",
+      "size": 376,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_Context_GetDefaultStencilFormat",
+      "address": "0x874c64",
+      "size": 68,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_SetColorBlendEquation",
+      "address": "0x8765b0",
+      "size": 76,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_Context_GetDefaultColorFormat",
+      "address": "0x874c24",
+      "size": 64,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_Context_GetDefaultDepthStencilFormat",
+      "address": "0x874ca8",
+      "size": 64,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_Context_GetSupportsOffscreenMSAA",
+      "address": "0x874d24",
+      "size": 52,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_BindPipeline",
+      "address": "0x875a28",
+      "size": 56,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_BindIndexBufferDevice",
+      "address": "0x875af4",
+      "size": 160,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_SetColorBlendEnable",
+      "address": "0x876594",
+      "size": 28,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_SetPrimitiveType",
+      "address": "0x8766ec",
+      "size": 8,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_Texture_SetCoordinateSystem",
+      "address": "0x87964c",
+      "size": 12,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__start___lcxx_override",
+      "address": "0xa3c040",
+      "size": 0,
+      "section": 15,
+      "type": "STT_NOTYPE",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__stop___lcxx_override",
+      "address": "0xa3c078",
+      "size": 0,
+      "section": 15,
+      "type": "STT_NOTYPE",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_CommandBuffer_Initialize",
+      "address": "0x8743e8",
+      "size": 196,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_SetColorAttachment",
+      "address": "0x8756f8",
+      "size": 256,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_SetDepthStencilAttachment",
+      "address": "0x8757f8",
+      "size": 220,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_SetViewport",
+      "address": "0x876658",
+      "size": 72,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_Texture_Initialize",
+      "address": "0x8794d8",
+      "size": 372,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_binary_icudtl_dat_start",
+      "address": "0xc4800",
+      "size": 778864,
+      "section": 11,
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_DeviceBuffer_Initialize",
+      "address": "0x874da0",
+      "size": 220,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_DeviceBuffer_InitializeWithHostData",
+      "address": "0x874ecc",
+      "size": 304,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_Begin",
+      "address": "0x8758d4",
+      "size": 340,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_BindVertexBufferDevice",
+      "address": "0x875a60",
+      "size": 148,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_SetStencilReference",
+      "address": "0x876610",
+      "size": 8,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_SetPolygonMode",
+      "address": "0x8766fc",
+      "size": 8,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPipeline_Initialize",
+      "address": "0x877208",
+      "size": 156,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_DeviceBuffer_Overwrite",
+      "address": "0x874ffc",
+      "size": 64,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_BindTexture",
+      "address": "0x875fec",
+      "size": 1356,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "InternalFlutterGpu_RenderPass_SetScissor",
+      "address": "0x876618",
+      "size": 64,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    }
+  ],
+  "jni_exports": [
+    {
+      "name": "JNI_OnLoad",
+      "address": "0x485670",
+      "size": 568,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    }
+  ]
+}

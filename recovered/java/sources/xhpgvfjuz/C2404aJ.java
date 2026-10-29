@@ -1,0 +1,9 @@
+            package xhpgvfjuz;
+            
+            /* JADX INFO: renamed from: xhpgvfjuz.aJ */
+            /* JADX INFO: loaded from: C:\Users\admin\Documents\Codex\2026-10-26\x20\outputs\switchgear-recovered\bytecode\classes2.dex */
+            public class C2404aJ extends C2411aa {
+                public C2404aJ(String str) {
+                    super(str);
+                }
+            }

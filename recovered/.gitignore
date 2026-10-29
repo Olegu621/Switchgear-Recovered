@@ -1,0 +1,10 @@
+apktool/build/
+apktool/dist/
+artifacts/
+tools/.runtime/
+tools/.framework/
+tools/.ghidra-*/
+native-pseudocode-rerun/
+java-rerun/
+java-simple/
+__pycache__/

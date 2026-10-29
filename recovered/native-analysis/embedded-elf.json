@@ -1,0 +1,14 @@
+{
+  "container": "apktool/lib/arm64-v8a/libFUSION.a.do",
+  "candidates": [
+    {
+      "offset": 6,
+      "valid": false,
+      "error": "expected 4, found 0"
+    },
+    {
+      "offset": 110855,
+      "valid": true
+    }
+  ]
+}

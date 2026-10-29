@@ -1,0 +1,22 @@
+.class public Lio/flutter/app/FlutterApplication;
+.super Landroid/app/Application;
+.source "r8-map-id-213346ccf8c7f825bb9017059f9f3b3a7bfb73d3355dfb8dfea71096f8f0bf83"
+
+
+# annotations
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Landroid/app/Application;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

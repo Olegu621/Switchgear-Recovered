@@ -1,0 +1,158 @@
+[
+  {
+    "index": 0,
+    "name": "EsJexAnx5A5",
+    "callback_rva": "0x47ca20",
+    "table_rva": "0x851a98"
+  },
+  {
+    "index": 1,
+    "name": "lAXPVtUqpoW8VV",
+    "callback_rva": "0x47cb78",
+    "table_rva": "0x851ab8"
+  },
+  {
+    "index": 2,
+    "name": "HOr3SSJCKXC",
+    "callback_rva": "0x47cd98",
+    "table_rva": "0x851ad8"
+  },
+  {
+    "index": 3,
+    "name": "bKCxO6WJ1jvOQD",
+    "callback_rva": "0x47ce78",
+    "table_rva": "0x851af8"
+  },
+  {
+    "index": 4,
+    "name": "PxWCsfLQ0OIYcY",
+    "callback_rva": "0x47cefc",
+    "table_rva": "0x851b18"
+  },
+  {
+    "index": 5,
+    "name": "pin",
+    "callback_rva": "0x47cfc0",
+    "table_rva": "0x851b38"
+  },
+  {
+    "index": 6,
+    "name": "yOLcleCdYDO",
+    "callback_rva": "0x47d030",
+    "table_rva": "0x851b58"
+  },
+  {
+    "index": 7,
+    "name": "cvlg4RD2",
+    "callback_rva": "0x47d0a0",
+    "table_rva": "0x851b78"
+  },
+  {
+    "index": 8,
+    "name": "R0JSLZjnu",
+    "callback_rva": "0x47d2e4",
+    "table_rva": "0x851b98"
+  },
+  {
+    "index": 9,
+    "name": "sbAlmR0wqC",
+    "callback_rva": "0x47d4e4",
+    "table_rva": "0x851bb8"
+  },
+  {
+    "index": 10,
+    "name": "wpmCk7PMV",
+    "callback_rva": "0x47d5b4",
+    "table_rva": "0x851bd8"
+  },
+  {
+    "index": 11,
+    "name": "_q",
+    "callback_rva": "0x47d734",
+    "table_rva": "0x851bf8"
+  },
+  {
+    "index": 12,
+    "name": "_z",
+    "callback_rva": "0x47d984",
+    "table_rva": "0x851c18"
+  },
+  {
+    "index": 13,
+    "name": "jqGCX1A3wF",
+    "callback_rva": "0x47db68",
+    "table_rva": "0x851c38"
+  },
+  {
+    "index": 14,
+    "name": "u2mSEyFAnw",
+    "callback_rva": "0x47e700",
+    "table_rva": "0x851c58"
+  },
+  {
+    "index": 15,
+    "name": "OQSYLz0bBs",
+    "callback_rva": "0x47e768",
+    "table_rva": "0x851c78"
+  },
+  {
+    "index": 16,
+    "name": "Z60CUd1ied",
+    "callback_rva": "0x47e8a8",
+    "table_rva": "0x851c98"
+  },
+  {
+    "index": 17,
+    "name": "GKwk7cGPO2",
+    "callback_rva": "0x47ea34",
+    "table_rva": "0x851cb8"
+  },
+  {
+    "index": 18,
+    "name": "d2uJjx6Svp",
+    "callback_rva": "0x47f634",
+    "table_rva": "0x851cd8"
+  },
+  {
+    "index": 19,
+    "name": "mZbs1GeeUE",
+    "callback_rva": "0x47f69c",
+    "table_rva": "0x851cf8"
+  },
+  {
+    "index": 20,
+    "name": "RmFhoHO5b4",
+    "callback_rva": "0x47f914",
+    "table_rva": "0x851d18"
+  },
+  {
+    "index": 21,
+    "name": "xE7YARNDa0",
+    "callback_rva": "0x47f9d0",
+    "table_rva": "0x851d38"
+  },
+  {
+    "index": 22,
+    "name": "iW7aURhn4t",
+    "callback_rva": "0x47fa78",
+    "table_rva": "0x851d58"
+  },
+  {
+    "index": 23,
+    "name": "fBEQMhNY70",
+    "callback_rva": "0x47fb5c",
+    "table_rva": "0x851d78"
+  },
+  {
+    "index": 24,
+    "name": "YJA4Ht5BEO",
+    "callback_rva": "0x47fc04",
+    "table_rva": "0x851d98"
+  },
+  {
+    "index": 25,
+    "name": "kwjaGIUZXc",
+    "callback_rva": "0x47fc8c",
+    "table_rva": "0x851db8"
+  }
+]

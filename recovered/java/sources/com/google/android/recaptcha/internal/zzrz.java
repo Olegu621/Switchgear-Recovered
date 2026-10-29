@@ -1,0 +1,12 @@
+            package com.google.android.recaptcha.internal;
+
+            import java.io.IOException;
+            import java.util.Map;
+            
+            /* JADX INFO: compiled from: r8-map-id-213346ccf8c7f825bb9017059f9f3b3a7bfb73d3355dfb8dfea71096f8f0bf83 */
+            /* JADX INFO: loaded from: C:\Users\admin\Documents\Codex\2026-10-26\x20\outputs\switchgear-recovered\bytecode\classes.dex */
+            abstract class zzrz {
+                public abstract void zza(Object obj);
+
+                public abstract void zzb(zzvi zzviVar, Map.Entry entry) throws IOException;
+            }

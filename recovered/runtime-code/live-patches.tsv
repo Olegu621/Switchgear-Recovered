@@ -1,0 +1,53 @@
+rva	size	changed_bytes	kind	runtime_target	containing_jni_export
+0x1e88fc	20	17	instruction_or_data_patch		
+0x588f3c	4	4	instruction_or_data_patch		
+0x71dc6c	16	15	absolute_branch_trampoline	0x113b5a00	Java_com_supercell_titan_GameApp_nOnAppStart
+0x71dcb8	16	15	absolute_branch_trampoline	0x113b5900	Java_com_supercell_titan_GameApp_nOnAppStop
+0x756bc0	16	16	absolute_branch_trampoline	0x113b5800	
+0x75b2a4	16	16	absolute_branch_trampoline	0x113b5300	
+0x7c88bc	16	14	absolute_branch_trampoline	0x113b7d00	
+0x800a50	16	16	absolute_branch_trampoline	0x113b7c00	
+0x81c68c	4	4	instruction_or_data_patch		
+0x81c6ec	4	4	instruction_or_data_patch		
+0x8239a8	16	16	absolute_branch_trampoline	0x113b6d00	
+0x8263d8	16	16	absolute_branch_trampoline	0x113b6f00	
+0x82cbd0	16	15	absolute_branch_trampoline	0x113b6e00	
+0x845c38	16	16	absolute_branch_trampoline	0x113b7a00	
+0x882740	16	15	absolute_branch_trampoline	0x113b5700	
+0x883260	16	16	absolute_branch_trampoline	0x113b8100	
+0x88360c	16	15	absolute_branch_trampoline	0x113b8200	
+0x888218	16	16	absolute_branch_trampoline	0x113b5b00	
+0x905ac8	16	14	absolute_branch_trampoline	0x113b6800	
+0x90a3fc	16	15	absolute_branch_trampoline	0x113b7b00	
+0x9f052c	16	16	absolute_branch_trampoline	0x113b6400	
+0x9f072c	16	16	absolute_branch_trampoline	0x113b6300	
+0x9f10c0	16	16	absolute_branch_trampoline	0x113b6500	
+0xa64818	16	16	absolute_branch_trampoline	0x113b7600	
+0xb018a0	16	16	absolute_branch_trampoline	0x113b7100	
+0xb11970	16	13	absolute_branch_trampoline	0x113b5e00	
+0xb35608	16	16	absolute_branch_trampoline	0x113b5600	
+0xb4071c	16	16	absolute_branch_trampoline	0x113b8300	
+0xb444a0	16	16	absolute_branch_trampoline	0x113b5500	
+0xb4caec	16	15	absolute_branch_trampoline	0x113b8000	
+0xb50fdc	16	14	absolute_branch_trampoline	0x113b6200	
+0xb588d8	16	15	absolute_branch_trampoline	0x113b5200	
+0xb9b538	16	15	absolute_branch_trampoline	0x113b7700	
+0xbfbf84	16	15	absolute_branch_trampoline	0x113b6600	
+0xcce878	16	16	absolute_branch_trampoline	0x113b7900	
+0xccf3dc	16	16	absolute_branch_trampoline	0x113b7800	
+0xce1e60	16	16	absolute_branch_trampoline	0x113b6100	
+0xcfef08	16	15	absolute_branch_trampoline	0x113b5f00	
+0xd01dc0	16	16	absolute_branch_trampoline	0x113b5c00	
+0xd44958	16	15	absolute_branch_trampoline	0x113b6900	
+0xe45f28	32	28	absolute_branch_trampoline	0x113b7e00	
+0xe75224	16	16	absolute_branch_trampoline	0x113b6b00	
+0xeb2ccc	16	16	absolute_branch_trampoline	0x113b7300	
+0xebf9bc	16	15	absolute_branch_trampoline	0x113b6c00	
+0xec3b88	16	15	absolute_branch_trampoline	0x113b6a00	
+0xf2c914	8	7	instruction_or_data_patch		
+0xf36fa4	16	16	absolute_branch_trampoline	0x113b7500	
+0xf49934	16	16	absolute_branch_trampoline	0x113b7400	
+0xf56cb0	16	16	absolute_branch_trampoline	0x113b5d00	
+0xf6b060	16	15	absolute_branch_trampoline	0x113b6700	
+0xf83db0	16	15	absolute_branch_trampoline	0x113b5400	
+0xfa7db8	16	16	absolute_branch_trampoline	0x113b7200	

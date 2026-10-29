@@ -1,0 +1,16 @@
+            package com.google.android.gms.internal.p014authapi;
+
+            import android.os.IInterface;
+            import android.os.RemoteException;
+            import com.google.android.gms.auth.api.credentials.Credential;
+            import com.google.android.gms.common.api.Status;
+            
+            /* JADX INFO: compiled from: r8-map-id-213346ccf8c7f825bb9017059f9f3b3a7bfb73d3355dfb8dfea71096f8f0bf83 */
+            /* JADX INFO: loaded from: C:\Users\admin\Documents\Codex\2026-10-26\x20\outputs\switchgear-recovered\bytecode\classes.dex */
+            public interface zbs extends IInterface {
+                void zbb(Status status, Credential credential) throws RemoteException;
+
+                void zbc(Status status) throws RemoteException;
+
+                void zbd(Status status, String str) throws RemoteException;
+            }

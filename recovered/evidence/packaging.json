@@ -1,0 +1,18 @@
+{
+  "manifest": "SHA256SUMS.txt",
+  "manifest_scope": "Recovery documents, tools, evidence, original DEX/libraries and native/runtime analysis artifacts. Decoded assets/smali are covered by prior rebuild validation and archive CRC.",
+  "excluded": [
+    "apktool/build",
+    "apktool/dist",
+    "artifacts",
+    "__pycache__",
+    "tools/.runtime",
+    "tools/.framework",
+    "tools/.ghidra-*",
+    "native-pseudocode-rerun",
+    "java-rerun",
+    "java-simple"
+  ],
+  "activation_data_and_private_preferences_included": false,
+  "note": "Source build validation was completed before analysis-only runtime additions; no claim of rebuilt APK gameplay."
+}

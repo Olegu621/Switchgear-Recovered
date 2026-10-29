@@ -1,0 +1,95 @@
+            package com.google.android.gms.internal.drive;
+
+            import java.util.Arrays;
+            import java.util.Collections;
+            import java.util.Set;
+            import p000.fj3;
+            import p000.fr3;
+            import p000.go3;
+            import p000.ii1;
+            import p000.je3;
+            import p000.ke3;
+            import p000.kr3;
+            import p000.qr3;
+            
+            /* JADX INFO: loaded from: C:\Users\admin\Documents\Codex\2026-10-26\x20\outputs\switchgear-recovered\bytecode\classes.dex */
+            public final class zzhs {
+                public static final ii1 zzjl = zzim.zzlj;
+                public static final ii1 zzjm = new kr3("alternateLink", 4300000);
+                public static final zzhv zzjn = new zzhv(5000000);
+                public static final ii1 zzjo = new kr3("description", 4300000);
+                public static final ii1 zzjp = new kr3("embedLink", 4300000);
+                public static final ii1 zzjq = new kr3("fileExtension", 4300000);
+                public static final ii1 zzjr = new fj3("fileSize", 4300000);
+                public static final ii1 zzjs = new kr3("folderColorRgb", 7500000);
+                public static final ii1 zzjt = new ke3("hasThumbnail", 4300000);
+                public static final ii1 zzju = new kr3("indexableText", 4300000);
+                public static final ii1 zzjv = new ke3("isAppData", 4300000);
+                public static final ii1 zzjw = new ke3("isCopyable", 4300000);
+                public static final ii1 zzjx = new ke3("isEditable", 4100000);
+                public static final ii1 zzjy;
+                public static final ii1 zzjz;
+                public static final zzhw zzka;
+                public static final ii1 zzkb;
+                public static final ii1 zzkc;
+                public static final ii1 zzkd;
+                public static final ii1 zzke;
+                public static final ii1 zzkf;
+                public static final ii1 zzkg;
+                public static final ii1 zzkh;
+                public static final zzhx zzki;
+                public static final ii1 zzkj;
+                public static final je3 zzkk;
+                public static final qr3 zzkl;
+                public static final qr3 zzkm;
+                public static final go3 zzkn;
+                public static final zzhy zzko;
+                public static final zzia zzkp;
+                public static final ii1 zzkq;
+                public static final zzib zzkr;
+                public static final zzic zzks;
+                public static final ii1 zzkt;
+                public static final ii1 zzku;
+                public static final ii1 zzkv;
+                public static final ke3 zzkw;
+                public static final ii1 zzkx;
+                public static final ii1 zzky;
+                public static final zzhz zzkz;
+                public static final ii1 zzla;
+                public static final ii1 zzlb;
+
+                static {
+/* 127 */           Set setSingleton = Collections.singleton("trashed");
+/* 131 */           Set set = Collections.EMPTY_SET;
+/* 141 */           zzjy = new zzht("isExplicitlyTrashed", setSingleton, set, 7000000);
+/* 153 */           zzjz = new ke3("isLocalContentUpToDate", 7800000);
+/* 162 */           zzka = new zzhw("isPinned", 4100000);
+/* 174 */           zzkb = new ke3("isOpenable", 7200000);
+/* 183 */           zzkc = new ke3("isRestricted", 4300000);
+/* 192 */           zzkd = new ke3("isShared", 4300000);
+/* 201 */           zzke = new ke3("isGooglePhotosFolder", 7000000);
+/* 210 */           zzkf = new ke3("isGooglePhotosRootFolder", 7000000);
+/* 222 */           zzkg = new ke3("isTrashable", 4400000);
+/* 231 */           zzkh = new ke3("isViewed", 4300000);
+/* 238 */           zzki = new zzhx(4100000);
+/* 247 */           zzkj = new kr3("originalFilename", 4300000);
+/* 260 */           zzkk = new fr3("ownerNames", Collections.singleton("ownerNames"), set, 4300000);
+/* 269 */           zzkl = new qr3("lastModifyingUser");
+/* 278 */           zzkm = new qr3("sharingUser");
+/* 301 */           zzkn = new go3("parents", set, Arrays.asList("parentsExtra", "dbInstanceId", "parentsExtraHolder"), 4100000);
+/* 310 */           zzko = new zzhy("quotaBytesUsed", 4300000);
+/* 319 */           zzkp = new zzia("starred", 4100000);
+/* 328 */           zzkq = new zzhu("thumbnail", set, set, 4400000);
+/* 337 */           zzkr = new zzib("title", 4100000);
+/* 344 */           zzks = new zzic("trashed", 4100000);
+/* 353 */           zzkt = new kr3("webContentLink", 4300000);
+/* 362 */           zzku = new kr3("webViewLink", 4300000);
+/* 371 */           zzkv = new kr3("uniqueIdentifier", 5000000);
+/* 383 */           zzkw = new ke3("writersCanShare", 6000000);
+/* 392 */           zzkx = new kr3("role", 6000000);
+/* 401 */           zzky = new kr3("md5Checksum", 7000000);
+/* 408 */           zzkz = new zzhz(7000000);
+/* 420 */           zzla = new kr3("recencyReason", 8000000);
+/* 429 */           zzlb = new ke3("subscribed", 8000000);
+                }
+            }

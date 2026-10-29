@@ -1,0 +1,26 @@
+{
+  "tool": "Ghidra 12.2 PUBLIC, JDK 25",
+  "scope": "Automatically inferred functions and C pseudocode. Not original, not verified-compilable, protected control flow and inferred types remain uncertain.",
+  "libraries": [
+    {
+      "program": "libFUSION.embedded.so",
+      "recognized_functions_including_externals": 2908,
+      "exported_pseudocode_functions": 2908,
+      "failed_functions": 0,
+      "pseudocode_size": 1105407,
+      "sha256": "e891345ccba4521055872aa06ab949e06e04b61c977d97ab68a46b7190ab12b8",
+      "analysis_timeout": false,
+      "warnings_in_pseudocode": 0
+    },
+    {
+      "program": "libFUSION.unpacked.so",
+      "recognized_functions_including_externals": 7445,
+      "exported_pseudocode_functions": 7433,
+      "failed_functions": 9,
+      "pseudocode_size": 9191995,
+      "sha256": "0eb65c72c78e2d96be8fe29f2266b9b7a91b02532d9321402fd7c213dd20827f",
+      "analysis_timeout": false,
+      "warnings_in_pseudocode": 4296
+    }
+  ]
+}

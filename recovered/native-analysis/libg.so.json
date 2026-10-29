@@ -1,0 +1,5529 @@
+{
+  "path": "apktool/lib/arm64-v8a/libg.so",
+  "size": 20188304,
+  "sha256": "a5777d17ff85bf02d2a4d48ac8240605c2c13c44d411a634bbce374d6f9288a2",
+  "entropy": 6.488713,
+  "machine": "EM_AARCH64",
+  "entry": "0x1342410",
+  "segments": [
+    {
+      "p_type": "PT_PHDR",
+      "p_offset": "0x40",
+      "p_vaddr": "0x40",
+      "p_filesz": 504,
+      "p_memsz": 504,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x0",
+      "p_vaddr": "0x0",
+      "p_filesz": 18498576,
+      "p_memsz": 18498576,
+      "p_flags": 5
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x11a4410",
+      "p_vaddr": "0x11a8410",
+      "p_filesz": 614704,
+      "p_memsz": 617456,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x123a540",
+      "p_vaddr": "0x1242540",
+      "p_filesz": 690784,
+      "p_memsz": 849672,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_DYNAMIC",
+      "p_offset": "0x1340840",
+      "p_vaddr": "0x1348840",
+      "p_filesz": 592,
+      "p_memsz": 592,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_GNU_RELRO",
+      "p_offset": "0x11a4410",
+      "p_vaddr": "0x11a8410",
+      "p_filesz": 614704,
+      "p_memsz": 617456,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_GNU_EH_FRAME",
+      "p_offset": "0x290e94",
+      "p_vaddr": "0x290e94",
+      "p_filesz": 391396,
+      "p_memsz": 391396,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_GNU_STACK",
+      "p_offset": "0x0",
+      "p_vaddr": "0x0",
+      "p_filesz": 0,
+      "p_memsz": 0,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_NOTE",
+      "p_offset": "0x1340a90",
+      "p_vaddr": "0x1348a90",
+      "p_filesz": 188,
+      "p_memsz": 188,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x130c000",
+      "p_vaddr": "0x1314000",
+      "p_filesz": 189604,
+      "p_memsz": 189604,
+      "p_flags": 5
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x133c000",
+      "p_vaddr": "0x1344000",
+      "p_filesz": 19276,
+      "p_memsz": 19276,
+      "p_flags": 6
+    }
+  ],
+  "sections": [
+    {
+      "name": "",
+      "address": "0x0",
+      "offset": 0,
+      "size": 0
+    },
+    {
+      "name": ".note.gnu.build-id",
+      "address": "0x1348b28",
+      "offset": 20187944,
+      "size": 36
+    },
+    {
+      "name": ".dynstr",
+      "address": "0x13442a8",
+      "offset": 20169384,
+      "size": 17814
+    },
+    {
+      "name": ".dynamic",
+      "address": "0x1348840",
+      "offset": 20187200,
+      "size": 592
+    },
+    {
+      "name": ".shstrtab",
+      "address": "0x0",
+      "offset": 19804449,
+      "size": 47
+    }
+  ],
+  "dynamic": [
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x4512",
+      "name": "libscid_sdk.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x4521",
+      "name": "liblog.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x452b",
+      "name": "libandroid.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x4539",
+      "name": "libEGL.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x4543",
+      "name": "libGLESv3.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x4550",
+      "name": "libfmod.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x44ed",
+      "name": "libdl.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x455b",
+      "name": "libsentry-android.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x4570",
+      "name": "libsentry.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x44fb",
+      "name": "libm.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x457d",
+      "name": "libc++_shared.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x4503",
+      "name": "libc.so"
+    },
+    {
+      "tag": "DT_INIT",
+      "value": "0x1342410"
+    },
+    {
+      "tag": "DT_SONAME",
+      "value": "0x458e",
+      "name": "libg.so"
+    },
+    {
+      "tag": "DT_FLAGS",
+      "value": "0x8"
+    },
+    {
+      "tag": "DT_FLAGS_1",
+      "value": "0x1"
+    },
+    {
+      "tag": "DT_RELA",
+      "value": "0x8548"
+    },
+    {
+      "tag": "DT_RELASZ",
+      "value": "0x186660"
+    },
+    {
+      "tag": "DT_RELAENT",
+      "value": "0x18"
+    },
+    {
+      "tag": "DT_RELACOUNT",
+      "value": "0x101ec"
+    },
+    {
+      "tag": "DT_JMPREL",
+      "value": "0x18eba8"
+    },
+    {
+      "tag": "DT_PLTRELSZ",
+      "value": "0x2a18"
+    },
+    {
+      "tag": "DT_PLTGOT",
+      "value": "0x123d720"
+    },
+    {
+      "tag": "DT_PLTREL",
+      "value": "0x7"
+    },
+    {
+      "tag": "DT_SYMTAB",
+      "value": "0x2f8"
+    },
+    {
+      "tag": "DT_SYMENT",
+      "value": "0x18"
+    },
+    {
+      "tag": "DT_STRTAB",
+      "value": "0x13442a8"
+    },
+    {
+      "tag": "DT_STRSZ",
+      "value": "0x4596"
+    },
+    {
+      "tag": "DT_GNU_HASH",
+      "value": "0x3d80"
+    },
+    {
+      "tag": "DT_INIT_ARRAY",
+      "value": "0x123ad20"
+    },
+    {
+      "tag": "DT_INIT_ARRAYSZ",
+      "value": "0x860"
+    },
+    {
+      "tag": "DT_FINI_ARRAY",
+      "value": "0x123ad10"
+    },
+    {
+      "tag": "DT_FINI_ARRAYSZ",
+      "value": "0x10"
+    },
+    {
+      "tag": "DT_VERSYM",
+      "value": "0x3898"
+    },
+    {
+      "tag": "DT_VERNEED",
+      "value": "0x3d10"
+    },
+    {
+      "tag": "DT_VERNEEDNUM",
+      "value": "0x3"
+    },
+    {
+      "tag": "DT_NULL",
+      "value": "0x0"
+    }
+  ],
+  "symbols": [
+    {
+      "name": "__cxa_finalize",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__cxa_atexit",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__register_atfork",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZdlPv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_Znwm",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk119__shared_weak_count14__release_weakEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk15mutexD1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk122__libcpp_verbose_abortEPKcz",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__cxa_pure_virtual",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk15mutex4lockEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk15mutex6unlockEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk112__next_primeEm",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "memcmp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strlen",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "memmove",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "memset",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "memcpy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk14__fs10filesystem4path6__stemEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__cxa_guard_acquire",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__cxa_guard_release",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__memcpy_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "log2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__strncpy_chk2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk115recursive_mutex4lockEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk115recursive_mutex6unlockEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk119__shared_weak_count4lockEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk115recursive_mutexC1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk118condition_variable10notify_allEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sched_yield",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk14__fs10filesystem4path11__extensionEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk14__fs10filesystem4path9__compareENS_17basic_string_viewIcNS_11char_traitsIcEEEE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__emutls_get_address",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__cxa_thread_atexit",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "powf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strcmp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk118condition_variableD1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk115recursive_mutexD1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk119__shared_weak_countD2Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZdaPv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_Znam",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk118condition_variable4waitERNS_11unique_lockINS_5mutexEEE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk120__throw_system_errorEiPKc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk119__shared_weak_count13__get_deleterERKSt9type_info",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "vsnprintf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk17promiseIvEC1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk17promiseIvE10get_futureEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk16futureIvED1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk17promiseIvED1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt13exception_ptrD1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk17promiseIvE9set_valueEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "printf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fflush",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strstr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_create",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk119__shared_mutex_base4lockEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_self",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk119__shared_mutex_base6unlockEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk119__shared_mutex_base11lock_sharedEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk119__shared_mutex_base13unlock_sharedEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk16thread20hardware_concurrencyEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_getschedparam",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_setschedparam",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk119__shared_mutex_baseC1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZnwmSt11align_val_t",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk111this_thread9sleep_forERKNS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk118condition_variable10notify_oneEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_join",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZdlPvSt11align_val_t",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_exit",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "unlink",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "opendir",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "readdir",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "stat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "closedir",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "rmdir",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "rename",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "memchr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7reserveEm",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEmc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strncmp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fopen",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fileno",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fstat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fclose",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ftruncate",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "mmap",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fseek",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fread",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sysconf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "munmap",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk111__call_onceERVmPvPFvS2_E",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "madvise",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "mlock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ferror",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ftell",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fwrite",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AAsset_close",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AAssetManager_open",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fgets",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__vsnprintf_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "remove",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZTVNSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEEE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZTTNSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEEE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk18ios_base4initEPv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEEC1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE4openEPKcj",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk18ios_base5clearEj",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE5writeEPKcl",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEE5closeEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113basic_filebufIcNS_11char_traitsIcEEED1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEED2Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk19basic_iosIcNS_11char_traitsIcEEED2Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk16threadD1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZSt9terminatev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk16thread4joinEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk115__thread_structC1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk16chrono12steady_clock3nowEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk118condition_variable15__do_timed_waitERNS_11unique_lockINS_5mutexEEENS_6chrono10time_pointINS5_12system_clockENS5_8durationIxNS_5ratioILl1ELl1000000000EEEEEEE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk16chrono12system_clock3nowEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk119__thread_local_dataEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_setspecific",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk115__thread_structD1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strchr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk16localeD1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "atoi",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "atoll",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "atof",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZTVNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZTTNSt6__ndk118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEEC2Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZTVNSt6__ndk115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEErsERj",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk115basic_streambufIcNS_11char_traitsIcEEED2Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk114basic_iostreamIcNS_11char_traitsIcEEED2Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk16localeC1ERKS0_",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk16localeC1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk15ctypeIcE2idE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk16locale9use_facetERNS0_2idE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk17collateIcE2idE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk16locale4nameEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk120__get_collation_nameEPKc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk115__get_classnameEPKcb",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk18ios_base6getlocEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk123__match_any_but_newlineIcE6__execERNS_7__stateIcEE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZSt7nothrow",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZnwmRKSt9nothrow_t",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "free",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "malloc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "realloc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtol",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ldexpf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__vsprintf_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtoul",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sscanf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "qsort",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fmodf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sincosf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "cosf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "atan2f",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "acosf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "putchar",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtoll",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "bsearch",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__errno",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtoll_l",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtod",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getpid",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113random_deviceclEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113random_deviceD1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113random_deviceC2ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk112__get_sp_mutEPKv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk18__sp_mut4lockEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk18__sp_mut6unlockEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk117__assoc_sub_state4waitEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strcasecmp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__fwrite_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "posix_memalign",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "time",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk16__sortIRNS_6__lessIffEEPfEEvT0_S5_T_",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk14coutE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEElsEi",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "asinf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sinf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "wmemchr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE4findEcm",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtoull_l",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "abort",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZTTNSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEEE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE4readEPcl",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEED2Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZTVNSt6__ndk114basic_ifstreamIcNS_11char_traitsIcEEEE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt9exceptionD2Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtof",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AAsset_openFileDescriptor64",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "close",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AAsset_seek64",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AAsset_getLength64",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AAsset_getRemainingLength64",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AAsset_read",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "lseek64",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__read_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sched_get_priority_min",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk15mutex8try_lockEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "gettid",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZTVNSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZTTNSt6__ndk119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strerror",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System10getChannelEiPPNS_7ChannelE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "FMOD_Debug_Initialize",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "FMOD_System_Create",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System13setFileSystemEPF11FMOD_RESULTPKcPjPPvS5_EPFS1_S5_S5_EPFS1_S5_S5_jS4_S5_EPFS1_S5_jS5_EPFS1_P18FMOD_ASYNCREADINFOS5_ESI_i",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System13getNumDriversEPi",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System9setOutputE15FMOD_OUTPUTTYPE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System19setStreamBufferSizeEjj",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System13getDriverInfoEiPciP9FMOD_GUIDPiP16FMOD_SPEAKERMODES4_",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System17getSoftwareFormatEPiP16FMOD_SPEAKERMODES1_",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System17setSoftwareFormatEi16FMOD_SPEAKERMODEi",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System4initEijPv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System18createChannelGroupEPKcPPNS_12ChannelGroupE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System10getVersionEPj",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System11mixerResumeEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD5Sound7releaseEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD12ChannelGroup7releaseEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System5closeEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System7releaseEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System6updateEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System12createStreamEPKcjP22FMOD_CREATESOUNDEXINFOPPNS_5SoundE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD14ChannelControl4stopEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System9playSoundEPNS_5SoundEPNS_12ChannelGroupEbPPNS_7ChannelE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD7Channel15setChannelGroupEPNS_12ChannelGroupE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD7Channel11setPriorityEi",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD7Channel11setPositionEjj",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD7Channel12setLoopCountEi",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD14ChannelControl9setPausedEb",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD14ChannelControl9setVolumeEf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD14ChannelControl9getVolumeEPf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System11createSoundEPKcjP22FMOD_CREATESOUNDEXINFOPPNS_5SoundE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD5Sound9getLengthEPjj",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD14ChannelControl11setUserDataEPv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD7Channel8getIndexEPi",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD14ChannelControl9isPlayingEPb",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD14ChannelControl11getUserDataEPPv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD7Channel12getFrequencyEPf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD7Channel12setFrequencyEf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN4FMOD6System12mixerSuspendEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strncasecmp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strnlen",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strcpy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__strlen_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__android_log_print",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "tanf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk115future_categoryEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk112future_errorC1ENS_10error_codeE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__system_property_get",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZTVNSt6__ndk117__assoc_sub_stateE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk114__shared_countD2Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk16thread6detachEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk117__assoc_sub_state10__sub_waitERNS_11unique_lockINS_5mutexEEE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt13exception_ptrC1ERKS_",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZSt17rethrow_exceptionSt13exception_ptr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk117__assoc_sub_state9__executeEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "mkdir",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk16futureIvE3getEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk123__cxx_atomic_notify_oneEPVKv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk120__libcpp_atomic_waitEPVKvi",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk123__libcpp_atomic_monitorEPVKv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk114basic_ofstreamIcNS_11char_traitsIcEEE4openEPKcj",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "rand",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "atanf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk19to_stringEj",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "cbrtf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "gettimeofday",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_object",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_string",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_set_by_key",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_int32",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_user",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_breadcrumb",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_add_breadcrumb",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_exception",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_event_add_exception",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_capture_event",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_message_event",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_stacktrace",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_thread",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_event_add_thread",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_list",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_append",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_local_scope_new",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_set_level",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_set_fingerprint",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_capture_event_with_scope",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_tag",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_clear_modulecache",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_clear_crashed_last_run",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_attach_file",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_attach_bytes",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "dlsym",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AAssetManager_fromJava",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "popen",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pclose",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ANativeWindow_fromSurface",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "clock_gettime",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__android_log_write",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "dladdr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__cxa_demangle",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglCreateWindowSurface",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ANativeWindow_release",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strncpy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglGetProcAddress",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglGetDisplay",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglInitialize",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglGetConfigs",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglGetConfigAttrib",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglChooseConfig",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglCreateContext",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglGetCurrentContext",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglMakeCurrent",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglDestroySurface",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eglSwapBuffers",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "nanosleep",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk14__fs10filesystem4path16__root_directoryEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk14__fs10filesystem4path10__filenameEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt12length_errorD1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt11logic_errorC2EPKc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZTVSt12length_error",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN11SupercellIdC1ERK17SupercellIdParams",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZN15SupercellSocialC1EP23SupercellSocialDelegateRKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEESA_b",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ASensorManager_createEventQueue",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ASensorEventQueue_setEventRate",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ASensorManager_getDefaultSensor",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ASensorEventQueue_getEvents",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "AAsset_getLength",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ASensorManager_getInstance",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ALooper_prepare",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ASensorEventQueue_enableSensor",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ALooper_forThread",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ASensorManager_destroyEventQueue",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ASensorEventQueue_disableSensor",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "srand",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fputc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_setname_np",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "difftime",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk19to_stringEl",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk114error_categoryD2Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_mutex_init",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_mutex_destroy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_mutex_lock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_cond_broadcast",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "epoll_ctl",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_mutex_unlock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk115system_categoryEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getifaddrs",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "freeifaddrs",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk112system_errorC1ENS_10error_codeEPKc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk112system_errorD1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_getspecific",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_key_delete",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__gnu_strerror_r",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk112system_errorC1ENS_10error_codeE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getsockname",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_detach",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getaddrinfo",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_cond_signal",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "freeaddrinfo",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "socket",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ioctl",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "setsockopt",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "poll",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getsockopt",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "connect",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_cond_wait",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pause",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "epoll_wait",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "recvfrom",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_key_create",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sigfillset",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_sigmask",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt11logic_errorD2Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_cond_destroy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_condattr_init",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_condattr_setclock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_cond_init",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_condattr_destroy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "write",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "epoll_create1",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "epoll_create",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fcntl",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "eventfd",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pipe",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "shutdown",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sendto",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk114error_category23default_error_conditionEi",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk114error_category10equivalentEiRKNS_15error_conditionE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk114error_category10equivalentERKNS_10error_codeEi",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt11logic_error4whatEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113shared_futureIvED1Ev",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__powisf2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "localtime",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "gmtime",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "expf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "tanhf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "log1pf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "exp2f",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "log2f",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk16__sortIRNS_6__lessIiiEEPiEEvT0_S5_T_",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "bind",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "dl_iterate_phdr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getauxval",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__strchr_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk14__fs10filesystem8__statusERKNS1_4pathEPNS_10error_codeE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk14__fs10filesystem28recursive_directory_iteratorC2ERKNS1_4pathENS1_17directory_optionsEPNS_10error_codeE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk14__fs10filesystem28recursive_directory_iterator11__incrementEPNS_10error_codeE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk14__fs10filesystem28recursive_directory_iterator13__dereferenceEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk14__fs10filesystem18__weakly_canonicalERKNS1_4pathEPNS_10error_codeE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk14__fs10filesystem4path18lexically_relativeERKS2_",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk14__fs10filesystem20__create_directoriesERKNS1_4pathEPNS_10error_codeE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk14__fs10filesystem8__removeERKNS1_4pathEPNS_10error_codeE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNKSt6__ndk14__fs10filesystem4path13__parent_pathEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk14__fs10filesystem8__renameERKNS1_4pathES4_PNS_10error_codeE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strftime",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk19to_stringEx",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7replaceEmmPKcm",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk14stoiERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPmi",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk115recursive_mutex8try_lockEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "cos",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sin",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "exp2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113shared_futureIvEaSERKS1_",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk16__sortIRNS_6__lessIxxEEPxEEvT0_S5_T_",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "logf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__stack_chk_fail",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "calloc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__strncpy_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strrchr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "stderr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "vfprintf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getenv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__memmove_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "hypotf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "longjmp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strcat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "setjmp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pow",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fprintf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__strcat_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__strcpy_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fmod",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "log",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "setlocale",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strncat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__strrchr_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fabs",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "acos",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "asin",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "atan",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "atan2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "cosh",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "exp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "log10",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sinh",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sqrt",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "tan",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "tanh",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ldexp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE5tellgEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk113basic_istreamIcNS_11char_traitsIcEEE5seekgExNS_8ios_base7seekdirE",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_ZNSt6__ndk116generic_categoryEv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "newlocale",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "freelocale",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ZSTD_trace_decompress_begin",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_NOTYPE",
+      "binding": "STB_WEAK"
+    },
+    {
+      "name": "ZSTD_trace_decompress_end",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_NOTYPE",
+      "binding": "STB_WEAK"
+    },
+    {
+      "name": "pthread_once",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__open_2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__sF",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_rwlock_wrlock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_rwlock_unlock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_rwlock_rdlock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "syscall",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_VirtualKeyboardHandler_inputKeyboardDismissed",
+      "address": "0x71e60c",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_PurchaseManager_updateBillingProductDetails",
+      "address": "0x7a9204",
+      "size": 712,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_shouldOverrideUrlLoading",
+      "address": "0x764f20",
+      "size": 684,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_notificationReceived",
+      "address": "0x721510",
+      "size": 1632,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GoogleServiceClient_onSignIn",
+      "address": "0x8449f4",
+      "size": 248,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_createGameMain",
+      "address": "0x71cd30",
+      "size": 1892,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnSurfaceDestroyed",
+      "address": "0x71e43c",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_PurchaseManager_billingProductCanceled",
+      "address": "0x7a957c",
+      "size": 128,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GoogleServiceClient_onSignInFailed",
+      "address": "0x844cdc",
+      "size": 248,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnTouchEvent",
+      "address": "0x71d830",
+      "size": 112,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnResume",
+      "address": "0x71e120",
+      "size": 212,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnSurfaceCreated",
+      "address": "0x71e368",
+      "size": 120,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_VirtualKeyboardHandler_inputEscPressed",
+      "address": "0x71e5c0",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_setSafeMargins",
+      "address": "0x71e7d8",
+      "size": 200,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GoogleServiceClient_updateNativeInstance",
+      "address": "0x844980",
+      "size": 116,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nRunFromUiThread",
+      "address": "0x71ca64",
+      "size": 100,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnStart",
+      "address": "0x71e088",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnStop",
+      "address": "0x71e2c8",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnConfigurationChanged",
+      "address": "0x71e364",
+      "size": 4,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_usercentrics_UsercentricsSDK_popupShowing",
+      "address": "0x118d2dc",
+      "size": 32,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_PurchaseManager_billingProductBought",
+      "address": "0x7a90f4",
+      "size": 272,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_NativeHTTPClientManager_postFinished",
+      "address": "0x71d74c",
+      "size": 228,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnKeyDownEvent",
+      "address": "0x71d8a0",
+      "size": 12,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnAppStop",
+      "address": "0x71dcb8",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_hideNative",
+      "address": "0x76545c",
+      "size": 112,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_backButtonPressed",
+      "address": "0x71cb58",
+      "size": 92,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_getAllowedScreenRotations",
+      "address": "0x71cce0",
+      "size": 80,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_setPushNotificationValues",
+      "address": "0x71d494",
+      "size": 216,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnActivityResult",
+      "address": "0x71e360",
+      "size": 4,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_VirtualKeyboardHandler_inputSelectionChanged",
+      "address": "0x71e504",
+      "size": 112,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_onNavigationBarTrailingAction",
+      "address": "0x765534",
+      "size": 104,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_NativeHTTPClientManager_getFinished",
+      "address": "0x71d668",
+      "size": 228,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_QuagoManager_onLog",
+      "address": "0x71e658",
+      "size": 172,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_handleObservation",
+      "address": "0x71eb18",
+      "size": 8,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_notificationReceivedOnly",
+      "address": "0x722de0",
+      "size": 1408,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_usercentrics_UsercentricsSDK_popupClosed",
+      "address": "0x118d2fc",
+      "size": 32,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_PurchaseManager_billingSetMarketplace",
+      "address": "0x7a95fc",
+      "size": 108,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_postMessage",
+      "address": "0x76559c",
+      "size": 272,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnDestroy",
+      "address": "0x71e314",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_PurchaseManager_billingProductFailed",
+      "address": "0x7a94cc",
+      "size": 176,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnMouseEvent",
+      "address": "0x71db50",
+      "size": 104,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_logDebuggerException",
+      "address": "0x71e488",
+      "size": 4,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_VirtualKeyboardHandler_getFontPath",
+      "address": "0x71cc34",
+      "size": 172,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnKeyUpEvent",
+      "address": "0x71d8ac",
+      "size": 12,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnApplicationCreate",
+      "address": "0x71dc20",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_VirtualKeyboardHandler_inputOkPressed",
+      "address": "0x71e574",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_QuagoManager_sendJsonSegments",
+      "address": "0x71e704",
+      "size": 212,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnTrimMemory",
+      "address": "0x71dd04",
+      "size": 100,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnRestart",
+      "address": "0x71e0d4",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_notificationScheduled",
+      "address": "0x721b70",
+      "size": 1400,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_dialogDismissed",
+      "address": "0x71d604",
+      "size": 100,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanApplication_nOnNativeLibrariesLoaded",
+      "address": "0x71dfe0",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GoogleServiceClient_onSignInCanceled",
+      "address": "0x844be4",
+      "size": 248,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_onPageFinished",
+      "address": "0x765228",
+      "size": 156,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnMouseHoverEvent",
+      "address": "0x71dbb8",
+      "size": 104,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnSurfaceChanged",
+      "address": "0x71e3e0",
+      "size": 92,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_VirtualKeyboardHandler_inputTextChanged",
+      "address": "0x71e48c",
+      "size": 120,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_setDeviceVerificationResult",
+      "address": "0x71e8a0",
+      "size": 88,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_notificationCanceled",
+      "address": "0x7220e8",
+      "size": 1568,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_usercentrics_UsercentricsSDK_gotConsent",
+      "address": "0x118d114",
+      "size": 456,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_onPageStarted",
+      "address": "0x7651cc",
+      "size": 92,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_onCookiesDeleted",
+      "address": "0x7653f4",
+      "size": 104,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_handleDeeplinkURL",
+      "address": "0x71dd68",
+      "size": 632,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnCreate",
+      "address": "0x71e02c",
+      "size": 92,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_notificationDelivered",
+      "address": "0x722708",
+      "size": 1752,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GoogleServiceClient_onSignOut",
+      "address": "0x844aec",
+      "size": 248,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_onSwipeRight",
+      "address": "0x765388",
+      "size": 108,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_VirtualKeyboardHandler_keyboardSizeChanged",
+      "address": "0x71cbb4",
+      "size": 128,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_deinit",
+      "address": "0x71d56c",
+      "size": 72,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnKeyRemap",
+      "address": "0x71d8b8",
+      "size": 664,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnWindowFocusChanged",
+      "address": "0x71e1f4",
+      "size": 136,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnPause",
+      "address": "0x71e27c",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_onWebViewClosed",
+      "address": "0x7654cc",
+      "size": 104,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnAppStart",
+      "address": "0x71dc6c",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_BatteryMonitor_updateBatteryInfo",
+      "address": "0x723b60",
+      "size": 60,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_ThermalMonitor_updatePrediction",
+      "address": "0x724c28",
+      "size": 140,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "JNI_OnLoad",
+      "address": "0x71cac8",
+      "size": 144,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnDisplayAdded",
+      "address": "0x71e8f8",
+      "size": 4,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnDisplayRemoved",
+      "address": "0x71e8fc",
+      "size": 4,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnDisplayChanged",
+      "address": "0x71e900",
+      "size": 332,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_onReceivedError",
+      "address": "0x7652c4",
+      "size": 196,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_isScreenResizeSupported",
+      "address": "0x71d5b4",
+      "size": 80,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_usercentrics_UsercentricsSDK_gotFailure",
+      "address": "0x118d31c",
+      "size": 32,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    }
+  ],
+  "jni_exports": [
+    {
+      "name": "Java_com_supercell_titan_VirtualKeyboardHandler_inputKeyboardDismissed",
+      "address": "0x71e60c",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_PurchaseManager_updateBillingProductDetails",
+      "address": "0x7a9204",
+      "size": 712,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_shouldOverrideUrlLoading",
+      "address": "0x764f20",
+      "size": 684,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_notificationReceived",
+      "address": "0x721510",
+      "size": 1632,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GoogleServiceClient_onSignIn",
+      "address": "0x8449f4",
+      "size": 248,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_createGameMain",
+      "address": "0x71cd30",
+      "size": 1892,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnSurfaceDestroyed",
+      "address": "0x71e43c",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_PurchaseManager_billingProductCanceled",
+      "address": "0x7a957c",
+      "size": 128,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GoogleServiceClient_onSignInFailed",
+      "address": "0x844cdc",
+      "size": 248,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnTouchEvent",
+      "address": "0x71d830",
+      "size": 112,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnResume",
+      "address": "0x71e120",
+      "size": 212,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnSurfaceCreated",
+      "address": "0x71e368",
+      "size": 120,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_VirtualKeyboardHandler_inputEscPressed",
+      "address": "0x71e5c0",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_setSafeMargins",
+      "address": "0x71e7d8",
+      "size": 200,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GoogleServiceClient_updateNativeInstance",
+      "address": "0x844980",
+      "size": 116,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nRunFromUiThread",
+      "address": "0x71ca64",
+      "size": 100,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnStart",
+      "address": "0x71e088",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnStop",
+      "address": "0x71e2c8",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnConfigurationChanged",
+      "address": "0x71e364",
+      "size": 4,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_usercentrics_UsercentricsSDK_popupShowing",
+      "address": "0x118d2dc",
+      "size": 32,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_PurchaseManager_billingProductBought",
+      "address": "0x7a90f4",
+      "size": 272,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_NativeHTTPClientManager_postFinished",
+      "address": "0x71d74c",
+      "size": 228,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnKeyDownEvent",
+      "address": "0x71d8a0",
+      "size": 12,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnAppStop",
+      "address": "0x71dcb8",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_hideNative",
+      "address": "0x76545c",
+      "size": 112,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_backButtonPressed",
+      "address": "0x71cb58",
+      "size": 92,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_getAllowedScreenRotations",
+      "address": "0x71cce0",
+      "size": 80,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_setPushNotificationValues",
+      "address": "0x71d494",
+      "size": 216,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnActivityResult",
+      "address": "0x71e360",
+      "size": 4,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_VirtualKeyboardHandler_inputSelectionChanged",
+      "address": "0x71e504",
+      "size": 112,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_onNavigationBarTrailingAction",
+      "address": "0x765534",
+      "size": 104,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_NativeHTTPClientManager_getFinished",
+      "address": "0x71d668",
+      "size": 228,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_QuagoManager_onLog",
+      "address": "0x71e658",
+      "size": 172,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_handleObservation",
+      "address": "0x71eb18",
+      "size": 8,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_notificationReceivedOnly",
+      "address": "0x722de0",
+      "size": 1408,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_usercentrics_UsercentricsSDK_popupClosed",
+      "address": "0x118d2fc",
+      "size": 32,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_PurchaseManager_billingSetMarketplace",
+      "address": "0x7a95fc",
+      "size": 108,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_postMessage",
+      "address": "0x76559c",
+      "size": 272,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnDestroy",
+      "address": "0x71e314",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_PurchaseManager_billingProductFailed",
+      "address": "0x7a94cc",
+      "size": 176,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnMouseEvent",
+      "address": "0x71db50",
+      "size": 104,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_logDebuggerException",
+      "address": "0x71e488",
+      "size": 4,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_VirtualKeyboardHandler_getFontPath",
+      "address": "0x71cc34",
+      "size": 172,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnKeyUpEvent",
+      "address": "0x71d8ac",
+      "size": 12,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnApplicationCreate",
+      "address": "0x71dc20",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_VirtualKeyboardHandler_inputOkPressed",
+      "address": "0x71e574",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_QuagoManager_sendJsonSegments",
+      "address": "0x71e704",
+      "size": 212,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnTrimMemory",
+      "address": "0x71dd04",
+      "size": 100,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnRestart",
+      "address": "0x71e0d4",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_notificationScheduled",
+      "address": "0x721b70",
+      "size": 1400,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_dialogDismissed",
+      "address": "0x71d604",
+      "size": 100,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanApplication_nOnNativeLibrariesLoaded",
+      "address": "0x71dfe0",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GoogleServiceClient_onSignInCanceled",
+      "address": "0x844be4",
+      "size": 248,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_onPageFinished",
+      "address": "0x765228",
+      "size": 156,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnMouseHoverEvent",
+      "address": "0x71dbb8",
+      "size": 104,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnSurfaceChanged",
+      "address": "0x71e3e0",
+      "size": 92,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_VirtualKeyboardHandler_inputTextChanged",
+      "address": "0x71e48c",
+      "size": 120,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_setDeviceVerificationResult",
+      "address": "0x71e8a0",
+      "size": 88,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_notificationCanceled",
+      "address": "0x7220e8",
+      "size": 1568,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_usercentrics_UsercentricsSDK_gotConsent",
+      "address": "0x118d114",
+      "size": 456,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_onPageStarted",
+      "address": "0x7651cc",
+      "size": 92,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_onCookiesDeleted",
+      "address": "0x7653f4",
+      "size": 104,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_handleDeeplinkURL",
+      "address": "0x71dd68",
+      "size": 632,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnCreate",
+      "address": "0x71e02c",
+      "size": 92,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_notificationDelivered",
+      "address": "0x722708",
+      "size": 1752,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GoogleServiceClient_onSignOut",
+      "address": "0x844aec",
+      "size": 248,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_onSwipeRight",
+      "address": "0x765388",
+      "size": 108,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_VirtualKeyboardHandler_keyboardSizeChanged",
+      "address": "0x71cbb4",
+      "size": 128,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_deinit",
+      "address": "0x71d56c",
+      "size": 72,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnKeyRemap",
+      "address": "0x71d8b8",
+      "size": 664,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnWindowFocusChanged",
+      "address": "0x71e1f4",
+      "size": 136,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnPause",
+      "address": "0x71e27c",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_onWebViewClosed",
+      "address": "0x7654cc",
+      "size": 104,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnAppStart",
+      "address": "0x71dc6c",
+      "size": 76,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_BatteryMonitor_updateBatteryInfo",
+      "address": "0x723b60",
+      "size": 60,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_ThermalMonitor_updatePrediction",
+      "address": "0x724c28",
+      "size": 140,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "JNI_OnLoad",
+      "address": "0x71cac8",
+      "size": 144,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnDisplayAdded",
+      "address": "0x71e8f8",
+      "size": 4,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnDisplayRemoved",
+      "address": "0x71e8fc",
+      "size": 4,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_nOnDisplayChanged",
+      "address": "0x71e900",
+      "size": 332,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_TitanWebView_onReceivedError",
+      "address": "0x7652c4",
+      "size": 196,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_GameApp_isScreenResizeSupported",
+      "address": "0x71d5b4",
+      "size": 80,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_com_supercell_titan_usercentrics_UsercentricsSDK_gotFailure",
+      "address": "0x118d31c",
+      "size": 32,
+      "section": 13,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    }
+  ]
+}

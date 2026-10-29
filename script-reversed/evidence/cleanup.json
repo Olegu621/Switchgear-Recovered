@@ -1,0 +1,42 @@
+[
+  {
+    "action": "force_stop",
+    "package": "com.xlammod.lab",
+    "returncode": 0
+  },
+  {
+    "action": "force_stop",
+    "package": "com.xlammod.client",
+    "returncode": 0
+  },
+  {
+    "action": "force_stop",
+    "package": "bsd.suitcase.release",
+    "returncode": 0
+  },
+  {
+    "action": "remove_temporary_network_block",
+    "table": "iptables",
+    "uid": 10136,
+    "returncode": 0
+  },
+  {
+    "action": "remove_temporary_network_block",
+    "table": "ip6tables",
+    "uid": 10136,
+    "returncode": 0
+  },
+  {
+    "action": "stop_own_capture_server",
+    "pid": 21947,
+    "returncode": 0
+  },
+  {
+    "action": "remove_forward",
+    "returncode": 0
+  },
+  {
+    "action": "restart_original_normally",
+    "returncode": 0
+  }
+]

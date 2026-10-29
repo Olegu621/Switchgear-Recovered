@@ -1,0 +1,45 @@
+{
+  "tool": "Ghidra 12.2 PUBLIC, JDK 25",
+  "ghidra_image_base": "0x100000",
+  "scope": "Inferred functions, types and control flow. Not original or verified-compilable C/C++. Failed or undiscovered functions remain represented by original binary instructions.",
+  "passes": [
+    {
+      "program": "libg.runtime.so",
+      "pseudocode_size": 52446151,
+      "sha256": "6501600caa5e47c87f81c1a5d1070a01dc9619651562a61817f4033a22df7fb4",
+      "warnings_in_pseudocode": 8317,
+      "recognized_functions_including_externals": 24693,
+      "exported_pseudocode_functions": 23808,
+      "failed_functions": 34,
+      "skipped_functions": 380,
+      "initial_autoanalysis_timeout_seconds": 300,
+      "export_time_limit_seconds": 900,
+      "external_block_stubs_may_be_present": true,
+      "scope": "First export with active runtime hooks; retained for comparison."
+    },
+    {
+      "program": "libg.original",
+      "pseudocode_size": 55550620,
+      "sha256": "24b374bd42fbb77e222fcb32ed7655a615fdec84cd7862d104222433653f2b60",
+      "warnings_in_pseudocode": 8271,
+      "recognized_functions_including_externals": 24821,
+      "exported_pseudocode_functions": 23873,
+      "cached_unchanged_functions": 23691,
+      "failed_functions": 6,
+      "skipped_functions": 0,
+      "externals_and_external_blocks_excluded": 471,
+      "scope": "Observed runtime patches restored from original APK; unchanged successful functions reused. Follow-up analysis completed, initial discovery had a 300-second limit.",
+      "per_retried_function_timeout_seconds": 15,
+      "export_time_limit_seconds": 900
+    }
+  ],
+  "supplementary_retry": {
+    "recovered_functions": 4,
+    "remaining_failed_functions": 2,
+    "pseudocode_file": "game-pseudocode/libg.retried.pseudo.c",
+    "sha256": "e13c350a84647581a5bb3d437b8e7c2ce9b4bc1477e6c2456c0ce21368ac8f29",
+    "modes": "Normal C decompilation with 60-second limit; lower-level normalized form with 15-second limit on failure.",
+    "assembly_fallback": "game-pseudocode/libg.failed-functions.asm"
+  },
+  "successful_game_function_bodies_including_supplement": 23877
+}

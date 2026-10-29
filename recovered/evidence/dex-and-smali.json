@@ -1,0 +1,54 @@
+{
+  "dex": [
+    {
+      "name": "classes.dex",
+      "size": 11902880,
+      "sha256": "80e1c37c5cd74719504f6bfcec6eec2d3b6abe5638bd1a2e2c64f2f431616a2b",
+      "class_defs": 11099,
+      "sha1_valid": true,
+      "adler32_valid": true
+    },
+    {
+      "name": "classes2.dex",
+      "size": 1494144,
+      "sha256": "6070b578577ff44fe2b1b2ea92573e9b830309ded8244c416881525c4b666e01",
+      "class_defs": 1298,
+      "sha1_valid": true,
+      "adler32_valid": true
+    },
+    {
+      "name": "classes3.dex",
+      "size": 8812,
+      "sha256": "f63d87a560dda99c5ed86b0bda0fb526afa5820747448547b1659fb9f96f4231",
+      "class_defs": 23,
+      "sha1_valid": true,
+      "adler32_valid": true
+    },
+    {
+      "name": "classes4.dex",
+      "size": 5060,
+      "sha256": "b8d963e88ce37bc9f7b033646a1311c22eb60214cdeb6bf3ae28b5f1d8806252",
+      "class_defs": 3,
+      "sha1_valid": true,
+      "adler32_valid": true
+    }
+  ],
+  "smali": [
+    {
+      "folder": "smali",
+      "classes": 11099
+    },
+    {
+      "folder": "smali_classes2",
+      "classes": 1298
+    },
+    {
+      "folder": "smali_classes3",
+      "classes": 23
+    },
+    {
+      "folder": "smali_classes4",
+      "classes": 3
+    }
+  ]
+}

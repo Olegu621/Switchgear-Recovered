@@ -1,0 +1,290 @@
+[
+  {
+    "function": "001fca6c",
+    "destination": "auStack_68",
+    "constant": "00822694",
+    "text": "zap/s"
+  },
+  {
+    "function": "001ed39c",
+    "destination": "auStack_e8",
+    "constant": "0082269c",
+    "text": "a"
+  },
+  {
+    "function": "001f0624",
+    "destination": "auStack_118",
+    "constant": "008226a4",
+    "text": "(Lzap/ar;)V"
+  },
+  {
+    "function": "001f1e84",
+    "destination": "auStack_70",
+    "constant": "008226b4",
+    "text": "b"
+  },
+  {
+    "function": "002004d8",
+    "destination": "&uStack_98",
+    "constant": "008226bc",
+    "text": "(Landroid/content/Context;Lzap/ar;)V"
+  },
+  {
+    "function": "001fcf28",
+    "destination": "&uStack_98",
+    "constant": "008226e4",
+    "text": "zap/ai"
+  },
+  {
+    "function": "001fd5f8",
+    "destination": "auStack_68",
+    "constant": "008226ec",
+    "text": "a"
+  },
+  {
+    "function": "001eff24",
+    "destination": "auStack_118",
+    "constant": "008226f4",
+    "text": "(Z)V"
+  },
+  {
+    "function": "001f8408",
+    "destination": "&uStack_98",
+    "constant": "008226fc",
+    "text": "zap/aI"
+  },
+  {
+    "function": "001f852c",
+    "destination": "auStack_68",
+    "constant": "00822704",
+    "text": "a"
+  },
+  {
+    "function": "001e8e90",
+    "destination": "auStack_118",
+    "constant": "0082270c",
+    "text": "(Z)V"
+  },
+  {
+    "function": "002035bc",
+    "destination": "&uStack_98",
+    "constant": "00822714",
+    "text": "zap/aK"
+  },
+  {
+    "function": "001ed37c",
+    "destination": "auStack_118",
+    "constant": "0082271c",
+    "text": "(I)V"
+  },
+  {
+    "function": "00200a78",
+    "destination": "auStack_68",
+    "constant": "00822724",
+    "text": "a"
+  },
+  {
+    "function": "001effac",
+    "destination": "auStack_e8",
+    "constant": "0082272c",
+    "text": "b"
+  },
+  {
+    "function": "001f2110",
+    "destination": "auStack_70",
+    "constant": "00822734",
+    "text": "c"
+  },
+  {
+    "function": "001efd98",
+    "destination": "&uStack_98",
+    "constant": "0082273c",
+    "text": "zap/al"
+  },
+  {
+    "function": "001f219c",
+    "destination": "auStack_68",
+    "constant": "00822744",
+    "text": "a"
+  },
+  {
+    "function": "001f1b64",
+    "destination": "auStack_118",
+    "constant": "0082274c",
+    "text": "()Z"
+  },
+  {
+    "function": "002002b0",
+    "destination": "auStack_118",
+    "constant": "00822754",
+    "text": "zap/H"
+  },
+  {
+    "function": "001f59e4",
+    "destination": "auStack_68",
+    "constant": "0082275c",
+    "text": "a"
+  },
+  {
+    "function": "002008f0",
+    "destination": "&uStack_98",
+    "constant": "00822764",
+    "text": "(Ljava/lang/Class;I)V"
+  },
+  {
+    "function": "0020096c",
+    "destination": "auStack_118",
+    "constant": "0082277c",
+    "text": "zap/i"
+  },
+  {
+    "function": "001f1d4c",
+    "destination": "auStack_68",
+    "constant": "00822784",
+    "text": "a"
+  },
+  {
+    "function": "001efeb4",
+    "destination": "&uStack_e0",
+    "constant": "0082278c",
+    "text": "(Landroid/os/IBinder;)Lzap/an;"
+  },
+  {
+    "function": "001fd544",
+    "destination": "auStack_118",
+    "constant": "008227ac",
+    "text": "zap/m"
+  },
+  {
+    "function": "002004a0",
+    "destination": "auStack_e8",
+    "constant": "008227b4",
+    "text": "b"
+  },
+  {
+    "function": "001f5534",
+    "destination": "auStack_68",
+    "constant": "008227bc",
+    "text": "()Z"
+  },
+  {
+    "function": "001ec9c4",
+    "destination": "auStack_70",
+    "constant": "008227c4",
+    "text": "c"
+  },
+  {
+    "function": "001f05ec",
+    "destination": "&uStack_98",
+    "constant": "008227cc",
+    "text": "(Lzap/ab;)V"
+  },
+  {
+    "function": "00200a98",
+    "destination": "auStack_68",
+    "constant": "008229c4",
+    "text": "zap/M"
+  },
+  {
+    "function": "001f8224",
+    "destination": "auStack_70",
+    "constant": "008229cc",
+    "text": "a"
+  },
+  {
+    "function": "001fc304",
+    "destination": "auStack_e8",
+    "constant": "008229d4",
+    "text": "(I)I"
+  },
+  {
+    "function": "00200228",
+    "destination": "auStack_f0",
+    "constant": "008229dc",
+    "text": "a"
+  },
+  {
+    "function": "001f1be8",
+    "destination": "&uStack_98",
+    "constant": "008229e4",
+    "text": "(Ljava/lang/Class;I)V"
+  },
+  {
+    "function": "001fc8a0",
+    "destination": "auStack_f8",
+    "constant": "008229fc",
+    "text": "b"
+  },
+  {
+    "function": "001fc758",
+    "destination": "auStack_118",
+    "constant": "00822a04",
+    "text": "(I)Ljava/lang/String;"
+  },
+  {
+    "function": "001fcc50",
+    "destination": "&uStack_98",
+    "constant": "0082576f",
+    "text": "zap/n"
+  },
+  {
+    "function": "001fc65c",
+    "destination": "auStack_68",
+    "constant": "00825777",
+    "text": "a"
+  },
+  {
+    "function": "002006a8",
+    "destination": "auStack_118",
+    "constant": "0082577f",
+    "text": "()V"
+  },
+  {
+    "function": "001f1cfc",
+    "destination": "auStack_68",
+    "constant": "00825787",
+    "text": "zap/q"
+  },
+  {
+    "function": "00200a2c",
+    "destination": "auStack_e8",
+    "constant": "0082578f",
+    "text": "a"
+  },
+  {
+    "function": "001f575c",
+    "destination": "auStack_70",
+    "constant": "00825797",
+    "text": "a"
+  },
+  {
+    "function": "001eff44",
+    "destination": "auStack_118",
+    "constant": "0082579f",
+    "text": "(Landroid/view/Window;I)V"
+  },
+  {
+    "function": "001fcb30",
+    "destination": "&uStack_98",
+    "constant": "008257bf",
+    "text": "(Landroid/view/Window;II)V"
+  },
+  {
+    "function": "001f5ac4",
+    "destination": "auStack_118",
+    "constant": "008257df",
+    "text": "zap/J"
+  },
+  {
+    "function": "001e8d9c",
+    "destination": "auStack_68",
+    "constant": "008257e7",
+    "text": "a"
+  },
+  {
+    "function": "001f217c",
+    "destination": "&uStack_98",
+    "constant": "008257ef",
+    "text": "([B)[B"
+  }
+]

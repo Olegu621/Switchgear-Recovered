@@ -1,0 +1,9 @@
+{
+  "byte_exact_roundtrip": true,
+  "bytes": 24088,
+  "sha256": "417315ee95f524f6e2081303755ed49099dc7d420a8970256617fdc1035e1829",
+  "functions": 84,
+  "instructions": 5499,
+  "atoms": 138,
+  "trailing_bytes": 0
+}

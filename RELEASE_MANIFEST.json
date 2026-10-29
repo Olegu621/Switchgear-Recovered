@@ -1,0 +1,20 @@
+{
+  "release": "recovered-2026-10-29",
+  "assets": [
+    {
+      "name": "Switchgear-recovered-public.zip",
+      "size": 1533655829,
+      "sha256": "e4502baf2bc006ab00b551810474194eda16e96276863e8b96e249ad3685a916"
+    },
+    {
+      "name": "Switchgear-research.zip",
+      "size": 2525781,
+      "sha256": "7755ccf5d32da742c3ad0e4ac423bac9b420542254f15bc8a686fb00129b5aec"
+    },
+    {
+      "name": "Switchgear-script-reversed.zip",
+      "size": 11207578,
+      "sha256": "167377c7845a3350e9aaa6c4eccab8655a6b64fc02249d36411e7588ed689b78"
+    }
+  ]
+}

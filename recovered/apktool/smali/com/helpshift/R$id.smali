@@ -1,0 +1,258 @@
+.class public final Lcom/helpshift/R$id;
+.super Ljava/lang/Object;
+
+
+# static fields
+.field public static action_bar:I = 0x7f080035
+
+.field public static action_bar_activity_content:I = 0x7f080036
+
+.field public static action_bar_container:I = 0x7f080037
+
+.field public static action_bar_root:I = 0x7f080038
+
+.field public static action_bar_spinner:I = 0x7f080039
+
+.field public static action_bar_subtitle:I = 0x7f08003a
+
+.field public static action_bar_title:I = 0x7f08003b
+
+.field public static action_container:I = 0x7f08003d
+
+.field public static action_context_bar:I = 0x7f08003e
+
+.field public static action_divider:I = 0x7f08003f
+
+.field public static action_image:I = 0x7f080042
+
+.field public static action_menu_divider:I = 0x7f080043
+
+.field public static action_menu_presenter:I = 0x7f080044
+
+.field public static action_mode_bar:I = 0x7f080045
+
+.field public static action_mode_bar_stub:I = 0x7f080046
+
+.field public static action_mode_close_button:I = 0x7f080047
+
+.field public static action_text:I = 0x7f08004a
+
+.field public static actions:I = 0x7f08004b
+
+.field public static activity_chooser_view_content:I = 0x7f08004c
+
+.field public static add:I = 0x7f08004d
+
+.field public static alertTitle:I = 0x7f080051
+
+.field public static async:I = 0x7f08005f
+
+.field public static blocking:I = 0x7f080069
+
+.field public static bottom:I = 0x7f08006a
+
+.field public static buttonPanel:I = 0x7f080075
+
+.field public static checkbox:I = 0x7f080083
+
+.field public static chronometer:I = 0x7f08008a
+
+.field public static content:I = 0x7f080098
+
+.field public static contentPanel:I = 0x7f080099
+
+.field public static custom:I = 0x7f0800a0
+
+.field public static customPanel:I = 0x7f0800a1
+
+.field public static debug_log_message:I = 0x7f0800a5
+
+.field public static decor_content_parent:I = 0x7f0800a8
+
+.field public static default_activity_button:I = 0x7f0800a9
+
+.field public static edit_query:I = 0x7f0800c8
+
+.field public static end:I = 0x7f0800cd
+
+.field public static expand_activities_button:I = 0x7f0800d3
+
+.field public static expanded_menu:I = 0x7f0800d4
+
+.field public static forever:I = 0x7f0800e4
+
+.field public static group_divider:I = 0x7f0800ed
+
+.field public static home:I = 0x7f0800f4
+
+.field public static hs__chat_fragment_layout:I = 0x7f0800f8
+
+.field public static hs__chat_image:I = 0x7f0800f9
+
+.field public static hs__container:I = 0x7f0800fa
+
+.field public static hs__error_image:I = 0x7f0800fb
+
+.field public static hs__helpcenter_layout:I = 0x7f0800fc
+
+.field public static hs__helpcenter_view:I = 0x7f0800fd
+
+.field public static hs__loading_view:I = 0x7f0800fe
+
+.field public static hs__loading_view_close_btn:I = 0x7f0800ff
+
+.field public static hs__progress:I = 0x7f080100
+
+.field public static hs__retry_button:I = 0x7f080101
+
+.field public static hs__retry_view:I = 0x7f080102
+
+.field public static hs__retry_view_close_btn:I = 0x7f080103
+
+.field public static hs__webchat_webview:I = 0x7f080104
+
+.field public static hs__webview_layout:I = 0x7f080105
+
+.field public static icon:I = 0x7f080106
+
+.field public static icon_group:I = 0x7f080108
+
+.field public static image:I = 0x7f08010d
+
+.field public static info:I = 0x7f080110
+
+.field public static italic:I = 0x7f080115
+
+.field public static left:I = 0x7f08011b
+
+.field public static line1:I = 0x7f08011f
+
+.field public static line3:I = 0x7f080120
+
+.field public static listMode:I = 0x7f080122
+
+.field public static list_item:I = 0x7f080123
+
+.field public static message:I = 0x7f08013f
+
+.field public static multiply:I = 0x7f080160
+
+.field public static none:I = 0x7f08016d
+
+.field public static normal:I = 0x7f08016e
+
+.field public static notification_background:I = 0x7f080170
+
+.field public static notification_main_column:I = 0x7f080171
+
+.field public static notification_main_column_container:I = 0x7f080172
+
+.field public static parentPanel:I = 0x7f08017d
+
+.field public static progress_circular:I = 0x7f08018c
+
+.field public static progress_horizontal:I = 0x7f08018d
+
+.field public static radio:I = 0x7f08018f
+
+.field public static right:I = 0x7f080195
+
+.field public static right_icon:I = 0x7f080197
+
+.field public static right_side:I = 0x7f080198
+
+.field public static screen:I = 0x7f0801a2
+
+.field public static scrollIndicatorDown:I = 0x7f0801a4
+
+.field public static scrollIndicatorUp:I = 0x7f0801a5
+
+.field public static scrollView:I = 0x7f0801a6
+
+.field public static search_badge:I = 0x7f0801a8
+
+.field public static search_bar:I = 0x7f0801a9
+
+.field public static search_button:I = 0x7f0801aa
+
+.field public static search_close_btn:I = 0x7f0801ab
+
+.field public static search_edit_frame:I = 0x7f0801ac
+
+.field public static search_go_btn:I = 0x7f0801ad
+
+.field public static search_mag_icon:I = 0x7f0801ae
+
+.field public static search_plate:I = 0x7f0801af
+
+.field public static search_src_text:I = 0x7f0801b0
+
+.field public static search_voice_btn:I = 0x7f0801b1
+
+.field public static select_dialog_listview:I = 0x7f0801b4
+
+.field public static shortcut:I = 0x7f0801c5
+
+.field public static spacer:I = 0x7f0801d5
+
+.field public static split_action_bar:I = 0x7f0801d9
+
+.field public static src_atop:I = 0x7f0801de
+
+.field public static src_in:I = 0x7f0801df
+
+.field public static src_over:I = 0x7f0801e0
+
+.field public static start:I = 0x7f0801e3
+
+.field public static submenuarrow:I = 0x7f0801ec
+
+.field public static submit_area:I = 0x7f0801ed
+
+.field public static tabMode:I = 0x7f0801f0
+
+.field public static tag_transition_group:I = 0x7f0801fa
+
+.field public static tag_unhandled_key_event_manager:I = 0x7f0801fb
+
+.field public static tag_unhandled_key_listeners:I = 0x7f0801fc
+
+.field public static text:I = 0x7f080202
+
+.field public static text2:I = 0x7f080203
+
+.field public static textSpacerNoButtons:I = 0x7f080205
+
+.field public static textSpacerNoTitle:I = 0x7f080206
+
+.field public static time:I = 0x7f080212
+
+.field public static title:I = 0x7f080217
+
+.field public static titleDividerNoCustom:I = 0x7f080218
+
+.field public static title_template:I = 0x7f080219
+
+.field public static top:I = 0x7f08021b
+
+.field public static topPanel:I = 0x7f08021c
+
+.field public static uniform:I = 0x7f080274
+
+.field public static up:I = 0x7f080276
+
+.field public static wrap_content:I = 0x7f080287
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

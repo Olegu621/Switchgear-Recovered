@@ -1,0 +1,26 @@
+            package p000;
+
+            import android.net.Uri;
+            import java.util.ArrayList;
+            
+            /* JADX INFO: compiled from: r8-map-id-213346ccf8c7f825bb9017059f9f3b3a7bfb73d3355dfb8dfea71096f8f0bf83 */
+            /* JADX INFO: loaded from: C:\Users\admin\Documents\Codex\2026-10-26\x20\outputs\switchgear-recovered\bytecode\classes.dex */
+            public interface w51 extends un0 {
+                /* JADX INFO: renamed from: L */
+                ArrayList mo9472L();
+
+                /* JADX INFO: renamed from: S0 */
+                String mo9473S0();
+
+                /* JADX INFO: renamed from: c */
+                Uri mo9474c();
+
+                /* JADX INFO: renamed from: d0 */
+                int mo9475d0();
+
+                /* JADX INFO: renamed from: f */
+                String mo9476f();
+
+                @Deprecated
+                String getIconImageUrl();
+            }

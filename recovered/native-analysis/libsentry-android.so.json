@@ -1,0 +1,1083 @@
+{
+  "path": "apktool/lib/arm64-v8a/libsentry-android.so",
+  "size": 18280,
+  "sha256": "8bffcf0d92b840f418f8f8d9356662475e1eac518143e5d4cf65ee5762a01df7",
+  "entropy": 4.974776,
+  "machine": "EM_AARCH64",
+  "entry": "0x0",
+  "segments": [
+    {
+      "p_type": "PT_PHDR",
+      "p_offset": "0x40",
+      "p_vaddr": "0x40",
+      "p_filesz": 448,
+      "p_memsz": 448,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x0",
+      "p_vaddr": "0x0",
+      "p_filesz": 15328,
+      "p_memsz": 15328,
+      "p_flags": 5
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x3be0",
+      "p_vaddr": "0x7be0",
+      "p_filesz": 976,
+      "p_memsz": 1056,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_DYNAMIC",
+      "p_offset": "0x3bf8",
+      "p_vaddr": "0x7bf8",
+      "p_filesz": 432,
+      "p_memsz": 432,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_GNU_RELRO",
+      "p_offset": "0x3be0",
+      "p_vaddr": "0x7be0",
+      "p_filesz": 976,
+      "p_memsz": 1056,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_GNU_EH_FRAME",
+      "p_offset": "0x1e48",
+      "p_vaddr": "0x1e48",
+      "p_filesz": 204,
+      "p_memsz": 204,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_GNU_STACK",
+      "p_offset": "0x0",
+      "p_vaddr": "0x0",
+      "p_filesz": 0,
+      "p_memsz": 0,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_NOTE",
+      "p_offset": "0x200",
+      "p_vaddr": "0x200",
+      "p_filesz": 188,
+      "p_memsz": 188,
+      "p_flags": 4
+    }
+  ],
+  "sections": [
+    {
+      "name": "",
+      "address": "0x0",
+      "offset": 0,
+      "size": 0
+    },
+    {
+      "name": ".note.android.ident",
+      "address": "0x200",
+      "offset": 512,
+      "size": 152
+    },
+    {
+      "name": ".note.gnu.build-id",
+      "address": "0x298",
+      "offset": 664,
+      "size": 36
+    },
+    {
+      "name": ".dynsym",
+      "address": "0x2c0",
+      "offset": 704,
+      "size": 1872
+    },
+    {
+      "name": ".gnu.version",
+      "address": "0xa10",
+      "offset": 2576,
+      "size": 156
+    },
+    {
+      "name": ".gnu.version_r",
+      "address": "0xaac",
+      "offset": 2732,
+      "size": 32
+    },
+    {
+      "name": ".gnu.hash",
+      "address": "0xad0",
+      "offset": 2768,
+      "size": 128
+    },
+    {
+      "name": ".hash",
+      "address": "0xb50",
+      "offset": 2896,
+      "size": 632
+    },
+    {
+      "name": ".dynstr",
+      "address": "0xdc8",
+      "offset": 3528,
+      "size": 2201
+    },
+    {
+      "name": ".rela.dyn",
+      "address": "0x1668",
+      "offset": 5736,
+      "size": 96
+    },
+    {
+      "name": ".rela.plt",
+      "address": "0x16c8",
+      "offset": 5832,
+      "size": 1464
+    },
+    {
+      "name": ".rodata",
+      "address": "0x1c80",
+      "offset": 7296,
+      "size": 455
+    },
+    {
+      "name": ".eh_frame_hdr",
+      "address": "0x1e48",
+      "offset": 7752,
+      "size": 204
+    },
+    {
+      "name": ".eh_frame",
+      "address": "0x1f18",
+      "offset": 7960,
+      "size": 1120
+    },
+    {
+      "name": ".text",
+      "address": "0x2378",
+      "offset": 9080,
+      "size": 5236
+    },
+    {
+      "name": ".plt",
+      "address": "0x37f0",
+      "offset": 14320,
+      "size": 1008
+    },
+    {
+      "name": ".data.rel.ro",
+      "address": "0x7be0",
+      "offset": 15328,
+      "size": 8
+    },
+    {
+      "name": ".fini_array",
+      "address": "0x7be8",
+      "offset": 15336,
+      "size": 16
+    },
+    {
+      "name": ".dynamic",
+      "address": "0x7bf8",
+      "offset": 15352,
+      "size": 432
+    },
+    {
+      "name": ".got",
+      "address": "0x7da8",
+      "offset": 15784,
+      "size": 8
+    },
+    {
+      "name": ".got.plt",
+      "address": "0x7db0",
+      "offset": 15792,
+      "size": 512
+    },
+    {
+      "name": ".relro_padding",
+      "address": "0x7fb0",
+      "offset": 16304,
+      "size": 80
+    },
+    {
+      "name": ".comment",
+      "address": "0x0",
+      "offset": 16304,
+      "size": 203
+    },
+    {
+      "name": ".shstrtab",
+      "address": "0x0",
+      "offset": 16507,
+      "size": 234
+    }
+  ],
+  "dynamic": [
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x866",
+      "name": "libsentry.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x873",
+      "name": "libm.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x87b",
+      "name": "libdl.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x859",
+      "name": "libc.so"
+    },
+    {
+      "tag": "DT_SONAME",
+      "value": "0x884",
+      "name": "libsentry-android.so"
+    },
+    {
+      "tag": "DT_FLAGS",
+      "value": "0x8"
+    },
+    {
+      "tag": "DT_FLAGS_1",
+      "value": "0x1"
+    },
+    {
+      "tag": "DT_RELA",
+      "value": "0x1668"
+    },
+    {
+      "tag": "DT_RELASZ",
+      "value": "0x60"
+    },
+    {
+      "tag": "DT_RELAENT",
+      "value": "0x18"
+    },
+    {
+      "tag": "DT_RELACOUNT",
+      "value": "0x3"
+    },
+    {
+      "tag": "DT_JMPREL",
+      "value": "0x16c8"
+    },
+    {
+      "tag": "DT_PLTRELSZ",
+      "value": "0x5b8"
+    },
+    {
+      "tag": "DT_PLTGOT",
+      "value": "0x7db0"
+    },
+    {
+      "tag": "DT_PLTREL",
+      "value": "0x7"
+    },
+    {
+      "tag": "DT_SYMTAB",
+      "value": "0x2c0"
+    },
+    {
+      "tag": "DT_SYMENT",
+      "value": "0x18"
+    },
+    {
+      "tag": "DT_STRTAB",
+      "value": "0xdc8"
+    },
+    {
+      "tag": "DT_STRSZ",
+      "value": "0x899"
+    },
+    {
+      "tag": "DT_GNU_HASH",
+      "value": "0xad0"
+    },
+    {
+      "tag": "DT_HASH",
+      "value": "0xb50"
+    },
+    {
+      "tag": "DT_FINI_ARRAY",
+      "value": "0x7be8"
+    },
+    {
+      "tag": "DT_FINI_ARRAYSZ",
+      "value": "0x10"
+    },
+    {
+      "tag": "DT_VERSYM",
+      "value": "0xa10"
+    },
+    {
+      "tag": "DT_VERNEED",
+      "value": "0xaac"
+    },
+    {
+      "tag": "DT_VERNEEDNUM",
+      "value": "0x1"
+    },
+    {
+      "tag": "DT_NULL",
+      "value": "0x0"
+    }
+  ],
+  "symbols": [
+    {
+      "name": "__cxa_finalize",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__cxa_atexit",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_tag",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_remove_tag",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_string",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_extra",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_remove_extra",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_object",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_set_by_key",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_user",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_remove_user",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_trace",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_breadcrumb",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strlen",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry__value_from_json",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_is_null",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_add_breadcrumb",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_attach_file",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_attach_bytes",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_clear_attachments",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry__backend_preload",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_new",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_auto_session_tracking",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_debug",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_max_breadcrumbs",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transport_new",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transport_set_state",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_free",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transport_set_free_func",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_transport",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_malloc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strncpy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strrchr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__strncpy_chk2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_database_path",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_dsn",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_release",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_environment",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_dist",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_sdk_name",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_handler_strategy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_traces_sample_rate",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_init",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transport_free",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_free",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_uuid_new_v4",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_uuid_as_string",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_envelope_write_to_file",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_envelope_free",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__stack_chk_fail",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_clear_modulecache",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_get_modules_list",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_get_type",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_get_length",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_get_by_index",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_get_by_key",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_as_string",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_as_int32",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_decref",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_close",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__vsnprintf_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeSetTag",
+      "address": "0x23c8",
+      "size": 160,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeSetExtra",
+      "address": "0x24c0",
+      "size": 164,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeAddBreadcrumb",
+      "address": "0x27f0",
+      "size": 628,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeModuleListLoader_nativeClearModuleList",
+      "address": "0x3210",
+      "size": 4,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeRemoveUser",
+      "address": "0x274c",
+      "size": 4,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeAddAttachmentBytes",
+      "address": "0x2ad4",
+      "size": 228,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_SentryNdk_preloadSentryNative",
+      "address": "0x2bbc",
+      "size": 4,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeModuleListLoader_nativeLoadModuleList",
+      "address": "0x3214",
+      "size": 1328,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeRemoveTag",
+      "address": "0x2468",
+      "size": 88,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeRemoveExtra",
+      "address": "0x2564",
+      "size": 88,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeAddAttachment",
+      "address": "0x2a64",
+      "size": 112,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_SentryNdk_initSentryNative",
+      "address": "0x2bc0",
+      "size": 1136,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_SentryNdk_shutdown",
+      "address": "0x3744",
+      "size": 4,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeSetUser",
+      "address": "0x25bc",
+      "size": 400,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeSetTrace",
+      "address": "0x2750",
+      "size": 160,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeClearAttachments",
+      "address": "0x2bb8",
+      "size": 4,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    }
+  ],
+  "jni_exports": [
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeSetTag",
+      "address": "0x23c8",
+      "size": 160,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeSetExtra",
+      "address": "0x24c0",
+      "size": 164,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeAddBreadcrumb",
+      "address": "0x27f0",
+      "size": 628,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeModuleListLoader_nativeClearModuleList",
+      "address": "0x3210",
+      "size": 4,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeRemoveUser",
+      "address": "0x274c",
+      "size": 4,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeAddAttachmentBytes",
+      "address": "0x2ad4",
+      "size": 228,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_SentryNdk_preloadSentryNative",
+      "address": "0x2bbc",
+      "size": 4,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeModuleListLoader_nativeLoadModuleList",
+      "address": "0x3214",
+      "size": 1328,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeRemoveTag",
+      "address": "0x2468",
+      "size": 88,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeRemoveExtra",
+      "address": "0x2564",
+      "size": 88,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeAddAttachment",
+      "address": "0x2a64",
+      "size": 112,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_SentryNdk_initSentryNative",
+      "address": "0x2bc0",
+      "size": 1136,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_SentryNdk_shutdown",
+      "address": "0x3744",
+      "size": 4,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeSetUser",
+      "address": "0x25bc",
+      "size": 400,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeSetTrace",
+      "address": "0x2750",
+      "size": 160,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "Java_io_sentry_ndk_NativeScope_nativeClearAttachments",
+      "address": "0x2bb8",
+      "size": 4,
+      "section": 14,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    }
+  ]
+}

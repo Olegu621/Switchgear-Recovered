@@ -1,0 +1,11 @@
+            package p000;
+
+            import com.google.android.gms.common.ConnectionResult;
+            
+            /* JADX INFO: renamed from: ei */
+            /* JADX INFO: compiled from: r8-map-id-213346ccf8c7f825bb9017059f9f3b3a7bfb73d3355dfb8dfea71096f8f0bf83 */
+            /* JADX INFO: loaded from: C:\Users\admin\Documents\Codex\2026-10-26\x20\outputs\switchgear-recovered\bytecode\classes.dex */
+            public interface InterfaceC0881ei {
+                /* JADX INFO: renamed from: f */
+                void mo3444f(ConnectionResult connectionResult);
+            }

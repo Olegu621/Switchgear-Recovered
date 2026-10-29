@@ -1,0 +1,84 @@
+            package com.usercentrics.sdk.p008ui;
+            
+            /* JADX INFO: loaded from: C:\Users\admin\Documents\Codex\2026-10-26\x20\outputs\switchgear-recovered\bytecode\classes.dex */
+            public final class R$id {
+                public static int ucAppBar = 2131231271;
+                public static int ucBannerContainer = 2131231272;
+                public static int ucBannerFirstLayerScrollContainer = 2131231273;
+                public static int ucButtonBackground = 2131231274;
+                public static int ucButtonForeground = 2131231275;
+                public static int ucButtonText = 2131231276;
+                public static int ucCardBottomSpacing = 2131231277;
+                public static int ucCardContent = 2131231278;
+                public static int ucCardDescription = 2131231279;
+                public static int ucCardDividerExpandedContent = 2131231280;
+                public static int ucCardExpandableContent = 2131231281;
+                public static int ucCardHeader = 2131231282;
+                public static int ucCardIcon = 2131231283;
+                public static int ucCardSectionEntryDescription = 2131231284;
+                public static int ucCardSectionEntryFlexbox = 2131231285;
+                public static int ucCardSectionEntryTitle = 2131231286;
+                public static int ucCardSectionToggleEntryInfo = 2131231287;
+                public static int ucCardSectionToggleEntrySwitch = 2131231288;
+                public static int ucCardSectionToggleEntryText = 2131231289;
+                public static int ucCardSwitch = 2131231290;
+                public static int ucCardSwitchInside = 2131231291;
+                public static int ucCardSwitchList = 2131231292;
+                public static int ucCardSwitchListDivider = 2131231293;
+                public static int ucCardSwitchText = 2131231294;
+                public static int ucCardTitle = 2131231295;
+                public static int ucCollapsingToolbar = 2131231296;
+                public static int ucContentViewPager = 2131231297;
+                public static int ucControllerIdCopy = 2131231298;
+                public static int ucControllerIdLabel = 2131231299;
+                public static int ucControllerIdValue = 2131231300;
+                public static int ucCookieCardTitle = 2131231301;
+                public static int ucCookieCardTitleDivider = 2131231302;
+                public static int ucCookieDialogClose = 2131231303;
+                public static int ucCookieDialogLayout = 2131231304;
+                public static int ucCookieDialogList = 2131231305;
+                public static int ucCookieDialogTitle = 2131231306;
+                public static int ucCookieLoadingBox = 2131231307;
+                public static int ucCookieLoadingText = 2131231308;
+                public static int ucCookieRetryBox = 2131231309;
+                public static int ucCookieRetryMessage = 2131231310;
+                public static int ucCookieTryAgainBtn = 2131231311;
+                public static int ucFirstLayerHeaderLogo = 2131231312;
+                public static int ucFooter = 2131231313;
+                public static int ucFooterButtonsContainer = 2131231314;
+                public static int ucFooterDivider = 2131231315;
+                public static int ucFooterSwitch = 2131231316;
+                public static int ucFooterSwitchText = 2131231317;
+                public static int ucFooterTextProvider = 2131231318;
+                public static int ucHeader = 2131231319;
+                public static int ucHeaderBackButton = 2131231320;
+                public static int ucHeaderCloseButton = 2131231321;
+                public static int ucHeaderContentDivider = 2131231322;
+                public static int ucHeaderDescription = 2131231323;
+                public static int ucHeaderFirstTabRecyclerView = 2131231324;
+                public static int ucHeaderFirstTabView = 2131231325;
+                public static int ucHeaderFrame = 2131231326;
+                public static int ucHeaderLanguageIcon = 2131231327;
+                public static int ucHeaderLanguageLoading = 2131231328;
+                public static int ucHeaderLanguagePicker = 2131231329;
+                public static int ucHeaderLinks = 2131231330;
+                public static int ucHeaderLogo = 2131231331;
+                public static int ucHeaderSecondTabRecyclerView = 2131231332;
+                public static int ucHeaderSecondTabView = 2131231333;
+                public static int ucHeaderStub = 2131231334;
+                public static int ucHeaderTabLayout = 2131231335;
+                public static int ucHeaderTitle = 2131231336;
+                public static int ucLanguagesAvailable = 2131231337;
+                public static int ucLinkText = 2131231338;
+                public static int ucTableDate = 2131231339;
+                public static int ucTableDateHeader = 2131231340;
+                public static int ucTableDecision = 2131231341;
+                public static int ucTableDecisionHeader = 2131231342;
+                public static int ucTableDecisionIcon = 2131231343;
+                public static int ucTableDecisionText = 2131231344;
+                public static int ucTableHeaderRow = 2131231345;
+                public static int ucToolbar = 2131231346;
+
+                private R$id() {
+                }
+            }

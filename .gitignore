@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.jks
+*.keystore
+store.pass
+.env
+artifacts/
+.runtime/
+.framework/
+**/build/
+**/dist/

@@ -1,0 +1,133 @@
+{
+  "path": "native-analysis/libFUSION.embedded.so",
+  "size": 706160,
+  "sha256": "cab025e5a34d0e1fb0b04ceb7eb97fd6b8006289126845bc3bc8239640d8afcb",
+  "entropy": 6.353875,
+  "machine": "EM_AARCH64",
+  "entry": "0x1a0",
+  "segments": [
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x0",
+      "p_vaddr": "0x0",
+      "p_filesz": 706160,
+      "p_memsz": 706160,
+      "p_flags": 5
+    },
+    {
+      "p_type": "PT_DYNAMIC",
+      "p_offset": "0x118",
+      "p_vaddr": "0x118",
+      "p_filesz": 128,
+      "p_memsz": 128,
+      "p_flags": 6
+    }
+  ],
+  "sections": [
+    {
+      "name": "",
+      "address": "0x0",
+      "offset": 0,
+      "size": 0
+    },
+    {
+      "name": ".hash",
+      "address": "0xb0",
+      "offset": 176,
+      "size": 28
+    },
+    {
+      "name": ".dynsym",
+      "address": "0xd0",
+      "offset": 208,
+      "size": 48
+    },
+    {
+      "name": ".dynstr",
+      "address": "0x100",
+      "offset": 256,
+      "size": 22
+    },
+    {
+      "name": ".dynamic",
+      "address": "0x118",
+      "offset": 280,
+      "size": 128
+    },
+    {
+      "name": ".text",
+      "address": "0x1a0",
+      "offset": 416,
+      "size": 704240
+    },
+    {
+      "name": ".rodata",
+      "address": "0xac090",
+      "offset": 704656,
+      "size": 664
+    },
+    {
+      "name": ".comment",
+      "address": "0x0",
+      "offset": 705320,
+      "size": 197
+    },
+    {
+      "name": ".shstrtab",
+      "address": "0x0",
+      "offset": 705517,
+      "size": 65
+    }
+  ],
+  "dynamic": [
+    {
+      "tag": "DT_HASH",
+      "value": "0xb0"
+    },
+    {
+      "tag": "DT_SYMTAB",
+      "value": "0xd0"
+    },
+    {
+      "tag": "DT_STRTAB",
+      "value": "0x100"
+    },
+    {
+      "tag": "DT_STRSZ",
+      "value": "0x16"
+    },
+    {
+      "tag": "DT_SYMENT",
+      "value": "0x18"
+    },
+    {
+      "tag": "DT_SONAME",
+      "value": "0xc",
+      "name": "libBSD.so"
+    },
+    {
+      "tag": "DT_NULL",
+      "value": "0x0"
+    }
+  ],
+  "symbols": [
+    {
+      "name": "JNI_OnLoad",
+      "address": "0x1a0",
+      "size": 168,
+      "section": 5,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    }
+  ],
+  "jni_exports": [
+    {
+      "name": "JNI_OnLoad",
+      "address": "0x1a0",
+      "size": 168,
+      "section": 5,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    }
+  ]
+}

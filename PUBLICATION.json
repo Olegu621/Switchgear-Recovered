@@ -1,0 +1,11 @@
+{
+  "public_recovery_archive": "Switchgear-recovered-public.zip",
+  "excluded_from_public_archive": [
+    "switchgear-recovered/evidence/bluestacks-lobby-after-activation.png"
+  ],
+  "credential_pattern_scan": "passed",
+  "originals_modified": false,
+  "raw_user_preferences_or_signing_keys_included": false,
+  "complete_assets_and_binaries_location": "GitHub Release assets",
+  "working_activation_free_apk": false
+}

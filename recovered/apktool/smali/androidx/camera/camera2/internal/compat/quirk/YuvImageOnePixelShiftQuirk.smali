@@ -1,0 +1,6 @@
+.class public final Landroidx/camera/camera2/internal/compat/quirk/YuvImageOnePixelShiftQuirk;
+.super Ljava/lang/Object;
+.source "r8-map-id-213346ccf8c7f825bb9017059f9f3b3a7bfb73d3355dfb8dfea71096f8f0bf83"
+
+# interfaces
+.implements Landroidx/camera/core/internal/compat/quirk/OnePixelShiftQuirk;

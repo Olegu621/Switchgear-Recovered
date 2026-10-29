@@ -1,0 +1,4354 @@
+{
+  "path": "apktool/lib/arm64-v8a/libsentry.so",
+  "size": 773984,
+  "sha256": "4cc7fe8257686a2708624ea7edc1194ca4a0b06b6ae050076e5d8c6651834980",
+  "entropy": 6.254539,
+  "machine": "EM_AARCH64",
+  "entry": "0x0",
+  "segments": [
+    {
+      "p_type": "PT_PHDR",
+      "p_offset": "0x40",
+      "p_vaddr": "0x40",
+      "p_filesz": 504,
+      "p_memsz": 504,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0x0",
+      "p_vaddr": "0x0",
+      "p_filesz": 748096,
+      "p_memsz": 748096,
+      "p_flags": 5
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0xb6a40",
+      "p_vaddr": "0xbaa40",
+      "p_filesz": 23288,
+      "p_memsz": 26048,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_LOAD",
+      "p_offset": "0xbc538",
+      "p_vaddr": "0xc4538",
+      "p_filesz": 328,
+      "p_memsz": 9112,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_DYNAMIC",
+      "p_offset": "0xbb958",
+      "p_vaddr": "0xbf958",
+      "p_filesz": 464,
+      "p_memsz": 464,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_GNU_RELRO",
+      "p_offset": "0xb6a40",
+      "p_vaddr": "0xbaa40",
+      "p_filesz": 23288,
+      "p_memsz": 26048,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_GNU_EH_FRAME",
+      "p_offset": "0x22170",
+      "p_vaddr": "0x22170",
+      "p_filesz": 15404,
+      "p_memsz": 15404,
+      "p_flags": 4
+    },
+    {
+      "p_type": "PT_GNU_STACK",
+      "p_offset": "0x0",
+      "p_vaddr": "0x0",
+      "p_filesz": 0,
+      "p_memsz": 0,
+      "p_flags": 6
+    },
+    {
+      "p_type": "PT_NOTE",
+      "p_offset": "0x238",
+      "p_vaddr": "0x238",
+      "p_filesz": 188,
+      "p_memsz": 188,
+      "p_flags": 4
+    }
+  ],
+  "sections": [
+    {
+      "name": "",
+      "address": "0x0",
+      "offset": 0,
+      "size": 0
+    },
+    {
+      "name": ".note.android.ident",
+      "address": "0x238",
+      "offset": 568,
+      "size": 152
+    },
+    {
+      "name": ".note.gnu.build-id",
+      "address": "0x2d0",
+      "offset": 720,
+      "size": 36
+    },
+    {
+      "name": ".dynsym",
+      "address": "0x2f8",
+      "offset": 760,
+      "size": 11952
+    },
+    {
+      "name": ".gnu.version",
+      "address": "0x31a8",
+      "offset": 12712,
+      "size": 996
+    },
+    {
+      "name": ".gnu.version_r",
+      "address": "0x358c",
+      "offset": 13708,
+      "size": 64
+    },
+    {
+      "name": ".gnu.hash",
+      "address": "0x35d0",
+      "offset": 13776,
+      "size": 2864
+    },
+    {
+      "name": ".hash",
+      "address": "0x4100",
+      "offset": 16640,
+      "size": 3992
+    },
+    {
+      "name": ".dynstr",
+      "address": "0x5098",
+      "offset": 20632,
+      "size": 11692
+    },
+    {
+      "name": ".rela.dyn",
+      "address": "0x7e48",
+      "offset": 32328,
+      "size": 51000
+    },
+    {
+      "name": ".rela.plt",
+      "address": "0x14580",
+      "offset": 83328,
+      "size": 5496
+    },
+    {
+      "name": ".rodata",
+      "address": "0x15b00",
+      "offset": 88832,
+      "size": 38036
+    },
+    {
+      "name": ".gcc_except_table",
+      "address": "0x1ef94",
+      "offset": 126868,
+      "size": 12764
+    },
+    {
+      "name": ".eh_frame_hdr",
+      "address": "0x22170",
+      "offset": 139632,
+      "size": 15404
+    },
+    {
+      "name": ".eh_frame",
+      "address": "0x25da0",
+      "offset": 155040,
+      "size": 95708
+    },
+    {
+      "name": ".text",
+      "address": "0x3d380",
+      "offset": 250752,
+      "size": 493640
+    },
+    {
+      "name": ".plt",
+      "address": "0xb5bd0",
+      "offset": 744400,
+      "size": 3696
+    },
+    {
+      "name": ".data.rel.ro",
+      "address": "0xbaa40",
+      "offset": 748096,
+      "size": 20216
+    },
+    {
+      "name": ".fini_array",
+      "address": "0xbf938",
+      "offset": 768312,
+      "size": 16
+    },
+    {
+      "name": ".init_array",
+      "address": "0xbf948",
+      "offset": 768328,
+      "size": 16
+    },
+    {
+      "name": ".dynamic",
+      "address": "0xbf958",
+      "offset": 768344,
+      "size": 464
+    },
+    {
+      "name": ".got",
+      "address": "0xbfb28",
+      "offset": 768808,
+      "size": 720
+    },
+    {
+      "name": ".got.plt",
+      "address": "0xbfdf8",
+      "offset": 769528,
+      "size": 1856
+    },
+    {
+      "name": ".relro_padding",
+      "address": "0xc0538",
+      "offset": 771384,
+      "size": 2760
+    },
+    {
+      "name": ".data",
+      "address": "0xc4538",
+      "offset": 771384,
+      "size": 328
+    },
+    {
+      "name": ".bss",
+      "address": "0xc4680",
+      "offset": 771712,
+      "size": 8784
+    },
+    {
+      "name": ".comment",
+      "address": "0x0",
+      "offset": 771712,
+      "size": 203
+    },
+    {
+      "name": ".shstrtab",
+      "address": "0x0",
+      "offset": 771915,
+      "size": 275
+    }
+  ],
+  "dynamic": [
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x2d77",
+      "name": "libdl.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x2d8d",
+      "name": "liblog.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x2d97",
+      "name": "libm.so"
+    },
+    {
+      "tag": "DT_NEEDED",
+      "value": "0x2d85",
+      "name": "libc.so"
+    },
+    {
+      "tag": "DT_SONAME",
+      "value": "0x2d9f",
+      "name": "libsentry.so"
+    },
+    {
+      "tag": "DT_FLAGS",
+      "value": "0x8"
+    },
+    {
+      "tag": "DT_FLAGS_1",
+      "value": "0x1"
+    },
+    {
+      "tag": "DT_RELA",
+      "value": "0x7e48"
+    },
+    {
+      "tag": "DT_RELASZ",
+      "value": "0xc738"
+    },
+    {
+      "tag": "DT_RELAENT",
+      "value": "0x18"
+    },
+    {
+      "tag": "DT_RELACOUNT",
+      "value": "0x84b"
+    },
+    {
+      "tag": "DT_JMPREL",
+      "value": "0x14580"
+    },
+    {
+      "tag": "DT_PLTRELSZ",
+      "value": "0x1578"
+    },
+    {
+      "tag": "DT_PLTGOT",
+      "value": "0xbfdf8"
+    },
+    {
+      "tag": "DT_PLTREL",
+      "value": "0x7"
+    },
+    {
+      "tag": "DT_SYMTAB",
+      "value": "0x2f8"
+    },
+    {
+      "tag": "DT_SYMENT",
+      "value": "0x18"
+    },
+    {
+      "tag": "DT_STRTAB",
+      "value": "0x5098"
+    },
+    {
+      "tag": "DT_STRSZ",
+      "value": "0x2dac"
+    },
+    {
+      "tag": "DT_GNU_HASH",
+      "value": "0x35d0"
+    },
+    {
+      "tag": "DT_HASH",
+      "value": "0x4100"
+    },
+    {
+      "tag": "DT_INIT_ARRAY",
+      "value": "0xbf948"
+    },
+    {
+      "tag": "DT_INIT_ARRAYSZ",
+      "value": "0x10"
+    },
+    {
+      "tag": "DT_FINI_ARRAY",
+      "value": "0xbf938"
+    },
+    {
+      "tag": "DT_FINI_ARRAYSZ",
+      "value": "0x10"
+    },
+    {
+      "tag": "DT_VERSYM",
+      "value": "0x31a8"
+    },
+    {
+      "tag": "DT_VERNEED",
+      "value": "0x358c"
+    },
+    {
+      "tag": "DT_VERNEEDNUM",
+      "value": "0x2"
+    },
+    {
+      "tag": "DT_NULL",
+      "value": "0x0"
+    }
+  ],
+  "symbols": [
+    {
+      "name": "__cxa_finalize",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__cxa_atexit",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "memcpy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "memmove",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "memset",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__stack_chk_fail",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strlen",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fwrite",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "memcmp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__errno",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "malloc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "calloc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "free",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "syscall",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "clock_gettime",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "vsnprintf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_create",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_mutex_lock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "gettimeofday",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_cond_timedwait",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_mutex_unlock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_cond_signal",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_join",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strcmp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "write",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strerror",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__strlen_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtoull",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtol",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__vsnprintf_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "time",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strncmp",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "qsort",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "memchr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtoll",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__android_log_vprint",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getenv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "uname",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__open_2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__read_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__memmove_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "close",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strchr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__strncpy_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_mutex_destroy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strncpy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_self",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_equal",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strrchr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "gmtime_r",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strftime",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sscanf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "timegm",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "printf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strtod",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strspn",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getpagesize",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "mmap",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "dladdr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "open",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "flock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fstat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "stat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "lstat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "unlink",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "rmdir",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "realpath",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "dirname",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "rename",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "read",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "mkdir",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "opendir",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "readdir",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "closedir",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strcpy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strcat",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fork",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "waitpid",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "setsid",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "_exit",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "dup2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "execv",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "munmap",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__memcpy_chk",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getpid",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sigaction",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sigemptyset",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__system_property_get",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "atoi",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pipe",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "poll",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sigaltstack",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sigaddset",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "raise",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sem_trywait",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__libc_current_sigrtmin",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sem_init",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sem_timedwait",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sem_post",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sem_destroy",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sem_wait",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "dl_iterate_phdr",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_rwlock_rdlock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_rwlock_unlock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_rwlock_wrlock",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "basename",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "abort",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strnlen",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "ptrace",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_key_create",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_getspecific",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_key_delete",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_setspecific",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "snprintf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "strerror_r",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_cond_broadcast",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_cond_wait",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "realloc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fflush",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "vasprintf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__sF",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_OBJECT",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "vfprintf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fputc",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "android_set_abort_message",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "openlog",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "syslog",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "closelog",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "fprintf",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "posix_memalign",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "__assert2",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "pthread_once",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "getauxval",
+      "address": "0x0",
+      "size": 0,
+      "section": "SHN_UNDEF",
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_user_consent_is_required",
+      "address": "0x41100",
+      "size": 148,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_ca_certs",
+      "address": "0x4ce3c",
+      "size": 132,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_null",
+      "address": "0x5264c",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_envelope_get_transaction",
+      "address": "0x465e4",
+      "size": 100,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_hint_new",
+      "address": "0x484ec",
+      "size": 12,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_hint_attach_bytes_n",
+      "address": "0x48648",
+      "size": 88,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_attachment_set_type",
+      "address": "0x3ec1c",
+      "size": 64,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_user",
+      "address": "0x41b78",
+      "size": 164,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_span_start_child",
+      "address": "0x43960",
+      "size": 196,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_enable_large_attachments",
+      "address": "0x4d6e4",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_before_send_metric",
+      "address": "0x4d6fc",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_sample_rate",
+      "address": "0x4c95c",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_cache_max_size",
+      "address": "0x4d2f4",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_crashpad_wait_for_upload",
+      "address": "0x4d368",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_event_add_thread",
+      "address": "0x56c34",
+      "size": 44,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_span_remove_data",
+      "address": "0x59700",
+      "size": 120,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_capture_event",
+      "address": "0x41334",
+      "size": 84,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_set_tag",
+      "address": "0x4ed34",
+      "size": 56,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_envelope_read_from_file_n",
+      "address": "0x48118",
+      "size": 36,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_sdk_name_n",
+      "address": "0x4d02c",
+      "size": 516,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_http_proxy_n",
+      "address": "0x4cd44",
+      "size": 108,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_capture_envelope",
+      "address": "0x41264",
+      "size": 152,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_get_by_index_owned",
+      "address": "0x547dc",
+      "size": 120,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_logger",
+      "address": "0x4d268",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_uuid_new_v4",
+      "address": "0x51cf4",
+      "size": 124,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_set_extra_n",
+      "address": "0x4edc0",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_envelope_serialize",
+      "address": "0x479a4",
+      "size": 124,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_set_by_key",
+      "address": "0x52df8",
+      "size": 100,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_log_trace",
+      "address": "0x4b5e4",
+      "size": 164,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_before_send",
+      "address": "0x4c7b0",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_environment",
+      "address": "0x4cac8",
+      "size": 132,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_flush",
+      "address": "0x40d34",
+      "size": 252,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_envelope_read_from_file",
+      "address": "0x48020",
+      "size": 28,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_symbolize_stacktraces",
+      "address": "0x4d2c8",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_remove_tag",
+      "address": "0x59238",
+      "size": 80,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_start",
+      "address": "0x42b68",
+      "size": 124,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_attach_bytes",
+      "address": "0x44614",
+      "size": 92,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_logs_with_attributes",
+      "address": "0x4d69c",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_propagate_traceparent",
+      "address": "0x4d72c",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_context_get_name",
+      "address": "0x57f74",
+      "size": 32,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_release",
+      "address": "0x4c9d0",
+      "size": 132,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_enable_logs",
+      "address": "0x4d684",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_set_by_index",
+      "address": "0x54268",
+      "size": 296,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_span_remove_tag_n",
+      "address": "0x5933c",
+      "size": 100,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_set_by_key_n",
+      "address": "0x536cc",
+      "size": 416,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transport_set_shutdown_func",
+      "address": "0x50980",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transport_set_flush_func",
+      "address": "0x50988",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_event_value_add_stacktrace",
+      "address": "0x56c9c",
+      "size": 188,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_decref",
+      "address": "0x52440",
+      "size": 268,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_attribute_n",
+      "address": "0x42154",
+      "size": 84,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_finish_ts",
+      "address": "0x43098",
+      "size": 60,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_double",
+      "address": "0x52660",
+      "size": 80,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_handler_strategy",
+      "address": "0x4d70c",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_attribute_n",
+      "address": "0x53020",
+      "size": 740,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_context_set_operation_n",
+      "address": "0x57fd0",
+      "size": 64,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_get_by_key",
+      "address": "0x535a4",
+      "size": 212,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_span_finish_ts",
+      "address": "0x43b0c",
+      "size": 584,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_log_debug",
+      "address": "0x4b688",
+      "size": 164,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_as_int32",
+      "address": "0x53e6c",
+      "size": 220,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_iter_headers",
+      "address": "0x59c10",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_sdk_name",
+      "address": "0x4c5f0",
+      "size": 68,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_enable_app_hang_tracking",
+      "address": "0x4d6bc",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_attachment_set_filename",
+      "address": "0x3ee50",
+      "size": 96,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_remove_fingerprint",
+      "address": "0x425e0",
+      "size": 68,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_traces_sample_rate",
+      "address": "0x4c668",
+      "size": 32,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_ca_certs_n",
+      "address": "0x4cec0",
+      "size": 108,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_list",
+      "address": "0x52938",
+      "size": 124,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_require_user_consent",
+      "address": "0x4d2b0",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_remove_extra_n",
+      "address": "0x420d0",
+      "size": 68,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_context_update_from_header",
+      "address": "0x587fc",
+      "size": 108,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_get_by_index",
+      "address": "0x54710",
+      "size": 68,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_thread_n",
+      "address": "0x55e08",
+      "size": 504,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_user_consent_give",
+      "address": "0x40f14",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_get_by_key_n",
+      "address": "0x5442c",
+      "size": 204,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_max_breadcrumbs",
+      "address": "0x4d260",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_shutdown_timeout",
+      "address": "0x4d388",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_propagate_traceparent",
+      "address": "0x4d73c",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_breadcrumb_n",
+      "address": "0x55940",
+      "size": 596,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_feedback_n",
+      "address": "0x56654",
+      "size": 792,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_context_new_n",
+      "address": "0x57cc8",
+      "size": 400,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_span_remove_tag",
+      "address": "0x592ec",
+      "size": 80,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_envelope_write_to_file",
+      "address": "0x47c8c",
+      "size": 116,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_add_view_hierarchy",
+      "address": "0x4d414",
+      "size": 60,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_exception_n",
+      "address": "0x55bf8",
+      "size": 428,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_span_set_tag_n",
+      "address": "0x59228",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_remove_data_n",
+      "address": "0x59698",
+      "size": 104,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_transport_thread_name_n",
+      "address": "0x4cfb8",
+      "size": 108,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_add_view_hierarchy_n",
+      "address": "0x4d450",
+      "size": 64,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_is_frozen",
+      "address": "0x5262c",
+      "size": 32,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_level",
+      "address": "0x42b30",
+      "size": 56,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_before_send_log",
+      "address": "0x4c7c8",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transport_new",
+      "address": "0x50938",
+      "size": 48,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_event",
+      "address": "0x55658",
+      "size": 80,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_set_stacktrace",
+      "address": "0x56c60",
+      "size": 60,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_extra_n",
+      "address": "0x42040",
+      "size": 84,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_sdk_name",
+      "address": "0x4d230",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_as_int64",
+      "address": "0x53d24",
+      "size": 164,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_log",
+      "address": "0x4b9bc",
+      "size": 236,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_release_n",
+      "address": "0x4c964",
+      "size": 108,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_proxy",
+      "address": "0x4ccb8",
+      "size": 132,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_ca_certs",
+      "address": "0x4cf2c",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_app_hang_timeout",
+      "address": "0x4d6dc",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_remove_attribute",
+      "address": "0x421a8",
+      "size": 56,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_set_fingerprint",
+      "address": "0x4f10c",
+      "size": 284,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_trace_n",
+      "address": "0x42688",
+      "size": 444,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_string_n",
+      "address": "0x5275c",
+      "size": 180,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_user_n",
+      "address": "0x52a3c",
+      "size": 956,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_add_breadcrumb",
+      "address": "0x4ed00",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_is_true",
+      "address": "0x52e5c",
+      "size": 216,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_capture_minidump_n",
+      "address": "0x44228",
+      "size": 712,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_traces_sampler",
+      "address": "0x4d640",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_start_child_ts",
+      "address": "0x43708",
+      "size": 124,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_clear_crashed_last_run",
+      "address": "0x44198",
+      "size": 92,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_local_scope_new",
+      "address": "0x4e234",
+      "size": 164,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_to_json",
+      "address": "0x54c84",
+      "size": 72,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_init",
+      "address": "0x405d4",
+      "size": 1240,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_user_consent_revoke",
+      "address": "0x4104c",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_send_client_reports",
+      "address": "0x4d76c",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_user_feedback",
+      "address": "0x56258",
+      "size": 152,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_bool",
+      "address": "0x52748",
+      "size": 20,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_set_context",
+      "address": "0x4eef8",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_attach_file_n",
+      "address": "0x4453c",
+      "size": 24,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_before_screenshot",
+      "address": "0x4d4a0",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_get_by_key_owned",
+      "address": "0x54600",
+      "size": 272,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_attachment_set_type_n",
+      "address": "0x3ec5c",
+      "size": 240,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_remove_user",
+      "address": "0x41c1c",
+      "size": 20,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_remove_context_n",
+      "address": "0x42430",
+      "size": 68,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_capture_feedback",
+      "address": "0x43e38",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_minidump_mode",
+      "address": "0x4d31c",
+      "size": 20,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_external_crash_reporter_path_n",
+      "address": "0x4d5e4",
+      "size": 68,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_uuid_as_bytes",
+      "address": "0x52090",
+      "size": 12,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_transaction_n",
+      "address": "0x42a8c",
+      "size": 164,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_incref",
+      "address": "0x52408",
+      "size": 56,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_enable_metrics",
+      "address": "0x4d6a4",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_strict_trace_continuation",
+      "address": "0x4d754",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transport_set_state",
+      "address": "0x50968",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_unwind_stack",
+      "address": "0x5ab64",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_envelope_free",
+      "address": "0x46210",
+      "size": 156,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry__value_from_json",
+      "address": "0x49e1c",
+      "size": 416,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_log_info",
+      "address": "0x4b72c",
+      "size": 164,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_debug",
+      "address": "0x4d240",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_enable_metrics",
+      "address": "0x4d6b4",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_span_set_status",
+      "address": "0x597e0",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_string",
+      "address": "0x5287c",
+      "size": 188,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_environment",
+      "address": "0x4cb4c",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_enable_large_attachments",
+      "address": "0x4d6f4",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_uuid_from_bytes",
+      "address": "0x51d70",
+      "size": 12,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_attachment_set_filename_n",
+      "address": "0x3eeb0",
+      "size": 76,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transport_free",
+      "address": "0x50b74",
+      "size": 60,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_before_breadcrumb",
+      "address": "0x4c7d0",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_envelope_deserialize",
+      "address": "0x47d00",
+      "size": 116,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_environment",
+      "address": "0x41da4",
+      "size": 52,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_remove_tag",
+      "address": "0x41f80",
+      "size": 60,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_transaction_object",
+      "address": "0x433d0",
+      "size": 88,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_transport_thread_name",
+      "address": "0x4cf34",
+      "size": 132,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_transfer_timeout",
+      "address": "0x4d3a0",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_set_tag_n",
+      "address": "0x590fc",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_uuid_nil",
+      "address": "0x51ce8",
+      "size": 12,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_remove_by_key",
+      "address": "0x5396c",
+      "size": 64,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_crash_reporting_mode",
+      "address": "0x4d330",
+      "size": 24,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_handler_strategy",
+      "address": "0x4d704",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_set_status",
+      "address": "0x59914",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_context_get_operation",
+      "address": "0x58010",
+      "size": 32,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_new_function_transport",
+      "address": "0x5aaa0",
+      "size": 156,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_app_hang_heartbeat",
+      "address": "0x3e5d4",
+      "size": 216,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_dsn",
+      "address": "0x4c81c",
+      "size": 24,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_user_consent_get",
+      "address": "0x4105c",
+      "size": 164,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_set_name",
+      "address": "0x59024",
+      "size": 60,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_user_agent",
+      "address": "0x4d238",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_attach_file_n",
+      "address": "0x4f30c",
+      "size": 56,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_clear_modulecache",
+      "address": "0x5db24",
+      "size": 100,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_span_set_data_n",
+      "address": "0x59590",
+      "size": 144,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_uuid_is_nil",
+      "address": "0x51f90",
+      "size": 256,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_release",
+      "address": "0x41cd0",
+      "size": 52,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_remove_context",
+      "address": "0x423f4",
+      "size": 60,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_set_level",
+      "address": "0x4f2bc",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_capture_user_feedback",
+      "address": "0x43d54",
+      "size": 228,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_breadcrumb",
+      "address": "0x55b94",
+      "size": 100,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_remove_attachment",
+      "address": "0x44784",
+      "size": 188,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_add_breadcrumb",
+      "address": "0x41dd8",
+      "size": 268,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_remove_extra",
+      "address": "0x42094",
+      "size": 60,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_shutdown_timeout",
+      "address": "0x4d390",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_backend",
+      "address": "0x4d648",
+      "size": 44,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_auto_session_tracking",
+      "address": "0x4d288",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_set_data_n",
+      "address": "0x59450",
+      "size": 144,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_crash_upload_mode",
+      "address": "0x4d360",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_attach_file",
+      "address": "0x4f2c4",
+      "size": 72,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry__unwind_stack_libunwindstack",
+      "address": "0x5fac8",
+      "size": 996,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_object",
+      "address": "0x529c0",
+      "size": 124,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_context",
+      "address": "0x42220",
+      "size": 64,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_attach_file",
+      "address": "0x444f0",
+      "size": 76,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_as_uint64",
+      "address": "0x53dc8",
+      "size": 164,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_hint_attach_bytes",
+      "address": "0x485c8",
+      "size": 128,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_log_error",
+      "address": "0x4b874",
+      "size": 164,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_release",
+      "address": "0x4ca54",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_transport_thread_name",
+      "address": "0x4d024",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_max_spans",
+      "address": "0x4d630",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_set_fingerprints",
+      "address": "0x4f0b8",
+      "size": 84,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_is_null",
+      "address": "0x529b4",
+      "size": 12,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_new",
+      "address": "0x4c2c0",
+      "size": 764,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_on_crash",
+      "address": "0x4c7b8",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_system_crash_reporter_enabled",
+      "address": "0x4d30c",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_context_new",
+      "address": "0x57e58",
+      "size": 100,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_extra",
+      "address": "0x42000",
+      "size": 64,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_fingerprint",
+      "address": "0x4252c",
+      "size": 180,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_span_start_child_ts_n",
+      "address": "0x43820",
+      "size": 320,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_environment_n",
+      "address": "0x4ca5c",
+      "size": 108,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_message_event",
+      "address": "0x558d4",
+      "size": 108,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_reinstall_backend",
+      "address": "0x40e34",
+      "size": 224,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_fingerprint_n",
+      "address": "0x42474",
+      "size": 184,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_get_type",
+      "address": "0x53678",
+      "size": 84,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_attach_bytes",
+      "address": "0x4f344",
+      "size": 104,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_attach_bytes_n",
+      "address": "0x4f3ac",
+      "size": 80,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_context_set_name_n",
+      "address": "0x57f34",
+      "size": 64,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_get_modules_list",
+      "address": "0x5d4a4",
+      "size": 1664,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_remove_attribute_n",
+      "address": "0x421e0",
+      "size": 64,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_sdk_version",
+      "address": "0x486a0",
+      "size": 12,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_span_start_child_n",
+      "address": "0x43784",
+      "size": 156,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_session_replay_duration",
+      "address": "0x4d4b8",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_end_session_with_status",
+      "address": "0x501b8",
+      "size": 192,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_start_session",
+      "address": "0x4ff1c",
+      "size": 188,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_capture_minidump",
+      "address": "0x441f4",
+      "size": 52,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_uuid_as_string",
+      "address": "0x5209c",
+      "size": 160,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_dist",
+      "address": "0x4cbc0",
+      "size": 132,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_proxy",
+      "address": "0x4cd3c",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_add_attachment_n",
+      "address": "0x4d3dc",
+      "size": 56,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_handler_path",
+      "address": "0x4d4c0",
+      "size": 52,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_handle_exception",
+      "address": "0x41ad0",
+      "size": 164,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_strict_trace_continuation",
+      "address": "0x4d744",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_remove_tag_n",
+      "address": "0x59288",
+      "size": 100,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_attribute",
+      "address": "0x42114",
+      "size": 64,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry__backend_preload",
+      "address": "0x5dcf0",
+      "size": 48,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_set_name_n",
+      "address": "0x59060",
+      "size": 64,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_envelope_get_event",
+      "address": "0x46580",
+      "size": 100,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_dsn",
+      "address": "0x4c5bc",
+      "size": 52,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_auto_session_tracking",
+      "address": "0x4d298",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_crash_reporting_mode",
+      "address": "0x4d348",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_attach_session_replay",
+      "address": "0x4d4a8",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_send_client_reports",
+      "address": "0x4d75c",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_dist_n",
+      "address": "0x4cb54",
+      "size": 108,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_crash_upload_mode",
+      "address": "0x4d350",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_handler_path_n",
+      "address": "0x4d4f4",
+      "size": 68,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_context_remove_sampled",
+      "address": "0x5806c",
+      "size": 24,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_span_finish",
+      "address": "0x43aa0",
+      "size": 108,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_span_iter_headers",
+      "address": "0x59924",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_environment_n",
+      "address": "0x41d04",
+      "size": 160,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_http_proxy",
+      "address": "0x4cdb0",
+      "size": 132,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_database_path",
+      "address": "0x4d538",
+      "size": 52,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_http_retry",
+      "address": "0x4d714",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_remove_tag_n",
+      "address": "0x41fbc",
+      "size": 68,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_context_n",
+      "address": "0x42260",
+      "size": 84,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_sdk_user_agent",
+      "address": "0x486b8",
+      "size": 12,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_logger_level",
+      "address": "0x4d270",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_add_attachment",
+      "address": "0x4d3a8",
+      "size": 52,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_debug",
+      "address": "0x4d250",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_attach_screenshot",
+      "address": "0x4d490",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transport_set_startup_func",
+      "address": "0x50978",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_remove_by_index",
+      "address": "0x54390",
+      "size": 156,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_to_msgpack",
+      "address": "0x54ccc",
+      "size": 124,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_remove_by_key_n",
+      "address": "0x5386c",
+      "size": 256,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_org_id",
+      "address": "0x4c8a0",
+      "size": 132,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_regenerate_trace",
+      "address": "0x42844",
+      "size": 364,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_unwind_stack_from_ucontext",
+      "address": "0x5ab74",
+      "size": 20,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_capture_event_with_scope",
+      "address": "0x415b0",
+      "size": 88,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_clear_attachments",
+      "address": "0x446ac",
+      "size": 216,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_hint_attach_file_n",
+      "address": "0x48588",
+      "size": 64,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_enable_app_hang_tracking",
+      "address": "0x4d6cc",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_uuid_from_string_n",
+      "address": "0x51d7c",
+      "size": 256,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_tag_n",
+      "address": "0x41f24",
+      "size": 92,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_transaction",
+      "address": "0x429b0",
+      "size": 220,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_as_double",
+      "address": "0x53f48",
+      "size": 164,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_shutdown",
+      "address": "0x40e30",
+      "size": 4,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_int32",
+      "address": "0x52654",
+      "size": 12,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_external_crash_reporter_path",
+      "address": "0x4d5b0",
+      "size": 52,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_get_by_key_owned_n",
+      "address": "0x544f8",
+      "size": 264,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_set_extra",
+      "address": "0x4edb8",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_start_child_ts_n",
+      "address": "0x4351c",
+      "size": 296,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_attach_bytes_n",
+      "address": "0x44670",
+      "size": 60,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_uuid_from_string",
+      "address": "0x51e7c",
+      "size": 276,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_org_id_n",
+      "address": "0x4c834",
+      "size": 108,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_cache_keep",
+      "address": "0x4d2d0",
+      "size": 28,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_span_set_tag",
+      "address": "0x591cc",
+      "size": 92,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_event_add_exception",
+      "address": "0x5696c",
+      "size": 44,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_metrics_gauge",
+      "address": "0x4c0b8",
+      "size": 68,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_logger_enabled_when_crashed",
+      "address": "0x4d278",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_attachment_set_content_type",
+      "address": "0x3ed4c",
+      "size": 148,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_span",
+      "address": "0x43428",
+      "size": 88,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_transport",
+      "address": "0x4c784",
+      "size": 44,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_max_spans",
+      "address": "0x4d628",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_traces_sample_rate",
+      "address": "0x4d638",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transport_set_free_func",
+      "address": "0x50970",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_user_feedback_n",
+      "address": "0x562f0",
+      "size": 716,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_set_context_n",
+      "address": "0x4ef00",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_trace",
+      "address": "0x42624",
+      "size": 100,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_max_breadcrumbs",
+      "address": "0x4d258",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_cache_max_age",
+      "address": "0x4d2fc",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_malloc",
+      "address": "0x3e470",
+      "size": 56,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_app_hang_timeout",
+      "address": "0x4d6d4",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_attribute",
+      "address": "0x53304",
+      "size": 64,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_stacktrace",
+      "address": "0x56040",
+      "size": 536,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_freeze",
+      "address": "0x5257c",
+      "size": 176,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_capture_feedback_with_hint",
+      "address": "0x43e40",
+      "size": 424,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_proxy_n",
+      "address": "0x4cc4c",
+      "size": 108,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_database_path_n",
+      "address": "0x4d56c",
+      "size": 68,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_enable_logs",
+      "address": "0x4d674",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_set_data",
+      "address": "0x593a0",
+      "size": 176,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_free",
+      "address": "0x4c6b8",
+      "size": 204,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transport_retry",
+      "address": "0x50bb0",
+      "size": 24,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_get_crashed_last_run",
+      "address": "0x4418c",
+      "size": 12,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_hint_attach_file",
+      "address": "0x4852c",
+      "size": 92,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_free",
+      "address": "0x3e508",
+      "size": 52,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_start_ts",
+      "address": "0x42be4",
+      "size": 1040,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_envelope_get_header",
+      "address": "0x46194",
+      "size": 92,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_dsn_n",
+      "address": "0x4c7d8",
+      "size": 68,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_thread",
+      "address": "0x56000",
+      "size": 64,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_context_set_name",
+      "address": "0x57ef8",
+      "size": 60,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_metrics_count",
+      "address": "0x4bdcc",
+      "size": 60,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_http_proxy",
+      "address": "0x4ce34",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_http_retry",
+      "address": "0x4d724",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_span_start_child_ts",
+      "address": "0x43a24",
+      "size": 124,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_int64",
+      "address": "0x526b0",
+      "size": 76,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_dist",
+      "address": "0x4cc44",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_span_remove_data_n",
+      "address": "0x59778",
+      "size": 104,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_exception",
+      "address": "0x55da4",
+      "size": 100,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_crashpad_limit_stack_capture_to_sp",
+      "address": "0x4d378",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_set_fingerprint_n",
+      "address": "0x4f228",
+      "size": 148,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_context_set_operation",
+      "address": "0x57f94",
+      "size": 60,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_attachment_set_content_type_n",
+      "address": "0x3ede0",
+      "size": 112,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_set_user",
+      "address": "0x4ed08",
+      "size": 44,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_release_n",
+      "address": "0x41c30",
+      "size": 160,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_get_length",
+      "address": "0x54854",
+      "size": 76,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_finish",
+      "address": "0x42ff4",
+      "size": 164,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_logs_with_attributes",
+      "address": "0x4d68c",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_user_consent_reset",
+      "address": "0x41054",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_sdk_name",
+      "address": "0x486ac",
+      "size": 12,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_before_transaction",
+      "address": "0x4c7c0",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_message_event_n",
+      "address": "0x556a8",
+      "size": 556,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_context_set_sampled",
+      "address": "0x58030",
+      "size": 60,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_set_tag",
+      "address": "0x590a0",
+      "size": 92,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_end_session",
+      "address": "0x4ffd8",
+      "size": 200,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_log_warn",
+      "address": "0x4b7d0",
+      "size": 164,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_sample_rate",
+      "address": "0x4c634",
+      "size": 52,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_span_set_data",
+      "address": "0x594e0",
+      "size": 176,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_log_fatal",
+      "address": "0x4b918",
+      "size": 164,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_metrics_distribution",
+      "address": "0x4c0fc",
+      "size": 68,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_set_tag",
+      "address": "0x41ee4",
+      "size": 64,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_feedback",
+      "address": "0x565bc",
+      "size": 152,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_envelope_get_header_n",
+      "address": "0x461f0",
+      "size": 24,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_uint64",
+      "address": "0x526fc",
+      "size": 76,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_get_cache_keep",
+      "address": "0x4d304",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_refcount",
+      "address": "0x5254c",
+      "size": 48,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_context_update_from_header_n",
+      "address": "0x5814c",
+      "size": 1712,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_scope_set_tag_n",
+      "address": "0x4ed6c",
+      "size": 76,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_envelope_write_to_file_n",
+      "address": "0x47c2c",
+      "size": 96,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_cache_max_items",
+      "address": "0x4d2ec",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_transfer_timeout",
+      "address": "0x4d398",
+      "size": 8,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_close",
+      "address": "0x40aac",
+      "size": 424,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_start_child_n",
+      "address": "0x43480",
+      "size": 156,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_start_child",
+      "address": "0x43644",
+      "size": 196,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_append",
+      "address": "0x539ac",
+      "size": 228,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_as_string",
+      "address": "0x53ac8",
+      "size": 48,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_require_user_consent",
+      "address": "0x4d2a0",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_options_set_symbolize_stacktraces",
+      "address": "0x4d2b8",
+      "size": 16,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_value_new_user",
+      "address": "0x52f34",
+      "size": 236,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    },
+    {
+      "name": "sentry_transaction_remove_data",
+      "address": "0x59620",
+      "size": 120,
+      "section": 15,
+      "type": "STT_FUNC",
+      "binding": "STB_GLOBAL"
+    }
+  ],
+  "jni_exports": []
+}

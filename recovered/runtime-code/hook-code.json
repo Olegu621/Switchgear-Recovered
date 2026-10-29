@@ -1,0 +1,3279 @@
+{
+  "scope": "Observed generated ARM64 hook code and literal addresses only. No context or heap contents; address layout is specific to this process.",
+  "pid": 5325,
+  "hook_entries": 47,
+  "entries": [
+    {
+      "game_rva": "0x71dc6c",
+      "entry_address": "0x113b5a00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9543e22c0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b5a30",
+        "code_hex": "fd7bbea9f44f01a9fd030091740000589000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b5a30",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x20]!"
+          },
+          {
+            "address": "0x113b5a34",
+            "mnemonic": "stp",
+            "operands": "x20, x19, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b5a38",
+            "mnemonic": "mov",
+            "operands": "x29, sp"
+          },
+          {
+            "address": "0x113b5a3c",
+            "mnemonic": "ldr",
+            "operands": "x20, #0x113b5a48"
+          },
+          {
+            "address": "0x113b5a40",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b5a50"
+          },
+          {
+            "address": "0x113b5a44",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b5a48",
+            "size": 8,
+            "value": "0x46a1000",
+            "known_library": "libg.so",
+            "library_rva": "0x12f5000"
+          },
+          {
+            "address": "0x113b5a50",
+            "size": 8,
+            "value": "0x3ac9c7c",
+            "known_library": "libg.so",
+            "library_rva": "0x71dc7c"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x71dcb8",
+      "entry_address": "0x113b5900",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9543e2210",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b5930",
+        "code_hex": "fd7bbea9f44f01a9fd030091740000589000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b5930",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x20]!"
+          },
+          {
+            "address": "0x113b5934",
+            "mnemonic": "stp",
+            "operands": "x20, x19, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b5938",
+            "mnemonic": "mov",
+            "operands": "x29, sp"
+          },
+          {
+            "address": "0x113b593c",
+            "mnemonic": "ldr",
+            "operands": "x20, #0x113b5948"
+          },
+          {
+            "address": "0x113b5940",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b5950"
+          },
+          {
+            "address": "0x113b5944",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b5948",
+            "size": 8,
+            "value": "0x46a1000",
+            "known_library": "libg.so",
+            "library_rva": "0x12f5000"
+          },
+          {
+            "address": "0x113b5950",
+            "size": 8,
+            "value": "0x3ac9cc8",
+            "known_library": "libg.so",
+            "library_rva": "0x71dcc8"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x756bc0",
+      "entry_address": "0x113b5800",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9543e2160",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b5830",
+        "code_hex": "ffc307d1fd7b19a9fc6f1aa9fa671ba95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b5830",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x1f0"
+          },
+          {
+            "address": "0x113b5834",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x190]"
+          },
+          {
+            "address": "0x113b5838",
+            "mnemonic": "stp",
+            "operands": "x28, x27, [sp, #0x1a0]"
+          },
+          {
+            "address": "0x113b583c",
+            "mnemonic": "stp",
+            "operands": "x26, x25, [sp, #0x1b0]"
+          },
+          {
+            "address": "0x113b5840",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b5848"
+          },
+          {
+            "address": "0x113b5844",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b5848",
+            "size": 8,
+            "value": "0x3b02bd0",
+            "known_library": "libg.so",
+            "library_rva": "0x756bd0"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x75b2a4",
+      "entry_address": "0x113b5300",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9a10443a0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b5330",
+        "code_hex": "ffc301d1e923036dfd7b04a9f65705a95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b5330",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x70"
+          },
+          {
+            "address": "0x113b5334",
+            "mnemonic": "stp",
+            "operands": "d9, d8, [sp, #0x30]"
+          },
+          {
+            "address": "0x113b5338",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x40]"
+          },
+          {
+            "address": "0x113b533c",
+            "mnemonic": "stp",
+            "operands": "x22, x21, [sp, #0x50]"
+          },
+          {
+            "address": "0x113b5340",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b5348"
+          },
+          {
+            "address": "0x113b5344",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b5348",
+            "size": 8,
+            "value": "0x3b072b4",
+            "known_library": "libg.so",
+            "library_rva": "0x75b2b4"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x7c88bc",
+      "entry_address": "0x113b7d00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c94691fe50",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b7d30",
+        "code_hex": "080740f9000b40fd004101fd5000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b7d30",
+            "mnemonic": "ldr",
+            "operands": "x8, [x24, #8]"
+          },
+          {
+            "address": "0x113b7d34",
+            "mnemonic": "ldr",
+            "operands": "d0, [x24, #0x10]"
+          },
+          {
+            "address": "0x113b7d38",
+            "mnemonic": "str",
+            "operands": "d0, [x8, #0x280]"
+          },
+          {
+            "address": "0x113b7d3c",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b7d44"
+          },
+          {
+            "address": "0x113b7d40",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b7d44",
+            "size": 8,
+            "value": "0x3b74788",
+            "known_library": "libg.so",
+            "library_rva": "0x7c8788"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x800a50",
+      "entry_address": "0x113b7c00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c94691fda0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b7c30",
+        "code_hex": "0a0540f9010d40fd088100911f0109eb5000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b7c30",
+            "mnemonic": "ldr",
+            "operands": "x10, [x8, #8]"
+          },
+          {
+            "address": "0x113b7c34",
+            "mnemonic": "ldr",
+            "operands": "d1, [x8, #0x18]"
+          },
+          {
+            "address": "0x113b7c38",
+            "mnemonic": "add",
+            "operands": "x8, x8, #0x20"
+          },
+          {
+            "address": "0x113b7c3c",
+            "mnemonic": "cmp",
+            "operands": "x8, x9"
+          },
+          {
+            "address": "0x113b7c40",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b7c48"
+          },
+          {
+            "address": "0x113b7c44",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b7c48",
+            "size": 8,
+            "value": "0x3baca60",
+            "known_library": "libg.so",
+            "library_rva": "0x800a60"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x8239a8",
+      "entry_address": "0x113b6d00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ad4c40",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b6d30",
+        "code_hex": "ffc302d1fd7b05a9fc6f06a9fa6707a95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b6d30",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0xb0"
+          },
+          {
+            "address": "0x113b6d34",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x50]"
+          },
+          {
+            "address": "0x113b6d38",
+            "mnemonic": "stp",
+            "operands": "x28, x27, [sp, #0x60]"
+          },
+          {
+            "address": "0x113b6d3c",
+            "mnemonic": "stp",
+            "operands": "x26, x25, [sp, #0x70]"
+          },
+          {
+            "address": "0x113b6d40",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b6d48"
+          },
+          {
+            "address": "0x113b6d44",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b6d48",
+            "size": 8,
+            "value": "0x3bcf9b8",
+            "known_library": "libg.so",
+            "library_rva": "0x8239b8"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x8263d8",
+      "entry_address": "0x113b6f00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ad4da0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b6f30",
+        "code_hex": "ff8307d1eab300fde923176dfd7b18a95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b6f30",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x1e0"
+          },
+          {
+            "address": "0x113b6f34",
+            "mnemonic": "str",
+            "operands": "d10, [sp, #0x160]"
+          },
+          {
+            "address": "0x113b6f38",
+            "mnemonic": "stp",
+            "operands": "d9, d8, [sp, #0x170]"
+          },
+          {
+            "address": "0x113b6f3c",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x180]"
+          },
+          {
+            "address": "0x113b6f40",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b6f48"
+          },
+          {
+            "address": "0x113b6f44",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b6f48",
+            "size": 8,
+            "value": "0x3bd23e8",
+            "known_library": "libg.so",
+            "library_rva": "0x8263e8"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x82cbd0",
+      "entry_address": "0x113b6e00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ad4cf0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b6e30",
+        "code_hex": "ff8302d1e923046dfd7b05a9f93300f95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b6e30",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0xa0"
+          },
+          {
+            "address": "0x113b6e34",
+            "mnemonic": "stp",
+            "operands": "d9, d8, [sp, #0x40]"
+          },
+          {
+            "address": "0x113b6e38",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x50]"
+          },
+          {
+            "address": "0x113b6e3c",
+            "mnemonic": "str",
+            "operands": "x25, [sp, #0x60]"
+          },
+          {
+            "address": "0x113b6e40",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b6e48"
+          },
+          {
+            "address": "0x113b6e44",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b6e48",
+            "size": 8,
+            "value": "0x3bd8be0",
+            "known_library": "libg.so",
+            "library_rva": "0x82cbe0"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x845c38",
+      "entry_address": "0x113b7a00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ada5a0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b7a30",
+        "code_hex": "ffc305d1eb2b0f6de923106dfd7b11a95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b7a30",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x170"
+          },
+          {
+            "address": "0x113b7a34",
+            "mnemonic": "stp",
+            "operands": "d11, d10, [sp, #0xf0]"
+          },
+          {
+            "address": "0x113b7a38",
+            "mnemonic": "stp",
+            "operands": "d9, d8, [sp, #0x100]"
+          },
+          {
+            "address": "0x113b7a3c",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x110]"
+          },
+          {
+            "address": "0x113b7a40",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b7a48"
+          },
+          {
+            "address": "0x113b7a44",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b7a48",
+            "size": 8,
+            "value": "0x3bf1c48",
+            "known_library": "libg.so",
+            "library_rva": "0x845c48"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x882740",
+      "entry_address": "0x113b5700",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9a041db90",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b5730",
+        "code_hex": "fd7bbda9f65701a9f44f02a9fd0300915000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b5730",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x30]!"
+          },
+          {
+            "address": "0x113b5734",
+            "mnemonic": "stp",
+            "operands": "x22, x21, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b5738",
+            "mnemonic": "stp",
+            "operands": "x20, x19, [sp, #0x20]"
+          },
+          {
+            "address": "0x113b573c",
+            "mnemonic": "mov",
+            "operands": "x29, sp"
+          },
+          {
+            "address": "0x113b5740",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b5748"
+          },
+          {
+            "address": "0x113b5744",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b5748",
+            "size": 8,
+            "value": "0x3c2e750",
+            "known_library": "libg.so",
+            "library_rva": "0x882750"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x883260",
+      "entry_address": "0x113b8100",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c946928170",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b8130",
+        "code_hex": "ffc301d1fd7b02a9fa6703a9f85f04a95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b8130",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x70"
+          },
+          {
+            "address": "0x113b8134",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x20]"
+          },
+          {
+            "address": "0x113b8138",
+            "mnemonic": "stp",
+            "operands": "x26, x25, [sp, #0x30]"
+          },
+          {
+            "address": "0x113b813c",
+            "mnemonic": "stp",
+            "operands": "x24, x23, [sp, #0x40]"
+          },
+          {
+            "address": "0x113b8140",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b8148"
+          },
+          {
+            "address": "0x113b8144",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b8148",
+            "size": 8,
+            "value": "0x3c2f270",
+            "known_library": "libg.so",
+            "library_rva": "0x883270"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x88360c",
+      "entry_address": "0x113b8200",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c946928220",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b8230",
+        "code_hex": "ffc301d1e81300fdfdfb02a9f91f00f95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b8230",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x70"
+          },
+          {
+            "address": "0x113b8234",
+            "mnemonic": "str",
+            "operands": "d8, [sp, #0x20]"
+          },
+          {
+            "address": "0x113b8238",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x28]"
+          },
+          {
+            "address": "0x113b823c",
+            "mnemonic": "str",
+            "operands": "x25, [sp, #0x38]"
+          },
+          {
+            "address": "0x113b8240",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b8248"
+          },
+          {
+            "address": "0x113b8244",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b8248",
+            "size": 8,
+            "value": "0x3c2f61c",
+            "known_library": "libg.so",
+            "library_rva": "0x88361c"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x888218",
+      "entry_address": "0x113b5b00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9543e2370",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b5b30",
+        "code_hex": "fd7bbea9f30b00f9fd030091010c41f95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b5b30",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x20]!"
+          },
+          {
+            "address": "0x113b5b34",
+            "mnemonic": "str",
+            "operands": "x19, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b5b38",
+            "mnemonic": "mov",
+            "operands": "x29, sp"
+          },
+          {
+            "address": "0x113b5b3c",
+            "mnemonic": "ldr",
+            "operands": "x1, [x0, #0x218]"
+          },
+          {
+            "address": "0x113b5b40",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b5b48"
+          },
+          {
+            "address": "0x113b5b44",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b5b48",
+            "size": 8,
+            "value": "0x3c34228",
+            "known_library": "libg.so",
+            "library_rva": "0x888228"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x905ac8",
+      "entry_address": "0x113b6800",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9a041a5b0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b6830",
+        "code_hex": "5f0800714000005403000014",
+        "instructions": [
+          {
+            "address": "0x113b6830",
+            "mnemonic": "cmp",
+            "operands": "w2, #2"
+          },
+          {
+            "address": "0x113b6834",
+            "mnemonic": "b.eq",
+            "operands": "#0x113b683c"
+          },
+          {
+            "address": "0x113b6838",
+            "mnemonic": "b",
+            "operands": "#0x113b6844"
+          }
+        ],
+        "literal_pointers": []
+      }
+    },
+    {
+      "game_rva": "0x90a3fc",
+      "entry_address": "0x113b7b00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c94691fcf0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b7b30",
+        "code_hex": "ffc301d1e82300fdfd7b05a9f44f06a95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b7b30",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x70"
+          },
+          {
+            "address": "0x113b7b34",
+            "mnemonic": "str",
+            "operands": "d8, [sp, #0x40]"
+          },
+          {
+            "address": "0x113b7b38",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x50]"
+          },
+          {
+            "address": "0x113b7b3c",
+            "mnemonic": "stp",
+            "operands": "x20, x19, [sp, #0x60]"
+          },
+          {
+            "address": "0x113b7b40",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b7b48"
+          },
+          {
+            "address": "0x113b7b44",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b7b48",
+            "size": 8,
+            "value": "0x3cb640c",
+            "known_library": "libg.so",
+            "library_rva": "0x90a40c"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x9f052c",
+      "entry_address": "0x113b6400",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9a041a240",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b6430",
+        "code_hex": "fd7bbaa9fc6f01a9fa6702a9f85f03a95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b6430",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x60]!"
+          },
+          {
+            "address": "0x113b6434",
+            "mnemonic": "stp",
+            "operands": "x28, x27, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b6438",
+            "mnemonic": "stp",
+            "operands": "x26, x25, [sp, #0x20]"
+          },
+          {
+            "address": "0x113b643c",
+            "mnemonic": "stp",
+            "operands": "x24, x23, [sp, #0x30]"
+          },
+          {
+            "address": "0x113b6440",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b6448"
+          },
+          {
+            "address": "0x113b6444",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b6448",
+            "size": 8,
+            "value": "0x3d9c53c",
+            "known_library": "libg.so",
+            "library_rva": "0x9f053c"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x9f072c",
+      "entry_address": "0x113b6300",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9a041a190",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b6330",
+        "code_hex": "ff8301d1fd7b03a9f52300f9f44f05a95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b6330",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x60"
+          },
+          {
+            "address": "0x113b6334",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x30]"
+          },
+          {
+            "address": "0x113b6338",
+            "mnemonic": "str",
+            "operands": "x21, [sp, #0x40]"
+          },
+          {
+            "address": "0x113b633c",
+            "mnemonic": "stp",
+            "operands": "x20, x19, [sp, #0x50]"
+          },
+          {
+            "address": "0x113b6340",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b6348"
+          },
+          {
+            "address": "0x113b6344",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b6348",
+            "size": 8,
+            "value": "0x3d9c73c",
+            "known_library": "libg.so",
+            "library_rva": "0x9f073c"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0x9f10c0",
+      "entry_address": "0x113b6500",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9a041a2f0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b6530",
+        "code_hex": "fd7bbea9f30b00f9fd03009101ac40f95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b6530",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x20]!"
+          },
+          {
+            "address": "0x113b6534",
+            "mnemonic": "str",
+            "operands": "x19, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b6538",
+            "mnemonic": "mov",
+            "operands": "x29, sp"
+          },
+          {
+            "address": "0x113b653c",
+            "mnemonic": "ldr",
+            "operands": "x1, [x0, #0x158]"
+          },
+          {
+            "address": "0x113b6540",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b6548"
+          },
+          {
+            "address": "0x113b6544",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b6548",
+            "size": 8,
+            "value": "0x3d9d0d0",
+            "known_library": "libg.so",
+            "library_rva": "0x9f10d0"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xa64818",
+      "entry_address": "0x113b7600",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ada2e0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b7630",
+        "code_hex": "ffc304d1fd7b0da9fc6f0ea9fa670fa95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b7630",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x130"
+          },
+          {
+            "address": "0x113b7634",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0xd0]"
+          },
+          {
+            "address": "0x113b7638",
+            "mnemonic": "stp",
+            "operands": "x28, x27, [sp, #0xe0]"
+          },
+          {
+            "address": "0x113b763c",
+            "mnemonic": "stp",
+            "operands": "x26, x25, [sp, #0xf0]"
+          },
+          {
+            "address": "0x113b7640",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b7648"
+          },
+          {
+            "address": "0x113b7644",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b7648",
+            "size": 8,
+            "value": "0x3e10828",
+            "known_library": "libg.so",
+            "library_rva": "0xa64828"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xb018a0",
+      "entry_address": "0x113b7100",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ad4e50",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b7130",
+        "code_hex": "ffc306d1e8a300fdfd7b15a9fc6f16a95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b7130",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x1b0"
+          },
+          {
+            "address": "0x113b7134",
+            "mnemonic": "str",
+            "operands": "d8, [sp, #0x140]"
+          },
+          {
+            "address": "0x113b7138",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x150]"
+          },
+          {
+            "address": "0x113b713c",
+            "mnemonic": "stp",
+            "operands": "x28, x27, [sp, #0x160]"
+          },
+          {
+            "address": "0x113b7140",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b7148"
+          },
+          {
+            "address": "0x113b7144",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b7148",
+            "size": 8,
+            "value": "0x3ead8b0",
+            "known_library": "libg.so",
+            "library_rva": "0xb018b0"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xb11970",
+      "entry_address": "0x113b5e00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9543e2580",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b5e30",
+        "code_hex": "080041394800003403000014",
+        "instructions": [
+          {
+            "address": "0x113b5e30",
+            "mnemonic": "ldrb",
+            "operands": "w8, [x0, #0x40]"
+          },
+          {
+            "address": "0x113b5e34",
+            "mnemonic": "cbz",
+            "operands": "w8, #0x113b5e3c"
+          },
+          {
+            "address": "0x113b5e38",
+            "mnemonic": "b",
+            "operands": "#0x113b5e44"
+          }
+        ],
+        "literal_pointers": []
+      }
+    },
+    {
+      "game_rva": "0xb35608",
+      "entry_address": "0x113b5600",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ada700",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b5630",
+        "code_hex": "ffc306d1e8a300fdfd7b15a9fc6f16a95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b5630",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x1b0"
+          },
+          {
+            "address": "0x113b5634",
+            "mnemonic": "str",
+            "operands": "d8, [sp, #0x140]"
+          },
+          {
+            "address": "0x113b5638",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x150]"
+          },
+          {
+            "address": "0x113b563c",
+            "mnemonic": "stp",
+            "operands": "x28, x27, [sp, #0x160]"
+          },
+          {
+            "address": "0x113b5640",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b5648"
+          },
+          {
+            "address": "0x113b5644",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b5648",
+            "size": 8,
+            "value": "0x3ee1618",
+            "known_library": "libg.so",
+            "library_rva": "0xb35618"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xb4071c",
+      "entry_address": "0x113b8300",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9490960d0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b8330",
+        "code_hex": "ef3bb66ded33016deb2b026de923036d5000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b8330",
+            "mnemonic": "stp",
+            "operands": "d15, d14, [sp, #-0xa0]!"
+          },
+          {
+            "address": "0x113b8334",
+            "mnemonic": "stp",
+            "operands": "d13, d12, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b8338",
+            "mnemonic": "stp",
+            "operands": "d11, d10, [sp, #0x20]"
+          },
+          {
+            "address": "0x113b833c",
+            "mnemonic": "stp",
+            "operands": "d9, d8, [sp, #0x30]"
+          },
+          {
+            "address": "0x113b8340",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b8348"
+          },
+          {
+            "address": "0x113b8344",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b8348",
+            "size": 8,
+            "value": "0x3eec72c",
+            "known_library": "libg.so",
+            "library_rva": "0xb4072c"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xb444a0",
+      "entry_address": "0x113b5500",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c949096020",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b5530",
+        "code_hex": "ef3bb66ded33016deb2b026de923036d5000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b5530",
+            "mnemonic": "stp",
+            "operands": "d15, d14, [sp, #-0xa0]!"
+          },
+          {
+            "address": "0x113b5534",
+            "mnemonic": "stp",
+            "operands": "d13, d12, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b5538",
+            "mnemonic": "stp",
+            "operands": "d11, d10, [sp, #0x20]"
+          },
+          {
+            "address": "0x113b553c",
+            "mnemonic": "stp",
+            "operands": "d9, d8, [sp, #0x30]"
+          },
+          {
+            "address": "0x113b5540",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b5548"
+          },
+          {
+            "address": "0x113b5544",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b5548",
+            "size": 8,
+            "value": "0x3ef04b0",
+            "known_library": "libg.so",
+            "library_rva": "0xb444b0"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xb4caec",
+      "entry_address": "0x113b8000",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9469280c0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b8030",
+        "code_hex": "ffc304d1e86b00fdfdfb0da9fc7700f95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b8030",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x130"
+          },
+          {
+            "address": "0x113b8034",
+            "mnemonic": "str",
+            "operands": "d8, [sp, #0xd0]"
+          },
+          {
+            "address": "0x113b8038",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0xd8]"
+          },
+          {
+            "address": "0x113b803c",
+            "mnemonic": "str",
+            "operands": "x28, [sp, #0xe8]"
+          },
+          {
+            "address": "0x113b8040",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b8048"
+          },
+          {
+            "address": "0x113b8044",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b8048",
+            "size": 8,
+            "value": "0x3ef8afc",
+            "known_library": "libg.so",
+            "library_rva": "0xb4cafc"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xb50fdc",
+      "entry_address": "0x113b6200",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9a041a660",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b6230",
+        "code_hex": "8800005808d1109100fddf88c0035fd6",
+        "instructions": [
+          {
+            "address": "0x113b6230",
+            "mnemonic": "ldr",
+            "operands": "x8, #0x113b6240"
+          },
+          {
+            "address": "0x113b6234",
+            "mnemonic": "add",
+            "operands": "x8, x8, #0x434"
+          },
+          {
+            "address": "0x113b6238",
+            "mnemonic": "ldar",
+            "operands": "w0, [x8]"
+          },
+          {
+            "address": "0x113b623c",
+            "mnemonic": "ret",
+            "operands": ""
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b6240",
+            "size": 8,
+            "value": "0x46b2000",
+            "known_library": "libg.so",
+            "library_rva": "0x1306000"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xb588d8",
+      "entry_address": "0x113b5200",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9a041a0e0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b5230",
+        "code_hex": "ff4302d1e82300fdfdfb04a9f92f00f95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b5230",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x90"
+          },
+          {
+            "address": "0x113b5234",
+            "mnemonic": "str",
+            "operands": "d8, [sp, #0x40]"
+          },
+          {
+            "address": "0x113b5238",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x48]"
+          },
+          {
+            "address": "0x113b523c",
+            "mnemonic": "str",
+            "operands": "x25, [sp, #0x58]"
+          },
+          {
+            "address": "0x113b5240",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b5248"
+          },
+          {
+            "address": "0x113b5244",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b5248",
+            "size": 8,
+            "value": "0x3f048e8",
+            "known_library": "libg.so",
+            "library_rva": "0xb588e8"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xb9b538",
+      "entry_address": "0x113b7700",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ada390",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b7730",
+        "code_hex": "fd7bbfa9fd03009180000058001c1f919000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b7730",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x10]!"
+          },
+          {
+            "address": "0x113b7734",
+            "mnemonic": "mov",
+            "operands": "x29, sp"
+          },
+          {
+            "address": "0x113b7738",
+            "mnemonic": "ldr",
+            "operands": "x0, #0x113b7748"
+          },
+          {
+            "address": "0x113b773c",
+            "mnemonic": "add",
+            "operands": "x0, x0, #0x7c7"
+          },
+          {
+            "address": "0x113b7740",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b7750"
+          },
+          {
+            "address": "0x113b7744",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b7748",
+            "size": 8,
+            "value": "0x3590000",
+            "known_library": "libg.so",
+            "library_rva": "0x1e4000"
+          },
+          {
+            "address": "0x113b7750",
+            "size": 8,
+            "value": "0x3f47548",
+            "known_library": "libg.so",
+            "library_rva": "0xb9b548"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xbfbf84",
+      "entry_address": "0x113b6600",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9a041a3a0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b6630",
+        "code_hex": "e80f1dfcfd7b01a9f44f02a9fd4300915000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b6630",
+            "mnemonic": "str",
+            "operands": "d8, [sp, #-0x30]!"
+          },
+          {
+            "address": "0x113b6634",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b6638",
+            "mnemonic": "stp",
+            "operands": "x20, x19, [sp, #0x20]"
+          },
+          {
+            "address": "0x113b663c",
+            "mnemonic": "add",
+            "operands": "x29, sp, #0x10"
+          },
+          {
+            "address": "0x113b6640",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b6648"
+          },
+          {
+            "address": "0x113b6644",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b6648",
+            "size": 8,
+            "value": "0x3fa7f94",
+            "known_library": "libg.so",
+            "library_rva": "0xbfbf94"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xcce878",
+      "entry_address": "0x113b7900",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ada4f0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b7930",
+        "code_hex": "ff4302d1fd7b05a9f85f06a9f65707a95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b7930",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x90"
+          },
+          {
+            "address": "0x113b7934",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x50]"
+          },
+          {
+            "address": "0x113b7938",
+            "mnemonic": "stp",
+            "operands": "x24, x23, [sp, #0x60]"
+          },
+          {
+            "address": "0x113b793c",
+            "mnemonic": "stp",
+            "operands": "x22, x21, [sp, #0x70]"
+          },
+          {
+            "address": "0x113b7940",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b7948"
+          },
+          {
+            "address": "0x113b7944",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b7948",
+            "size": 8,
+            "value": "0x407a888",
+            "known_library": "libg.so",
+            "library_rva": "0xcce888"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xccf3dc",
+      "entry_address": "0x113b7800",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ada440",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b7830",
+        "code_hex": "ffc303d1fd7b0ca9f6570da9f44f0ea95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b7830",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0xf0"
+          },
+          {
+            "address": "0x113b7834",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0xc0]"
+          },
+          {
+            "address": "0x113b7838",
+            "mnemonic": "stp",
+            "operands": "x22, x21, [sp, #0xd0]"
+          },
+          {
+            "address": "0x113b783c",
+            "mnemonic": "stp",
+            "operands": "x20, x19, [sp, #0xe0]"
+          },
+          {
+            "address": "0x113b7840",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b7848"
+          },
+          {
+            "address": "0x113b7844",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b7848",
+            "size": 8,
+            "value": "0x407b3ec",
+            "known_library": "libg.so",
+            "library_rva": "0xccf3ec"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xce1e60",
+      "entry_address": "0x113b6100",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9a041a030",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b6130",
+        "code_hex": "ffc304d1fd7b0da9fc7300f9fa670fa95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b6130",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x130"
+          },
+          {
+            "address": "0x113b6134",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0xd0]"
+          },
+          {
+            "address": "0x113b6138",
+            "mnemonic": "str",
+            "operands": "x28, [sp, #0xe0]"
+          },
+          {
+            "address": "0x113b613c",
+            "mnemonic": "stp",
+            "operands": "x26, x25, [sp, #0xf0]"
+          },
+          {
+            "address": "0x113b6140",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b6148"
+          },
+          {
+            "address": "0x113b6144",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b6148",
+            "size": 8,
+            "value": "0x408de70",
+            "known_library": "libg.so",
+            "library_rva": "0xce1e70"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xcfef08",
+      "entry_address": "0x113b5f00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9543e2630",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b5f30",
+        "code_hex": "fd7bbea9f44f01a9fd030091f303002a5000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b5f30",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x20]!"
+          },
+          {
+            "address": "0x113b5f34",
+            "mnemonic": "stp",
+            "operands": "x20, x19, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b5f38",
+            "mnemonic": "mov",
+            "operands": "x29, sp"
+          },
+          {
+            "address": "0x113b5f3c",
+            "mnemonic": "mov",
+            "operands": "w19, w0"
+          },
+          {
+            "address": "0x113b5f40",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b5f48"
+          },
+          {
+            "address": "0x113b5f44",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b5f48",
+            "size": 8,
+            "value": "0x40aaf18",
+            "known_library": "libg.so",
+            "library_rva": "0xcfef18"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xd01dc0",
+      "entry_address": "0x113b5c00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9543e2420",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b5c30",
+        "code_hex": "ff0301d1fd7b01a9f65702a9f44f03a95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b5c30",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x40"
+          },
+          {
+            "address": "0x113b5c34",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b5c38",
+            "mnemonic": "stp",
+            "operands": "x22, x21, [sp, #0x20]"
+          },
+          {
+            "address": "0x113b5c3c",
+            "mnemonic": "stp",
+            "operands": "x20, x19, [sp, #0x30]"
+          },
+          {
+            "address": "0x113b5c40",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b5c48"
+          },
+          {
+            "address": "0x113b5c44",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b5c48",
+            "size": 8,
+            "value": "0x40addd0",
+            "known_library": "libg.so",
+            "library_rva": "0xd01dd0"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xd44958",
+      "entry_address": "0x113b6900",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9a10442f0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b6930",
+        "code_hex": "fd7bbea9f30b00f9fd030091f30300aa5000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b6930",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x20]!"
+          },
+          {
+            "address": "0x113b6934",
+            "mnemonic": "str",
+            "operands": "x19, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b6938",
+            "mnemonic": "mov",
+            "operands": "x29, sp"
+          },
+          {
+            "address": "0x113b693c",
+            "mnemonic": "mov",
+            "operands": "x19, x0"
+          },
+          {
+            "address": "0x113b6940",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b6948"
+          },
+          {
+            "address": "0x113b6944",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b6948",
+            "size": 8,
+            "value": "0x40f0968",
+            "known_library": "libg.so",
+            "library_rva": "0xd44968"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xe45f28",
+      "entry_address": "0x113b7e00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c94691ff00",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b7e30",
+        "code_hex": "a8000058000440f9019146b99000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b7e30",
+            "mnemonic": "ldr",
+            "operands": "x8, #0x113b7e44"
+          },
+          {
+            "address": "0x113b7e34",
+            "mnemonic": "ldr",
+            "operands": "x0, [x0, #8]"
+          },
+          {
+            "address": "0x113b7e38",
+            "mnemonic": "ldr",
+            "operands": "w1, [x8, #0x690]"
+          },
+          {
+            "address": "0x113b7e3c",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b7e4c"
+          },
+          {
+            "address": "0x113b7e40",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b7e44",
+            "size": 8,
+            "value": "0x45f0000",
+            "known_library": "libg.so",
+            "library_rva": "0x1244000"
+          },
+          {
+            "address": "0x113b7e4c",
+            "size": 8,
+            "value": "0x38dfeb0",
+            "known_library": "libg.so",
+            "library_rva": "0x533eb0"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xe75224",
+      "entry_address": "0x113b6b00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ad4ae0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b6b30",
+        "code_hex": "fd7bbca9f85f01a9f65702a9f44f03a95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b6b30",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x40]!"
+          },
+          {
+            "address": "0x113b6b34",
+            "mnemonic": "stp",
+            "operands": "x24, x23, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b6b38",
+            "mnemonic": "stp",
+            "operands": "x22, x21, [sp, #0x20]"
+          },
+          {
+            "address": "0x113b6b3c",
+            "mnemonic": "stp",
+            "operands": "x20, x19, [sp, #0x30]"
+          },
+          {
+            "address": "0x113b6b40",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b6b48"
+          },
+          {
+            "address": "0x113b6b44",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b6b48",
+            "size": 8,
+            "value": "0x4221234",
+            "known_library": "libg.so",
+            "library_rva": "0xe75234"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xeb2ccc",
+      "entry_address": "0x113b7300",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ada0d0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b7330",
+        "code_hex": "ff8304d1fd7b0ca9fc6f0da9fa670ea95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b7330",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x120"
+          },
+          {
+            "address": "0x113b7334",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0xc0]"
+          },
+          {
+            "address": "0x113b7338",
+            "mnemonic": "stp",
+            "operands": "x28, x27, [sp, #0xd0]"
+          },
+          {
+            "address": "0x113b733c",
+            "mnemonic": "stp",
+            "operands": "x26, x25, [sp, #0xe0]"
+          },
+          {
+            "address": "0x113b7340",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b7348"
+          },
+          {
+            "address": "0x113b7344",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b7348",
+            "size": 8,
+            "value": "0x425ecdc",
+            "known_library": "libg.so",
+            "library_rva": "0xeb2cdc"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xebf9bc",
+      "entry_address": "0x113b6c00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ad4b90",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b6c30",
+        "code_hex": "fd7bbda9f50b00f9f44f02a9fd0300915000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b6c30",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x30]!"
+          },
+          {
+            "address": "0x113b6c34",
+            "mnemonic": "str",
+            "operands": "x21, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b6c38",
+            "mnemonic": "stp",
+            "operands": "x20, x19, [sp, #0x20]"
+          },
+          {
+            "address": "0x113b6c3c",
+            "mnemonic": "mov",
+            "operands": "x29, sp"
+          },
+          {
+            "address": "0x113b6c40",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b6c48"
+          },
+          {
+            "address": "0x113b6c44",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b6c48",
+            "size": 8,
+            "value": "0x426b9cc",
+            "known_library": "libg.so",
+            "library_rva": "0xebf9cc"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xec3b88",
+      "entry_address": "0x113b6a00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ad4a30",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b6a30",
+        "code_hex": "fd7bbda9f65701a9f44f02a9fd0300915000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b6a30",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x30]!"
+          },
+          {
+            "address": "0x113b6a34",
+            "mnemonic": "stp",
+            "operands": "x22, x21, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b6a38",
+            "mnemonic": "stp",
+            "operands": "x20, x19, [sp, #0x20]"
+          },
+          {
+            "address": "0x113b6a3c",
+            "mnemonic": "mov",
+            "operands": "x29, sp"
+          },
+          {
+            "address": "0x113b6a40",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b6a48"
+          },
+          {
+            "address": "0x113b6a44",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b6a48",
+            "size": 8,
+            "value": "0x426fb98",
+            "known_library": "libg.so",
+            "library_rva": "0xec3b98"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xf36fa4",
+      "entry_address": "0x113b7500",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ada230",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b7530",
+        "code_hex": "fd7bbca9f70b00f9f65702a9f44f03a95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b7530",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x40]!"
+          },
+          {
+            "address": "0x113b7534",
+            "mnemonic": "str",
+            "operands": "x23, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b7538",
+            "mnemonic": "stp",
+            "operands": "x22, x21, [sp, #0x20]"
+          },
+          {
+            "address": "0x113b753c",
+            "mnemonic": "stp",
+            "operands": "x20, x19, [sp, #0x30]"
+          },
+          {
+            "address": "0x113b7540",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b7548"
+          },
+          {
+            "address": "0x113b7544",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b7548",
+            "size": 8,
+            "value": "0x42e2fb4",
+            "known_library": "libg.so",
+            "library_rva": "0xf36fb4"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xf49934",
+      "entry_address": "0x113b7400",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ada180",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b7430",
+        "code_hex": "fd7bbca9f70b00f9f65702a9f44f03a95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b7430",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x40]!"
+          },
+          {
+            "address": "0x113b7434",
+            "mnemonic": "str",
+            "operands": "x23, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b7438",
+            "mnemonic": "stp",
+            "operands": "x22, x21, [sp, #0x20]"
+          },
+          {
+            "address": "0x113b743c",
+            "mnemonic": "stp",
+            "operands": "x20, x19, [sp, #0x30]"
+          },
+          {
+            "address": "0x113b7440",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b7448"
+          },
+          {
+            "address": "0x113b7444",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b7448",
+            "size": 8,
+            "value": "0x42f5944",
+            "known_library": "libg.so",
+            "library_rva": "0xf49944"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xf56cb0",
+      "entry_address": "0x113b5d00",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9543e24d0",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b5d30",
+        "code_hex": "089c40b91f0500714b00005403000014",
+        "instructions": [
+          {
+            "address": "0x113b5d30",
+            "mnemonic": "ldr",
+            "operands": "w8, [x0, #0x9c]"
+          },
+          {
+            "address": "0x113b5d34",
+            "mnemonic": "cmp",
+            "operands": "w8, #1"
+          },
+          {
+            "address": "0x113b5d38",
+            "mnemonic": "b.lt",
+            "operands": "#0x113b5d40"
+          },
+          {
+            "address": "0x113b5d3c",
+            "mnemonic": "b",
+            "operands": "#0x113b5d48"
+          }
+        ],
+        "literal_pointers": []
+      }
+    },
+    {
+      "game_rva": "0xf6b060",
+      "entry_address": "0x113b6700",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9a041a500",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b6730",
+        "code_hex": "fd7bbea9f30b00f9fd030091f30300aa5000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b6730",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x20]!"
+          },
+          {
+            "address": "0x113b6734",
+            "mnemonic": "str",
+            "operands": "x19, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b6738",
+            "mnemonic": "mov",
+            "operands": "x29, sp"
+          },
+          {
+            "address": "0x113b673c",
+            "mnemonic": "mov",
+            "operands": "x19, x0"
+          },
+          {
+            "address": "0x113b6740",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b6748"
+          },
+          {
+            "address": "0x113b6744",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b6748",
+            "size": 8,
+            "value": "0x4317070",
+            "known_library": "libg.so",
+            "library_rva": "0xf6b070"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xf83db0",
+      "entry_address": "0x113b5400",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c9a041a450",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b5430",
+        "code_hex": "fd7bbea9f30b00f9fd030091f30300aa5000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b5430",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x20]!"
+          },
+          {
+            "address": "0x113b5434",
+            "mnemonic": "str",
+            "operands": "x19, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b5438",
+            "mnemonic": "mov",
+            "operands": "x29, sp"
+          },
+          {
+            "address": "0x113b543c",
+            "mnemonic": "mov",
+            "operands": "x19, x0"
+          },
+          {
+            "address": "0x113b5440",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b5448"
+          },
+          {
+            "address": "0x113b5444",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b5448",
+            "size": 8,
+            "value": "0x432fdc0",
+            "known_library": "libg.so",
+            "library_rva": "0xf83dc0"
+          }
+        ]
+      }
+    },
+    {
+      "game_rva": "0xfa7db8",
+      "entry_address": "0x113b7200",
+      "entry_instructions_hex": "d1000058f000005800021fd671000058d000005800021fd6",
+      "context_pointer_address_only": "0x79c951ad4f00",
+      "enter_dispatcher": "0x79cc4e34f000",
+      "leave_dispatcher": "0x79cc4e34f14c",
+      "relocated_original_instructions": {
+        "address": "0x113b7230",
+        "code_hex": "fd7bbba9f90b00f9f85f02a9f65703a95000005800021fd6",
+        "instructions": [
+          {
+            "address": "0x113b7230",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #-0x50]!"
+          },
+          {
+            "address": "0x113b7234",
+            "mnemonic": "str",
+            "operands": "x25, [sp, #0x10]"
+          },
+          {
+            "address": "0x113b7238",
+            "mnemonic": "stp",
+            "operands": "x24, x23, [sp, #0x20]"
+          },
+          {
+            "address": "0x113b723c",
+            "mnemonic": "stp",
+            "operands": "x22, x21, [sp, #0x30]"
+          },
+          {
+            "address": "0x113b7240",
+            "mnemonic": "ldr",
+            "operands": "x16, #0x113b7248"
+          },
+          {
+            "address": "0x113b7244",
+            "mnemonic": "br",
+            "operands": "x16"
+          }
+        ],
+        "literal_pointers": [
+          {
+            "address": "0x113b7248",
+            "size": 8,
+            "value": "0x4353dc8",
+            "known_library": "libg.so",
+            "library_rva": "0xfa7dc8"
+          }
+        ]
+      }
+    }
+  ],
+  "shared_dispatchers": [
+    {
+      "address": "0x79cc4e34f000",
+      "code_hex": "ff4300d1fe7fbfadfc77bfadfa6fbfadf867bfadf65fbfadf457bfadf24fbfadf047bfadee3fbfadec37bfadea2fbfade827bfade61fbfade417bfade20fbfade007bfadfd7bbfa9fb73bfa9f96bbfa9f763bfa9f55bbfa9f353bfa9f14bbfa9ef43bfa9ed3bbfa9eb33bfa9e92bbfa9e723bfa9e51bbfa9e313bfa9e10bbfa901423bd5e103bfa9e0430c91ff03bfa9fe8f01f9fd8b01f9fd430c91e1030091e2230491e3430c91e00311aac404005880003fd6ff430091e103c1a801421bd5e10bc1a8e313c1a8e51bc1a8e723c1a8e92bc1a8eb33c1a8ed3bc1a8ef43c1a8f14bc1a8f353c1a8f55bc1a8f763c1a8f96bc1a8fb73c1a8fd7bc1a8e007c1ace20fc1ace417c1ace61fc1ace827c1acea2fc1acec37c1acee3fc1acf047c1acf24fc1acf457c1acf65fc1acf867c1acfa6fc1acfc77c1acfe7fc1acf047c1a800025fd6",
+      "instructions": [
+        {
+          "address": "0x79cc4e34f000",
+          "mnemonic": "sub",
+          "operands": "sp, sp, #0x10"
+        },
+        {
+          "address": "0x79cc4e34f004",
+          "mnemonic": "stp",
+          "operands": "q30, q31, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f008",
+          "mnemonic": "stp",
+          "operands": "q28, q29, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f00c",
+          "mnemonic": "stp",
+          "operands": "q26, q27, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f010",
+          "mnemonic": "stp",
+          "operands": "q24, q25, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f014",
+          "mnemonic": "stp",
+          "operands": "q22, q23, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f018",
+          "mnemonic": "stp",
+          "operands": "q20, q21, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f01c",
+          "mnemonic": "stp",
+          "operands": "q18, q19, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f020",
+          "mnemonic": "stp",
+          "operands": "q16, q17, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f024",
+          "mnemonic": "stp",
+          "operands": "q14, q15, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f028",
+          "mnemonic": "stp",
+          "operands": "q12, q13, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f02c",
+          "mnemonic": "stp",
+          "operands": "q10, q11, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f030",
+          "mnemonic": "stp",
+          "operands": "q8, q9, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f034",
+          "mnemonic": "stp",
+          "operands": "q6, q7, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f038",
+          "mnemonic": "stp",
+          "operands": "q4, q5, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f03c",
+          "mnemonic": "stp",
+          "operands": "q2, q3, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f040",
+          "mnemonic": "stp",
+          "operands": "q0, q1, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f044",
+          "mnemonic": "stp",
+          "operands": "x29, x30, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f048",
+          "mnemonic": "stp",
+          "operands": "x27, x28, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f04c",
+          "mnemonic": "stp",
+          "operands": "x25, x26, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f050",
+          "mnemonic": "stp",
+          "operands": "x23, x24, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f054",
+          "mnemonic": "stp",
+          "operands": "x21, x22, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f058",
+          "mnemonic": "stp",
+          "operands": "x19, x20, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f05c",
+          "mnemonic": "stp",
+          "operands": "x17, x18, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f060",
+          "mnemonic": "stp",
+          "operands": "x15, x16, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f064",
+          "mnemonic": "stp",
+          "operands": "x13, x14, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f068",
+          "mnemonic": "stp",
+          "operands": "x11, x12, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f06c",
+          "mnemonic": "stp",
+          "operands": "x9, x10, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f070",
+          "mnemonic": "stp",
+          "operands": "x7, x8, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f074",
+          "mnemonic": "stp",
+          "operands": "x5, x6, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f078",
+          "mnemonic": "stp",
+          "operands": "x3, x4, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f07c",
+          "mnemonic": "stp",
+          "operands": "x1, x2, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f080",
+          "mnemonic": "mrs",
+          "operands": "x1, nzcv"
+        },
+        {
+          "address": "0x79cc4e34f084",
+          "mnemonic": "stp",
+          "operands": "x1, x0, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f088",
+          "mnemonic": "add",
+          "operands": "x0, sp, #0x310"
+        },
+        {
+          "address": "0x79cc4e34f08c",
+          "mnemonic": "stp",
+          "operands": "xzr, x0, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f090",
+          "mnemonic": "str",
+          "operands": "x30, [sp, #0x318]"
+        },
+        {
+          "address": "0x79cc4e34f094",
+          "mnemonic": "str",
+          "operands": "x29, [sp, #0x310]"
+        },
+        {
+          "address": "0x79cc4e34f098",
+          "mnemonic": "add",
+          "operands": "x29, sp, #0x310"
+        },
+        {
+          "address": "0x79cc4e34f09c",
+          "mnemonic": "mov",
+          "operands": "x1, sp"
+        },
+        {
+          "address": "0x79cc4e34f0a0",
+          "mnemonic": "add",
+          "operands": "x2, sp, #0x108"
+        },
+        {
+          "address": "0x79cc4e34f0a4",
+          "mnemonic": "add",
+          "operands": "x3, sp, #0x310"
+        },
+        {
+          "address": "0x79cc4e34f0a8",
+          "mnemonic": "mov",
+          "operands": "x0, x17"
+        },
+        {
+          "address": "0x79cc4e34f0ac",
+          "mnemonic": "ldr",
+          "operands": "x4, #0x79cc4e34f144"
+        },
+        {
+          "address": "0x79cc4e34f0b0",
+          "mnemonic": "blr",
+          "operands": "x4"
+        },
+        {
+          "address": "0x79cc4e34f0b4",
+          "mnemonic": "add",
+          "operands": "sp, sp, #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0b8",
+          "mnemonic": "ldp",
+          "operands": "x1, x0, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0bc",
+          "mnemonic": "msr",
+          "operands": "nzcv, x1"
+        },
+        {
+          "address": "0x79cc4e34f0c0",
+          "mnemonic": "ldp",
+          "operands": "x1, x2, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0c4",
+          "mnemonic": "ldp",
+          "operands": "x3, x4, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0c8",
+          "mnemonic": "ldp",
+          "operands": "x5, x6, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0cc",
+          "mnemonic": "ldp",
+          "operands": "x7, x8, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0d0",
+          "mnemonic": "ldp",
+          "operands": "x9, x10, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0d4",
+          "mnemonic": "ldp",
+          "operands": "x11, x12, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0d8",
+          "mnemonic": "ldp",
+          "operands": "x13, x14, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0dc",
+          "mnemonic": "ldp",
+          "operands": "x15, x16, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0e0",
+          "mnemonic": "ldp",
+          "operands": "x17, x18, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0e4",
+          "mnemonic": "ldp",
+          "operands": "x19, x20, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0e8",
+          "mnemonic": "ldp",
+          "operands": "x21, x22, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0ec",
+          "mnemonic": "ldp",
+          "operands": "x23, x24, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0f0",
+          "mnemonic": "ldp",
+          "operands": "x25, x26, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0f4",
+          "mnemonic": "ldp",
+          "operands": "x27, x28, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0f8",
+          "mnemonic": "ldp",
+          "operands": "x29, x30, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f0fc",
+          "mnemonic": "ldp",
+          "operands": "q0, q1, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f100",
+          "mnemonic": "ldp",
+          "operands": "q2, q3, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f104",
+          "mnemonic": "ldp",
+          "operands": "q4, q5, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f108",
+          "mnemonic": "ldp",
+          "operands": "q6, q7, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f10c",
+          "mnemonic": "ldp",
+          "operands": "q8, q9, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f110",
+          "mnemonic": "ldp",
+          "operands": "q10, q11, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f114",
+          "mnemonic": "ldp",
+          "operands": "q12, q13, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f118",
+          "mnemonic": "ldp",
+          "operands": "q14, q15, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f11c",
+          "mnemonic": "ldp",
+          "operands": "q16, q17, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f120",
+          "mnemonic": "ldp",
+          "operands": "q18, q19, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f124",
+          "mnemonic": "ldp",
+          "operands": "q20, q21, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f128",
+          "mnemonic": "ldp",
+          "operands": "q22, q23, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f12c",
+          "mnemonic": "ldp",
+          "operands": "q24, q25, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f130",
+          "mnemonic": "ldp",
+          "operands": "q26, q27, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f134",
+          "mnemonic": "ldp",
+          "operands": "q28, q29, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f138",
+          "mnemonic": "ldp",
+          "operands": "q30, q31, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f13c",
+          "mnemonic": "ldp",
+          "operands": "x16, x17, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f140",
+          "mnemonic": "ret",
+          "operands": "x16"
+        }
+      ],
+      "literal_pointers": [
+        {
+          "address": "0x79cc4e34f144",
+          "size": 8,
+          "value": "0x77e3e64",
+          "known_library": "libFUSION.so",
+          "library_rva": "0x437e64"
+        }
+      ]
+    },
+    {
+      "address": "0x79cc4e34f14c",
+      "code_hex": "ff4300d1fe7fbfadfc77bfadfa6fbfadf867bfadf65fbfadf457bfadf24fbfadf047bfadee3fbfadec37bfadea2fbfade827bfade61fbfade417bfade20fbfade007bfadfd7bbfa9fb73bfa9f96bbfa9f763bfa9f55bbfa9f353bfa9f14bbfa9ef43bfa9ed3bbfa9eb33bfa9e92bbfa9e723bfa9e51bbfa9e313bfa9e10bbfa901423bd5e103bfa9e0430c91ff03bfa9fe8f01f9fd8b01f9fd430c91e1030091e2430c91e00311aac304005860003fd6ff430091e103c1a801421bd5e10bc1a8e313c1a8e51bc1a8e723c1a8e92bc1a8eb33c1a8ed3bc1a8ef43c1a8f14bc1a8f353c1a8f55bc1a8f763c1a8f96bc1a8fb73c1a8fd7bc1a8e007c1ace20fc1ace417c1ace61fc1ace827c1acea2fc1acec37c1acee3fc1acf047c1acf24fc1acf457c1acf65fc1acf867c1acfa6fc1acfc77c1acfe7fc1acf047c1a800025fd6",
+      "instructions": [
+        {
+          "address": "0x79cc4e34f14c",
+          "mnemonic": "sub",
+          "operands": "sp, sp, #0x10"
+        },
+        {
+          "address": "0x79cc4e34f150",
+          "mnemonic": "stp",
+          "operands": "q30, q31, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f154",
+          "mnemonic": "stp",
+          "operands": "q28, q29, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f158",
+          "mnemonic": "stp",
+          "operands": "q26, q27, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f15c",
+          "mnemonic": "stp",
+          "operands": "q24, q25, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f160",
+          "mnemonic": "stp",
+          "operands": "q22, q23, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f164",
+          "mnemonic": "stp",
+          "operands": "q20, q21, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f168",
+          "mnemonic": "stp",
+          "operands": "q18, q19, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f16c",
+          "mnemonic": "stp",
+          "operands": "q16, q17, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f170",
+          "mnemonic": "stp",
+          "operands": "q14, q15, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f174",
+          "mnemonic": "stp",
+          "operands": "q12, q13, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f178",
+          "mnemonic": "stp",
+          "operands": "q10, q11, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f17c",
+          "mnemonic": "stp",
+          "operands": "q8, q9, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f180",
+          "mnemonic": "stp",
+          "operands": "q6, q7, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f184",
+          "mnemonic": "stp",
+          "operands": "q4, q5, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f188",
+          "mnemonic": "stp",
+          "operands": "q2, q3, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f18c",
+          "mnemonic": "stp",
+          "operands": "q0, q1, [sp, #-0x20]!"
+        },
+        {
+          "address": "0x79cc4e34f190",
+          "mnemonic": "stp",
+          "operands": "x29, x30, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f194",
+          "mnemonic": "stp",
+          "operands": "x27, x28, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f198",
+          "mnemonic": "stp",
+          "operands": "x25, x26, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f19c",
+          "mnemonic": "stp",
+          "operands": "x23, x24, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f1a0",
+          "mnemonic": "stp",
+          "operands": "x21, x22, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f1a4",
+          "mnemonic": "stp",
+          "operands": "x19, x20, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f1a8",
+          "mnemonic": "stp",
+          "operands": "x17, x18, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f1ac",
+          "mnemonic": "stp",
+          "operands": "x15, x16, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f1b0",
+          "mnemonic": "stp",
+          "operands": "x13, x14, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f1b4",
+          "mnemonic": "stp",
+          "operands": "x11, x12, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f1b8",
+          "mnemonic": "stp",
+          "operands": "x9, x10, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f1bc",
+          "mnemonic": "stp",
+          "operands": "x7, x8, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f1c0",
+          "mnemonic": "stp",
+          "operands": "x5, x6, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f1c4",
+          "mnemonic": "stp",
+          "operands": "x3, x4, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f1c8",
+          "mnemonic": "stp",
+          "operands": "x1, x2, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f1cc",
+          "mnemonic": "mrs",
+          "operands": "x1, nzcv"
+        },
+        {
+          "address": "0x79cc4e34f1d0",
+          "mnemonic": "stp",
+          "operands": "x1, x0, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f1d4",
+          "mnemonic": "add",
+          "operands": "x0, sp, #0x310"
+        },
+        {
+          "address": "0x79cc4e34f1d8",
+          "mnemonic": "stp",
+          "operands": "xzr, x0, [sp, #-0x10]!"
+        },
+        {
+          "address": "0x79cc4e34f1dc",
+          "mnemonic": "str",
+          "operands": "x30, [sp, #0x318]"
+        },
+        {
+          "address": "0x79cc4e34f1e0",
+          "mnemonic": "str",
+          "operands": "x29, [sp, #0x310]"
+        },
+        {
+          "address": "0x79cc4e34f1e4",
+          "mnemonic": "add",
+          "operands": "x29, sp, #0x310"
+        },
+        {
+          "address": "0x79cc4e34f1e8",
+          "mnemonic": "mov",
+          "operands": "x1, sp"
+        },
+        {
+          "address": "0x79cc4e34f1ec",
+          "mnemonic": "add",
+          "operands": "x2, sp, #0x310"
+        },
+        {
+          "address": "0x79cc4e34f1f0",
+          "mnemonic": "mov",
+          "operands": "x0, x17"
+        },
+        {
+          "address": "0x79cc4e34f1f4",
+          "mnemonic": "ldr",
+          "operands": "x3, #0x79cc4e34f28c"
+        },
+        {
+          "address": "0x79cc4e34f1f8",
+          "mnemonic": "blr",
+          "operands": "x3"
+        },
+        {
+          "address": "0x79cc4e34f1fc",
+          "mnemonic": "add",
+          "operands": "sp, sp, #0x10"
+        },
+        {
+          "address": "0x79cc4e34f200",
+          "mnemonic": "ldp",
+          "operands": "x1, x0, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f204",
+          "mnemonic": "msr",
+          "operands": "nzcv, x1"
+        },
+        {
+          "address": "0x79cc4e34f208",
+          "mnemonic": "ldp",
+          "operands": "x1, x2, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f20c",
+          "mnemonic": "ldp",
+          "operands": "x3, x4, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f210",
+          "mnemonic": "ldp",
+          "operands": "x5, x6, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f214",
+          "mnemonic": "ldp",
+          "operands": "x7, x8, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f218",
+          "mnemonic": "ldp",
+          "operands": "x9, x10, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f21c",
+          "mnemonic": "ldp",
+          "operands": "x11, x12, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f220",
+          "mnemonic": "ldp",
+          "operands": "x13, x14, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f224",
+          "mnemonic": "ldp",
+          "operands": "x15, x16, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f228",
+          "mnemonic": "ldp",
+          "operands": "x17, x18, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f22c",
+          "mnemonic": "ldp",
+          "operands": "x19, x20, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f230",
+          "mnemonic": "ldp",
+          "operands": "x21, x22, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f234",
+          "mnemonic": "ldp",
+          "operands": "x23, x24, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f238",
+          "mnemonic": "ldp",
+          "operands": "x25, x26, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f23c",
+          "mnemonic": "ldp",
+          "operands": "x27, x28, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f240",
+          "mnemonic": "ldp",
+          "operands": "x29, x30, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f244",
+          "mnemonic": "ldp",
+          "operands": "q0, q1, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f248",
+          "mnemonic": "ldp",
+          "operands": "q2, q3, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f24c",
+          "mnemonic": "ldp",
+          "operands": "q4, q5, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f250",
+          "mnemonic": "ldp",
+          "operands": "q6, q7, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f254",
+          "mnemonic": "ldp",
+          "operands": "q8, q9, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f258",
+          "mnemonic": "ldp",
+          "operands": "q10, q11, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f25c",
+          "mnemonic": "ldp",
+          "operands": "q12, q13, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f260",
+          "mnemonic": "ldp",
+          "operands": "q14, q15, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f264",
+          "mnemonic": "ldp",
+          "operands": "q16, q17, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f268",
+          "mnemonic": "ldp",
+          "operands": "q18, q19, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f26c",
+          "mnemonic": "ldp",
+          "operands": "q20, q21, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f270",
+          "mnemonic": "ldp",
+          "operands": "q22, q23, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f274",
+          "mnemonic": "ldp",
+          "operands": "q24, q25, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f278",
+          "mnemonic": "ldp",
+          "operands": "q26, q27, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f27c",
+          "mnemonic": "ldp",
+          "operands": "q28, q29, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f280",
+          "mnemonic": "ldp",
+          "operands": "q30, q31, [sp], #0x20"
+        },
+        {
+          "address": "0x79cc4e34f284",
+          "mnemonic": "ldp",
+          "operands": "x16, x17, [sp], #0x10"
+        },
+        {
+          "address": "0x79cc4e34f288",
+          "mnemonic": "ret",
+          "operands": "x16"
+        }
+      ],
+      "literal_pointers": [
+        {
+          "address": "0x79cc4e34f28c",
+          "size": 8,
+          "value": "0x77d9c4c",
+          "known_library": "libFUSION.so",
+          "library_rva": "0x42dc4c"
+        }
+      ]
+    }
+  ]
+}

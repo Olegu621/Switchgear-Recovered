@@ -1,0 +1,21 @@
+            package io.sentry;
+
+            import io.sentry.android.core.SentryAndroidOptions;
+            import io.sentry.internal.debugmeta.C1505c;
+            import io.sentry.transport.C1684j;
+            import io.sentry.transport.InterfaceC1681g;
+            
+            /* JADX INFO: renamed from: io.sentry.g3 */
+            /* JADX INFO: compiled from: r8-map-id-213346ccf8c7f825bb9017059f9f3b3a7bfb73d3355dfb8dfea71096f8f0bf83 */
+            /* JADX INFO: loaded from: C:\Users\admin\Documents\Codex\2026-10-26\x20\outputs\switchgear-recovered\bytecode\classes.dex */
+            public final class C1459g3 implements InterfaceC1571o1 {
+
+                /* JADX INFO: renamed from: a */
+                public static final C1459g3 f10952a = new C1459g3();
+
+                @Override // io.sentry.InterfaceC1571o1
+                /* JADX INFO: renamed from: o */
+                public final InterfaceC1681g mo5255o(SentryAndroidOptions sentryAndroidOptions, C1505c c1505c) {
+/* 1 */             return C1684j.f11699a;
+                }
+            }

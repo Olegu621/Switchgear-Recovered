@@ -1,0 +1,48 @@
+            package com.google.android.play.core.integrity;
+
+            import p000.f42;
+            
+            /* JADX INFO: renamed from: com.google.android.play.core.integrity.a */
+            /* JADX INFO: compiled from: r8-map-id-213346ccf8c7f825bb9017059f9f3b3a7bfb73d3355dfb8dfea71096f8f0bf83 */
+            /* JADX INFO: loaded from: C:\Users\admin\Documents\Codex\2026-10-26\x20\outputs\switchgear-recovered\bytecode\classes.dex */
+            final class C0387a extends AbstractC0403ap {
+
+                /* JADX INFO: renamed from: a */
+                private String f5147a;
+
+                /* JADX INFO: renamed from: b */
+                private AbstractC0461y f5148b;
+
+                @Override // com.google.android.play.core.integrity.AbstractC0403ap
+                /* JADX INFO: renamed from: a */
+                public final AbstractC0403ap mo2446a(AbstractC0461y abstractC0461y) {
+/* 1 */             this.f5148b = abstractC0461y;
+/* 3 */             return this;
+                }
+
+                @Override // com.google.android.play.core.integrity.AbstractC0403ap
+                /* JADX INFO: renamed from: b */
+                public final AbstractC0403ap mo2447b(String str) {
+/* 1 */             this.f5147a = str;
+/* 3 */             return this;
+                }
+
+                @Override // com.google.android.play.core.integrity.AbstractC0403ap
+                /* JADX INFO: renamed from: c */
+                public final C0404aq mo2448c() {
+                    AbstractC0461y abstractC0461y;
+/* 1 */             String str = this.f5147a;
+/* 3 */             if (str != null && (abstractC0461y = this.f5148b) != null) {
+/* 12 */                return new C0404aq(str, abstractC0461y);
+                    }
+/* 18 */            StringBuilder sb = new StringBuilder();
+/* 23 */            if (this.f5147a == null) {
+/* 27 */                sb.append(" token");
+                    }
+/* 32 */            if (this.f5148b == null) {
+/* 36 */                sb.append(" integrityDialogWrapper");
+                    }
+/* 49 */            f42.m3656l("Missing required properties:".concat(sb.toString()));
+/* 52 */            return null;
+                }
+            }
